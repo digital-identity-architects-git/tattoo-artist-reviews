@@ -1,0 +1,44 @@
+---
+layout: layouts/base.njk
+title: Tattoo Artist Review
+bodyClass: home
+---
+<section class="hero">
+  <div class="hero-banner">
+    <div class="hero-inner">
+      <p class="hero-kicker">Every City · Every State · The Best Ink in America</p>
+      <h1 class="hero-title">The baddest <span class="gold">tattoo artist</span><br>in every city.</h1>
+      <p class="hero-sub">
+        We hunt down the single best tattoo artist in each city across all 50 states —
+        who they are, why they earned the crown, and exactly where to book them.
+        New reviews drop daily.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="/reviews/">See the latest reviews</a>
+        <a class="btn btn-outline" href="/get-reviewed/">Get your shop featured</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <p class="section-kicker">The Wall</p>
+    <h2 class="section-title">Fresh <span class="gold">reviews</span> &amp; ink talk</h2>
+  </div>
+
+  {%- set feed = collections.feed -%}
+  {%- if feed and feed.length %}
+  <div class="feed">
+    {%- for item in feed | limit(12) %}
+      {% include "partials/feed-card.njk" %}
+    {%- endfor %}
+  </div>
+  {%- else %}
+  <p style="text-align:center; color: var(--muted);">
+    The first reviews are being inked right now. Check back today — 10 drop daily.
+  </p>
+  {%- endif %}
+</section>
+
+{% include "partials/contact-band.njk" %}

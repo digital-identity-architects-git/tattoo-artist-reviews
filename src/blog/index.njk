@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+title: Blog
+description: Ink talk, style guides, and behind-the-pick stories from Tattoo Artist Review.
+---
+<header class="page-header">
+  <div class="page-header-inner">
+    <p class="page-kicker">Ink Talk</p>
+    <h1 class="page-title">The <span style="color:var(--gold-bright)">Blog</span></h1>
+    <p class="page-subtitle">Style breakdowns, city scenes, and the stories behind the picks.</p>
+  </div>
+</header>
+
+<section class="section">
+  {%- set posts = collections.posts -%}
+  {%- if posts and posts.length %}
+  <div class="feed">
+    {%- for item in posts %}
+      {% include "partials/feed-card.njk" %}
+    {%- endfor %}
+  </div>
+  {%- else %}
+  <p style="text-align:center; color: var(--muted);">First posts coming in hot.</p>
+  {%- endif %}
+</section>
+
+{% include "partials/contact-band.njk" %}

@@ -1,0 +1,30 @@
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" data-header>
+  <div class="header-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark">TAR</span>
+      <span class="brand-name">
+        <span class="brand-line-1">Tattoo Artist</span>
+        <span class="brand-line-2">Review</span>
+      </span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <ul id="primary-menu" class="nav-menu">
+        {%- for item in site.nav %}
+        <li>
+          <a href="{{ item.url }}"
+             class="nav-link {{ 'is-active' if page.url == item.url or (item.url != '/' and page.url.startsWith(item.url)) }}">
+            {{ item.label }}
+          </a>
+        </li>
+        {%- endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,7 @@
+# Place site images here. The homepage banner expects:
+#   assets/img/header-image.webp
+# (served at https://tattoo-artist-review.com/assets/img/header-image.webp)
+#
+# Suggested structure for artist media:
+#   assets/img/artists/<artist-slug>.webp        (portrait)
+#   assets/img/artists/<artist-slug>-1.webp ...   (gallery)

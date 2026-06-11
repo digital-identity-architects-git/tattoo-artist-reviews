@@ -1,0 +1,28 @@
+{#- One card in the front-page feed. `item` is an Eleventy collection item. -#}
+{%- set isReview = item.data.type == "review" -%}
+<article class="feed-card">
+  {%- set media = item.data.photo or item.data.heroImage or item.data.image or (item.data.gallery[0].src if item.data.gallery) -%}
+  {%- if media %}
+  <a class="feed-card-media" href="{{ item.url }}" style="background-image:url('{{ media }}')" aria-hidden="true"></a>
+  {%- endif %}
+  <div class="feed-card-body">
+    <span class="feed-type {{ 'is-review' if isReview else 'is-blog' }}">{{ 'Review' if isReview else 'Blog' }}</span>
+    <h3 class="feed-card-title">
+      <a href="{{ item.url }}">
+        {%- if isReview and item.data.artist -%}
+          {{ item.data.artist }} — {{ item.data.city }}{% if item.data.state %}, {{ item.data.state }}{% endif %}
+        {%- else -%}
+          {{ item.data.title }}
+        {%- endif -%}
+      </a>
+    </h3>
+    <p class="feed-card-meta">
+      <time datetime="{{ item.date | isoDate }}">{{ item.date | readableDate }}</time>
+      {%- if isReview and item.data.styles %} · {{ item.data.styles | join(", ") }}{% endif %}
+    </p>
+    {%- if item.data.excerpt or item.data.description %}
+    <p class="feed-card-excerpt">{{ item.data.excerpt or item.data.description }}</p>
+    {%- endif %}
+    <a class="feed-card-more" href="{{ item.url }}">{{ 'Read the review' if isReview else 'Read more' }} →</a>
+  </div>
+</article>

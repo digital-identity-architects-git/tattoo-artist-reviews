@@ -1,0 +1,46 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">TAR</span>
+      <p class="footer-tag">{{ site.tagline }}</p>
+    </div>
+
+    <div class="footer-reach">
+      <h2 class="footer-heading">Are you the best in your city?</h2>
+      <p>Get featured. Reach out — your city could be next.</p>
+      <ul class="reach-list">
+        <li>
+          <a href="{{ site.contact.instagramUrl }}" rel="noopener" target="_blank">
+            <span class="reach-label">Instagram</span>
+            <span class="reach-value">@{{ site.contact.instagram }}</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.contact.phoneHref }}">
+            <span class="reach-label">Call / Text</span>
+            <span class="reach-value">{{ site.contact.phone }}</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:{{ site.contact.email }}">
+            <span class="reach-label">Email</span>
+            <span class="reach-value">{{ site.contact.email }}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <nav class="footer-nav" aria-label="Footer">
+      <ul>
+        {%- for item in site.nav %}
+        <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; {{ "" | year }} {{ site.name }}. All rights reserved.</p>
+    <p class="footer-fineprint">Featured artwork remains the property of the artists credited.</p>
+  </div>
+</footer>

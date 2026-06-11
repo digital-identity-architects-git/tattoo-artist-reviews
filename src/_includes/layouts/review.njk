@@ -1,0 +1,62 @@
+---
+layout: layouts/base.njk
+ogType: article
+---
+{#- Per-artist branding: an optional accent color tints this review only.
+    Defaults to the house gold so an un-branded review still looks on-brand. -#}
+<article class="review" style="{% if accent %}--accent: {{ accent }};{% endif %}{% if accent2 %}--accent-2: {{ accent2 }};{% endif %}">
+
+  <header class="review-hero">
+    {%- if heroImage %}
+    <div class="review-hero-bg" style="background-image:url('{{ heroImage }}')"></div>
+    {%- endif %}
+    <div class="review-hero-inner">
+      <p class="review-kicker">Best Tattoo Artist · {{ city }}{% if state %}, {{ state }}{% endif %}</p>
+      <div class="review-headline">
+        {%- if photo %}
+        <img class="artist-photo" src="{{ photo }}" alt="Portrait of {{ artist }}" loading="eager" width="160" height="160">
+        {%- endif %}
+        <div class="review-headline-text">
+          <h1 class="review-artist">{{ artist }}</h1>
+          {%- if shopName %}<p class="review-shop">{{ shopName }}{% if shopUrl %} · <a href="{{ shopUrl }}" target="_blank" rel="noopener">{{ shopUrl | replace("https://","") | replace("http://","") }}</a>{% endif %}</p>{% endif %}
+          {%- if styles %}
+          <ul class="style-tags">
+            {%- for s in styles %}<li>{{ s }}</li>{% endfor %}
+          </ul>
+          {%- endif %}
+        </div>
+      </div>
+
+      <div class="review-social">
+        {%- if instagram %}<a class="social-chip" href="{{ instagramUrl or ('https://instagram.com/' + instagram) }}" target="_blank" rel="noopener">@{{ instagram }}</a>{% endif %}
+        {%- if website %}<a class="social-chip" href="{{ website }}" target="_blank" rel="noopener">Website</a>{% endif %}
+        {%- if booking %}<a class="social-chip social-chip-cta" href="{{ booking }}" target="_blank" rel="noopener">Book</a>{% endif %}
+      </div>
+    </div>
+  </header>
+
+  <div class="review-body prose">
+    {{ content | safe }}
+  </div>
+
+  {%- if gallery %}
+  <section class="review-gallery" aria-label="Selected work by {{ artist }}">
+    <h2 class="section-label">Selected Work</h2>
+    <div class="gallery-grid">
+      {%- for img in gallery %}
+      <figure class="gallery-item">
+        <img src="{{ img.src }}" alt="{{ img.alt or ('Tattoo by ' + artist) }}" loading="lazy">
+        {%- if img.caption %}<figcaption>{{ img.caption }}</figcaption>{% endif %}
+      </figure>
+      {%- endfor %}
+    </div>
+  </section>
+  {%- endif %}
+
+  <footer class="review-credit">
+    <p>Reviewed by {{ site.name }} · <time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time></p>
+    <p class="review-credit-note">All artwork shown is the property of {{ artist }}. Featured with admiration, not affiliation.</p>
+  </footer>
+</article>
+
+{% include "partials/contact-band.njk" %}

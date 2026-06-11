@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+title: All Reviews
+description: Every tattoo artist review on Tattoo Artist Review — the best ink in every U.S. city.
+---
+<header class="page-header">
+  <div class="page-header-inner">
+    <p class="page-kicker">The Archive</p>
+    <h1 class="page-title">Every <span style="color:var(--gold-bright)">review</span></h1>
+    <p class="page-subtitle">The best tattoo artist in every city we've covered so far.</p>
+  </div>
+</header>
+
+<section class="section">
+  {%- set reviews = collections.reviews -%}
+  {%- if reviews and reviews.length %}
+  <div class="feed">
+    {%- for item in reviews %}
+      {% include "partials/feed-card.njk" %}
+    {%- endfor %}
+  </div>
+  {%- else %}
+  <p style="text-align:center; color: var(--muted);">Reviews are dropping daily — the first wave is on its way.</p>
+  {%- endif %}
+</section>
+
+{% include "partials/contact-band.njk" %}

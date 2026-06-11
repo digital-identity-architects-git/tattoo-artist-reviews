@@ -1,0 +1,406 @@
+/* ============================================================
+   Tattoo Artist Review — house theme
+   Flat black "material" surfaces, fine gold lines, soft sheen.
+   ============================================================ */
+
+:root {
+  /* Core palette */
+  --black: #0a0a0b;
+  --panel: #121214;
+  --panel-2: #17171a;
+  --line: #2a2a2e;
+
+  /* Gold system — the brand */
+  --gold: #c9a24b;
+  --gold-bright: #e9cf85;
+  --gold-dim: #8a6d2f;
+  --gold-line: rgba(201, 162, 75, 0.55);
+  --gold-glow: rgba(201, 162, 75, 0.22);
+
+  /* A polished-metal gold gradient for sheen on borders/text */
+  --gold-sheen: linear-gradient(
+    135deg,
+    #8a6d2f 0%,
+    #c9a24b 22%,
+    #f3e2ad 48%,
+    #c9a24b 70%,
+    #8a6d2f 100%
+  );
+
+  /* Text */
+  --text: #ece7db;
+  --muted: #9d978a;
+  --text-dim: #79746a;
+
+  /* Per-page accent (reviews can override --accent for artist branding) */
+  --accent: var(--gold);
+  --accent-2: var(--gold-bright);
+
+  --radius: 4px;
+  --maxw: 1180px;
+  --maxw-read: 760px;
+  --header-h: 76px;
+
+  --font-display: "Cinzel", "Times New Roman", serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* ---- Reset-ish ---- */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background-color: var(--black);
+  background-image:
+    radial-gradient(900px 500px at 50% -10%, rgba(201, 162, 75, 0.08), transparent 70%),
+    linear-gradient(180deg, #0c0c0d 0%, #0a0a0b 100%);
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--gold-bright); text-decoration: none; }
+a:hover { color: #fff; }
+
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height: 1.15; letter-spacing: 0.01em; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.skip-link {
+  position: absolute; left: -999px; top: 0; z-index: 200;
+  background: var(--gold); color: #000; padding: 10px 16px; border-radius: var(--radius);
+}
+.skip-link:focus { left: 12px; top: 12px; }
+
+/* A reusable hairline-gold rule */
+.gold-rule {
+  height: 1px; border: 0;
+  background: linear-gradient(90deg, transparent, var(--gold-line) 20%, var(--gold-bright) 50%, var(--gold-line) 80%, transparent);
+  opacity: 0.8;
+}
+
+/* ============================================================
+   Site header (sticky, dark with fine gold lines)
+   ============================================================ */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: linear-gradient(180deg, rgba(14,14,16,0.96), rgba(10,10,11,0.92));
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--gold-line);
+  box-shadow: 0 1px 0 rgba(201,162,75,0.12), 0 10px 30px rgba(0,0,0,0.5);
+}
+.header-inner {
+  max-width: var(--maxw); margin: 0 auto; padding: 0 24px;
+  height: var(--header-h);
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+}
+
+.brand { display: flex; align-items: center; gap: 14px; color: var(--text); }
+.brand-mark {
+  font-family: var(--font-display); font-weight: 700; font-size: 18px;
+  letter-spacing: 0.14em; color: #0a0a0b;
+  width: 44px; height: 44px; display: grid; place-items: center;
+  border-radius: var(--radius);
+  background: var(--gold-sheen);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.25), 0 0 18px var(--gold-glow);
+}
+.brand-name { display: flex; flex-direction: column; line-height: 1; }
+.brand-line-1 { font-family: var(--font-display); font-size: 13px; letter-spacing: 0.34em; color: var(--muted); text-transform: uppercase; }
+.brand-line-2 { font-family: var(--font-display); font-size: 21px; letter-spacing: 0.12em; color: var(--gold-bright); }
+
+/* Nav menu — gold-lined flat chips */
+.site-nav { display: flex; align-items: center; }
+.nav-menu { display: flex; align-items: center; gap: 6px; list-style: none; margin: 0; padding: 0; }
+.nav-link {
+  display: inline-block; padding: 9px 16px; border-radius: var(--radius);
+  font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--text); border: 1px solid transparent;
+  transition: border-color .2s ease, color .2s ease, background .2s ease, box-shadow .2s ease;
+}
+.nav-link:hover { color: var(--gold-bright); border-color: var(--gold-line); background: rgba(201,162,75,0.06); }
+.nav-link.is-active {
+  color: var(--gold-bright); border-color: var(--gold-line);
+  background: rgba(201,162,75,0.08);
+  box-shadow: inset 0 0 12px rgba(201,162,75,0.10);
+}
+
+.nav-toggle { display: none; }
+
+/* ============================================================
+   Buttons
+   ============================================================ */
+.btn {
+  display: inline-block; padding: 12px 22px; border-radius: var(--radius);
+  font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 500;
+  border: 1px solid var(--gold-line); cursor: pointer;
+  transition: transform .15s ease, box-shadow .2s ease, background .2s ease, color .2s ease;
+}
+.btn-gold {
+  color: #0a0a0b; border-color: transparent;
+  background: var(--gold-sheen);
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.18) inset, 0 6px 24px var(--gold-glow);
+}
+.btn-gold:hover { color: #000; transform: translateY(-1px); box-shadow: 0 0 0 1px rgba(255,255,255,0.3) inset, 0 8px 30px rgba(201,162,75,0.4); }
+.btn-outline { color: var(--gold-bright); background: rgba(255,255,255,0.02); }
+.btn-outline:hover { color: #fff; border-color: var(--gold-bright); background: rgba(201,162,75,0.08); }
+
+/* ============================================================
+   Homepage hero / banner
+   ============================================================ */
+.hero {
+  position: relative; overflow: hidden;
+  border-bottom: 1px solid var(--gold-line);
+}
+.hero-banner {
+  position: relative;
+  min-height: 460px;
+  display: flex; align-items: flex-end;
+  background-color: #050505;
+  background-image:
+    linear-gradient(180deg, rgba(5,5,6,0.15) 0%, rgba(5,5,6,0.55) 55%, rgba(5,5,6,0.96) 100%),
+    url('/assets/img/header-image.webp');
+  background-size: cover; background-position: center;
+}
+.hero-inner {
+  position: relative; z-index: 2;
+  max-width: var(--maxw); margin: 0 auto; width: 100%;
+  padding: 48px 24px 56px;
+}
+.hero-kicker {
+  font-family: var(--font-display); letter-spacing: 0.32em; text-transform: uppercase;
+  color: var(--gold); font-size: 13px; margin: 0 0 14px;
+}
+.hero-title {
+  font-size: clamp(2.4rem, 6vw, 4.4rem); margin: 0 0 16px; color: #fff;
+  text-shadow: 0 2px 40px rgba(0,0,0,0.7);
+}
+.hero-title .gold { color: var(--gold-bright); }
+.hero-sub { max-width: 620px; color: var(--text); font-size: 1.12rem; margin: 0 0 26px; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+
+/* ============================================================
+   Layout containers
+   ============================================================ */
+.section { max-width: var(--maxw); margin: 0 auto; padding: 72px 24px; }
+.section-head { text-align: center; margin-bottom: 40px; }
+.section-kicker { font-family: var(--font-display); letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); font-size: 12px; margin: 0 0 10px; }
+.section-title { font-size: clamp(1.8rem, 3.6vw, 2.6rem); margin: 0; color: #fff; }
+.section-title .gold { color: var(--gold-bright); }
+.section-label {
+  font-family: var(--font-display); letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--gold); font-size: 14px; margin: 0 0 18px;
+  padding-bottom: 10px; border-bottom: 1px solid var(--gold-line);
+}
+
+/* ============================================================
+   The blog roll / feed (review · blog · review · blog)
+   ============================================================ */
+.feed { display: grid; gap: 22px; }
+.feed-card {
+  position: relative; display: grid; grid-template-columns: 280px 1fr; gap: 0;
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  border: 1px solid var(--line); border-radius: var(--radius);
+  overflow: hidden; transition: border-color .25s ease, transform .2s ease, box-shadow .25s ease;
+}
+.feed-card:hover {
+  border-color: var(--gold-line);
+  box-shadow: 0 0 0 1px var(--gold-glow), 0 18px 40px rgba(0,0,0,0.45);
+  transform: translateY(-2px);
+}
+.feed-card-media {
+  background: #0d0d0f center/cover no-repeat;
+  min-height: 200px; border-right: 1px solid var(--line);
+}
+.feed-card-body { padding: 26px 28px; display: flex; flex-direction: column; }
+.feed-type {
+  align-self: flex-start;
+  font-family: var(--font-display); font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
+  padding: 4px 12px; border-radius: 999px; margin-bottom: 14px;
+}
+.feed-type.is-review { color: #0a0a0b; background: var(--gold-sheen); }
+.feed-type.is-blog { color: var(--gold-bright); border: 1px solid var(--gold-line); }
+.feed-card-title { font-size: 1.5rem; margin: 0 0 8px; color: #fff; }
+.feed-card-title a { color: inherit; }
+.feed-card-title a:hover { color: var(--gold-bright); }
+.feed-card-meta { color: var(--text-dim); font-size: 0.86rem; letter-spacing: 0.04em; margin: 0 0 12px; }
+.feed-card-excerpt { color: var(--muted); margin: 0 0 18px; }
+.feed-card-more { margin-top: auto; align-self: flex-start; color: var(--gold-bright); font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; }
+.feed-card-more:hover { color: #fff; }
+
+/* ============================================================
+   Review page
+   ============================================================ */
+.review-hero {
+  position: relative; overflow: hidden;
+  border-bottom: 1px solid var(--gold-line);
+  padding: 56px 24px 40px;
+}
+.review-hero-bg {
+  position: absolute; inset: 0; z-index: 0;
+  background-size: cover; background-position: center;
+  opacity: 0.22; filter: grayscale(0.2);
+}
+.review-hero::after {
+  content: ""; position: absolute; inset: 0; z-index: 1;
+  background: radial-gradient(700px 360px at 18% 0%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 70%);
+  pointer-events: none;
+}
+.review-hero-inner { position: relative; z-index: 2; max-width: var(--maxw-read); margin: 0 auto; }
+.review-kicker {
+  font-family: var(--font-display); letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--accent); font-size: 13px; margin: 0 0 18px;
+}
+.review-headline { display: flex; gap: 22px; align-items: center; }
+.artist-photo {
+  width: 132px; height: 132px; border-radius: 50%; object-fit: cover;
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 0 4px rgba(0,0,0,0.5), 0 0 30px color-mix(in srgb, var(--accent) 35%, transparent);
+}
+.review-artist { font-size: clamp(2rem, 5vw, 3.2rem); margin: 0; color: #fff; }
+.review-shop { color: var(--muted); margin: 6px 0 0; }
+.style-tags { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 12px 0 0; padding: 0; }
+.style-tags li {
+  font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 4px 12px; border: 1px solid var(--gold-line); border-radius: 999px; color: var(--gold-bright);
+}
+.review-social { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.social-chip {
+  padding: 9px 18px; border-radius: var(--radius); border: 1px solid var(--gold-line);
+  color: var(--gold-bright); font-size: 14px; letter-spacing: 0.04em;
+  transition: background .2s ease, color .2s ease, border-color .2s ease;
+}
+.social-chip:hover { background: rgba(201,162,75,0.1); color: #fff; }
+.social-chip-cta { color: #0a0a0b; background: var(--gold-sheen); border-color: transparent; }
+
+.review-body { max-width: var(--maxw-read); margin: 44px auto; padding: 0 24px; }
+
+.review-gallery { max-width: var(--maxw); margin: 0 auto 44px; padding: 0 24px; }
+.gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+.gallery-item { margin: 0; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--panel); }
+.gallery-item img { width: 100%; aspect-ratio: 1/1; object-fit: cover; transition: transform .4s ease; }
+.gallery-item:hover img { transform: scale(1.05); }
+.gallery-item figcaption { padding: 8px 12px; font-size: 0.8rem; color: var(--text-dim); }
+
+.review-credit { max-width: var(--maxw-read); margin: 0 auto; padding: 24px; color: var(--text-dim); font-size: 0.85rem; border-top: 1px solid var(--line); }
+.review-credit-note { color: var(--text-dim); opacity: 0.8; }
+
+/* ============================================================
+   Prose (blog + review article bodies)
+   ============================================================ */
+.prose { color: var(--text); }
+.prose p { margin: 0 0 1.25em; }
+.prose h2 { font-size: 1.7rem; color: var(--gold-bright); margin: 1.8em 0 0.5em; }
+.prose h3 { font-size: 1.3rem; color: #fff; margin: 1.6em 0 0.4em; }
+.prose a { color: var(--gold-bright); text-decoration: underline; text-decoration-color: var(--gold-line); text-underline-offset: 3px; }
+.prose a:hover { color: #fff; }
+.prose blockquote {
+  margin: 1.5em 0; padding: 14px 22px; border-left: 3px solid var(--accent);
+  background: rgba(201,162,75,0.05); color: var(--text); font-style: italic;
+}
+.prose ul, .prose ol { padding-left: 1.3em; margin: 0 0 1.25em; }
+.prose li { margin: 0.3em 0; }
+.prose img { border-radius: var(--radius); border: 1px solid var(--line); margin: 1.5em 0; }
+.prose strong { color: #fff; }
+
+/* ============================================================
+   Generic page + post headers
+   ============================================================ */
+.post-header, .page-header { padding: 56px 24px 28px; border-bottom: 1px solid var(--gold-line); }
+.post-header-inner, .page-header-inner { max-width: var(--maxw-read); margin: 0 auto; }
+.post-kicker, .page-kicker { font-family: var(--font-display); letter-spacing: 0.26em; text-transform: uppercase; color: var(--gold); font-size: 12px; margin: 0 0 12px; }
+.post-title, .page-title { font-size: clamp(2rem, 5vw, 3rem); margin: 0; color: #fff; }
+.post-meta { color: var(--text-dim); margin: 14px 0 0; font-size: 0.9rem; }
+.page-subtitle { color: var(--muted); margin: 14px 0 0; font-size: 1.1rem; }
+.post-body, .page-body { max-width: var(--maxw-read); margin: 40px auto; padding: 0 24px; }
+
+/* ============================================================
+   Cities / directory index
+   ============================================================ */
+.state-block { margin-bottom: 40px; }
+.state-name { font-size: 1.4rem; color: var(--gold-bright); margin: 0 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--gold-line); }
+.city-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.city-card {
+  display: block; padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--panel); transition: border-color .2s ease, background .2s ease;
+}
+.city-card:hover { border-color: var(--gold-line); background: var(--panel-2); }
+.city-card .city { color: #fff; font-weight: 500; }
+.city-card .artist { color: var(--muted); font-size: 0.9rem; }
+
+/* ============================================================
+   Contact band (sales CTA)
+   ============================================================ */
+.contact-band {
+  border-top: 1px solid var(--gold-line); border-bottom: 1px solid var(--gold-line);
+  background:
+    radial-gradient(600px 280px at 50% 0%, rgba(201,162,75,0.12), transparent 70%),
+    linear-gradient(180deg, #0e0e10, #0a0a0b);
+}
+.contact-band-inner { max-width: var(--maxw-read); margin: 0 auto; padding: 64px 24px; text-align: center; }
+.contact-band-kicker { font-family: var(--font-display); letter-spacing: 0.24em; text-transform: uppercase; color: var(--gold); font-size: 13px; margin: 0 0 12px; }
+.contact-band-title { font-size: clamp(2rem, 5vw, 3rem); color: #fff; margin: 0 0 14px; }
+.contact-band-sub { color: var(--muted); margin: 0 auto 26px; max-width: 520px; }
+.contact-band-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+
+/* ============================================================
+   Footer
+   ============================================================ */
+.site-footer { border-top: 1px solid var(--gold-line); background: linear-gradient(180deg, #0b0b0d, #060607); margin-top: 0; }
+.footer-inner { max-width: var(--maxw); margin: 0 auto; padding: 56px 24px 32px; display: grid; grid-template-columns: 1fr 1.4fr 1fr; gap: 40px; }
+.footer-brand .brand-mark { margin-bottom: 14px; }
+.footer-tag { color: var(--muted); max-width: 220px; }
+.footer-heading { font-size: 1.3rem; color: var(--gold-bright); margin: 0 0 8px; }
+.footer-reach p { color: var(--muted); margin: 0 0 16px; }
+.reach-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.reach-list a { display: flex; flex-direction: column; padding: 10px 14px; border: 1px solid var(--line); border-radius: var(--radius); transition: border-color .2s ease; }
+.reach-list a:hover { border-color: var(--gold-line); }
+.reach-label { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-dim); }
+.reach-value { color: var(--gold-bright); }
+.footer-nav ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.footer-nav a { color: var(--text); }
+.footer-nav a:hover { color: var(--gold-bright); }
+.footer-bottom { border-top: 1px solid var(--line); }
+.footer-bottom { max-width: var(--maxw); margin: 0 auto; padding: 20px 24px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; color: var(--text-dim); font-size: 0.82rem; }
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+@media (max-width: 860px) {
+  .footer-inner { grid-template-columns: 1fr; gap: 32px; }
+  .feed-card { grid-template-columns: 1fr; }
+  .feed-card-media { min-height: 180px; border-right: 0; border-bottom: 1px solid var(--line); }
+
+  .nav-toggle {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 44px; height: 44px; background: transparent; border: 1px solid var(--gold-line);
+    border-radius: var(--radius); cursor: pointer; position: relative;
+  }
+  .nav-toggle-bar, .nav-toggle-bar::before, .nav-toggle-bar::after {
+    content: ""; position: absolute; width: 20px; height: 2px; background: var(--gold-bright); transition: transform .2s ease, opacity .2s ease;
+  }
+  .nav-toggle-bar::before { transform: translateY(-6px); }
+  .nav-toggle-bar::after { transform: translateY(6px); }
+  .nav-toggle[aria-expanded="true"] .nav-toggle-bar { background: transparent; }
+  .nav-toggle[aria-expanded="true"] .nav-toggle-bar::before { transform: rotate(45deg); }
+  .nav-toggle[aria-expanded="true"] .nav-toggle-bar::after { transform: rotate(-45deg); }
+
+  .nav-menu {
+    position: absolute; top: var(--header-h); left: 0; right: 0;
+    flex-direction: column; align-items: stretch; gap: 0;
+    background: rgba(10,10,11,0.98); border-bottom: 1px solid var(--gold-line);
+    padding: 8px 16px 16px; display: none;
+  }
+  .nav-menu.is-open { display: flex; }
+  .nav-link { border-radius: var(--radius); }
+  .review-headline { flex-direction: column; text-align: center; align-items: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; transition: none !important; }
+}

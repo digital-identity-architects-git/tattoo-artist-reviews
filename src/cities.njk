@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+title: Cities
+permalink: /cities/
+description: Browse the best tattoo artists by state and city across the United States.
+---
+<header class="page-header">
+  <div class="page-header-inner">
+    <p class="page-kicker">Browse by Location</p>
+    <h1 class="page-title">Cities &amp; <span style="color:var(--gold-bright)">States</span></h1>
+    <p class="page-subtitle">Working our way across all 50 states — one city at a time. Texas first.</p>
+  </div>
+</header>
+
+<section class="section">
+  {%- set states = collections.states -%}
+  {%- if states and states.length %}
+    {%- for state in states %}
+    <div class="state-block">
+      <h2 class="state-name" id="{{ state.slug }}">{{ state.name }}</h2>
+      <div class="city-grid">
+        {%- for r in state.reviews %}
+        <a class="city-card" href="{{ r.url }}">
+          <span class="city">{{ r.data.city }}</span><br>
+          <span class="artist">{{ r.data.artist }}</span>
+        </a>
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endfor %}
+  {%- else %}
+  <p style="text-align:center; color: var(--muted);">The map is filling in fast. Texas is up first.</p>
+  {%- endif %}
+</section>
+
+{% include "partials/contact-band.njk" %}

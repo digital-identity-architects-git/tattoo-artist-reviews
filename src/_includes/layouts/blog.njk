@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+ogType: article
+---
+<article class="post">
+  <header class="post-header">
+    <div class="post-header-inner">
+      <p class="post-kicker">Blog</p>
+      <h1 class="post-title">{{ title }}</h1>
+      <p class="post-meta">
+        <time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time>
+        {%- if author %} · {{ author }}{% endif %}
+      </p>
+    </div>
+  </header>
+
+  <div class="post-body prose">
+    {{ content | safe }}
+  </div>
+</article>
+
+{% include "partials/contact-band.njk" %}
