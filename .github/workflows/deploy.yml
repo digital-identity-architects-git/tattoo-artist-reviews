@@ -42,7 +42,10 @@ jobs:
           port: ${{ secrets.FTP_PORT || '21' }}
           protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
           local-dir: ./_site/
-          server-dir: ${{ vars.FTP_SERVER_DIR || 'public_html/' }}
+          # The FTP login lands in the account home, which holds BOTH an
+          # account-level public_html/ AND the per-domain docroot. The live
+          # site is served from the per-domain docroot, so deploy there.
+          server-dir: ${{ vars.FTP_SERVER_DIR || 'tattoo-artist-review.com/public_html/' }}
           # Don't let the deploy touch the image folder you upload manually,
           # or any files that already live on the server outside the build.
           dangerous-clean-slate: false
