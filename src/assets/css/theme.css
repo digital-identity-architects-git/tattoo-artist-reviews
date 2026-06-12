@@ -307,6 +307,23 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .prose li { margin: 0.3em 0; }
 .prose img { border-radius: var(--radius); border: 1px solid var(--line); margin: 1.5em 0; }
 .prose strong { color: #fff; }
+.prose h4 { font-size: 1.12rem; color: #fff; margin: 1.4em 0 0.4em; }
+.prose h5 { font-size: 1rem; color: var(--gold-bright); margin: 1.3em 0 0.3em; letter-spacing: .02em; }
+.prose h6 {
+  font-size: 0.95rem; color: var(--gold-bright); margin: 1.8em 0 0.5em;
+  text-transform: uppercase; letter-spacing: .08em; border-top: 1px solid var(--line);
+  padding-top: 1.2em;
+}
+
+/* Responsive 16:9 YouTube / video embeds inside post bodies */
+.prose .video-embed {
+  position: relative; width: 100%; margin: 1.6em 0; padding-bottom: 56.25%;
+  height: 0; overflow: hidden; border-radius: var(--radius); border: 1px solid var(--line);
+  background: #000;
+}
+.prose .video-embed iframe {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;
+}
 
 /* ============================================================
    Generic page + post headers
