@@ -54,13 +54,9 @@ await mkdir(`${base}/artists`, { recursive: true });
 await mkdir(`${base}/blog`, { recursive: true });
 
 const jobs = [
-  {
-    w: 1600, h: 600,
-    title: "HEADER BANNER — REPLACE ME",
-    spec: "Homepage hero · ~1600×600 · dark, high-contrast tattoo shot",
-    path: "/assets/img/header-image.webp",
-    out: `${base}/header-image.webp`,
-  },
+  // NOTE: header-image.webp is intentionally NOT generated here — a real
+  // banner is uploaded straight to the server, and shipping a placeholder
+  // would overwrite the live homepage hero on deploy.
   {
     w: 600, h: 600, round: true,
     title: "PORTRAIT",
