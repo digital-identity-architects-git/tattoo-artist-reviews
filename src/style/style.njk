@@ -1,0 +1,69 @@
+---
+pagination:
+  data: collections.styleHubs
+  size: 1
+  alias: hub
+layout: layouts/base.njk
+permalink: "/style/{{ hub.slug }}/"
+eleventyComputed:
+  title: "Best {{ hub.name }} Tattoo Artists in the U.S."
+  description: "{{ hub.tagline or ('The best ' + hub.name + ' tattoo artists, reviewed and tagged by city.') }} Browse top {{ hub.name }} tattoo artists across the country and find your match."
+---
+<header class="page-header">
+  <div class="page-header-inner">
+    <p class="page-kicker"><a href="/style/" style="color:var(--gold)">Styles</a> · {{ hub.name }}</p>
+    <h1 class="page-title">Best <span style="color:var(--gold-bright)">{{ hub.name }}</span> Tattoo Artists</h1>
+    {%- if hub.tagline %}<p class="page-subtitle">{{ hub.tagline }}</p>{% endif %}
+  </div>
+</header>
+
+<section class="section">
+  {%- if hub.reviews.length %}
+  <div class="feed">
+    {%- for item in hub.reviews %}
+      {% include "partials/feed-card.njk" %}
+    {%- endfor %}
+  </div>
+  {%- else %}
+  <div class="empty-hub">
+    <p>No {{ hub.name }} specialists are on the wall <em>yet</em>. If you do {{ hub.name }} work that deserves the spotlight, this lane is wide open.</p>
+    <p><a class="btn btn-gold" href="/get-reviewed/">Claim the {{ hub.name }} crown</a></p>
+  </div>
+  {%- endif %}
+
+  <div class="prose hub-copy">
+    <h2>What makes great {{ hub.name }} tattoo work</h2>
+    {%- if hub.blurb %}<p>{{ hub.blurb }}</p>{% endif %}
+    <p>
+      Style is the fastest way to find your artist, because the truth is that the best
+      {{ hub.name }} artist near you might not be the best all-rounder in town — and that's fine.
+      You don't want a generalist for {{ hub.name }}; you want someone who lives in it, who has the
+      reps and the healed portfolio to prove it. That's exactly who we feature on this page: artists
+      who've earned a reputation specifically for {{ hub.name }} work, tagged so you can find them by
+      city and book with confidence.
+    </p>
+    <h3>How to choose a {{ hub.name }} artist</h3>
+    <p>
+      Look past the fresh, just-finished photos and ask to see <strong>healed</strong> {{ hub.name }}
+      work — that's where the skill actually shows. Check that their portfolio leans heavily into
+      this style rather than treating it as a one-off. And match the artist to the specific piece you
+      want: {{ hub.name }} covers a lot of ground, and the person who nails one corner of it isn't
+      automatically the right call for another. Every artist below is reviewed with that lens.
+    </p>
+    <h3>Browse {{ hub.name }} by location</h3>
+    <p>
+      Want a {{ hub.name }} artist in your own city? Use the <a href="/map/">interactive U.S. map</a>
+      to drill down state by state, or browse all of our <a href="/style/">style tags</a> to cross
+      a style with a place. New {{ hub.name }} artists get added as we find them — this page updates
+      itself the moment they land on the wall.
+    </p>
+    <h3>Do {{ hub.name }} work worth featuring?</h3>
+    <p>
+      If {{ hub.name }} is your specialty and your healed work backs it up, we want to see it.
+      <a href="/get-reviewed/">Get reviewed</a> and become the name people find when they search for
+      the best {{ hub.name }} artist in your city.
+    </p>
+  </div>
+</section>
+
+{% include "partials/contact-band.njk" %}

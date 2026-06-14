@@ -32,6 +32,35 @@ and appear on every page. Change them in one place, every page updates.
 
 ---
 
+## The browse architecture (states · cities · styles · map)
+
+Every artist is tagged two ways — by **city** and by **style** — and each tag is
+its own indexable page that builds itself from the reviews:
+
+| URL | What it is | Source |
+| --- | --- | --- |
+| `/map/` | Interactive U.S. map: press a state → cities → artists + tags | `src/map.njk` |
+| `/cities/` | All 50 states index | `src/cities.njk` |
+| `/cities/<state>/` | State hub (all 51 exist, even empty ones) | `src/state/state.njk` |
+| `/cities/<state>/<city>/` | City hub — artists in that city | `src/city/city.njk` |
+| `/style/` | All style tags | `src/styles-index.njk` |
+| `/style/<slug>/` | Style hub (psychedelic, patriotic, blackwork…) | `src/style/style.njk` |
+
+You don't build these by hand. Add a review with `state:`, `city:` and `styles:`
+front matter and the matching state, city and style pages update automatically.
+The 50-state menu lives in `src/_data/usStates.js`; the canonical style list (so
+big styles have a page from day one) lives in `src/_data/styleCatalog.js`.
+
+## Strategy & keyword tracking
+
+- **`CONTENT-STRATEGY.md`** — the page + blog playbook (also exported to
+  `docs/Tattoo-Artist-Review-Content-Strategy.pdf`).
+- **`keywords/keywords.csv`** — the raw keyword set.
+- **`keywords/KEYWORD-TRACKER.md`** — all keywords grouped by cluster with a
+  checkbox each. **Tick a box when the page/post that targets it is live.**
+
+---
+
 ## Running it locally (optional)
 
 ```bash

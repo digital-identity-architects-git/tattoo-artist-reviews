@@ -131,6 +131,46 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 }
 
 .nav-toggle { display: none; }
+.nav-caret { font-size: 0.7em; opacity: 0.7; }
+
+/* ---- Mega-menu dropdowns (States / Styles) ---- */
+.has-mega { position: relative; }
+.mega {
+  position: absolute; top: calc(100% + 10px); left: 50%; transform: translateX(-50%) translateY(6px);
+  width: min(720px, 86vw); z-index: 120;
+  opacity: 0; visibility: hidden; pointer-events: none;
+  transition: opacity .18s ease, transform .18s ease, visibility .18s;
+}
+.mega-styles { width: min(560px, 86vw); }
+.has-mega:hover .mega,
+.has-mega:focus-within .mega {
+  opacity: 1; visibility: visible; pointer-events: auto; transform: translateX(-50%) translateY(0);
+}
+.mega-inner {
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  border: 1px solid var(--gold-line); border-radius: var(--radius);
+  box-shadow: 0 24px 60px rgba(0,0,0,0.6), 0 0 0 1px var(--gold-glow);
+  padding: 16px;
+}
+.mega-feature {
+  display: block; margin-bottom: 12px; padding: 10px 14px;
+  font-family: var(--font-display); letter-spacing: 0.08em; font-size: 13px;
+  color: #0a0a0b; background: var(--gold-sheen); border-radius: var(--radius);
+}
+.mega-feature:hover { color: #000; }
+.mega-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px 10px;
+  max-height: 50vh; overflow: auto;
+}
+.mega-styles .mega-grid { grid-template-columns: repeat(2, 1fr); }
+.mega-link {
+  display: flex; align-items: center; gap: 6px;
+  padding: 6px 8px; border-radius: var(--radius);
+  font-size: 13px; text-transform: none; letter-spacing: 0; color: var(--muted);
+}
+.mega-link:hover { color: var(--gold-bright); background: rgba(201,162,75,0.08); }
+.mega-link.has-artists { color: var(--text); }
+.mega-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold-bright); box-shadow: 0 0 6px var(--gold-glow); }
 
 /* ============================================================
    Buttons
@@ -399,6 +439,124 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
   .nav-menu.is-open { display: flex; }
   .nav-link { border-radius: var(--radius); }
   .review-headline { flex-direction: column; text-align: center; align-items: center; }
+}
+
+/* ============================================================
+   Hub pages: shared evergreen copy + empty states
+   ============================================================ */
+.hub-copy { max-width: var(--maxw-read); margin: 56px auto 0; }
+.hub-copy h2 { font-size: 1.7rem; color: var(--gold-bright); margin: 0 0 0.5em; }
+.empty-hub {
+  text-align: center; padding: 40px 24px; margin-bottom: 8px;
+  border: 1px dashed var(--gold-line); border-radius: var(--radius);
+  background: rgba(201,162,75,0.04); color: var(--muted);
+}
+.empty-hub p { margin: 0 0 16px; }
+
+/* ---- Style index grid ---- */
+.style-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+.style-card {
+  display: flex; flex-direction: column; gap: 6px;
+  padding: 20px; border: 1px solid var(--line); border-radius: var(--radius);
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  transition: border-color .2s ease, transform .15s ease, box-shadow .2s ease;
+}
+.style-card:hover { border-color: var(--gold-line); transform: translateY(-2px); box-shadow: 0 12px 30px rgba(0,0,0,0.4); }
+.style-card-name { font-family: var(--font-display); font-size: 1.2rem; color: #fff; }
+.style-card-tag { color: var(--muted); font-size: 0.9rem; }
+.style-card-count { color: var(--gold); font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; margin-top: auto; }
+
+/* ---- State index (all 50) ---- */
+.state-index { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.state-index-item {
+  display: flex; flex-direction: column; gap: 3px;
+  padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--panel); transition: border-color .2s ease, background .2s ease;
+}
+.state-index-item:hover { border-color: var(--gold-line); background: var(--panel-2); }
+.state-index-item.has-artists { border-color: var(--gold-line); }
+.state-index-name { color: #fff; font-weight: 500; }
+.state-index-meta { color: var(--text-dim); font-size: 0.8rem; }
+.state-index-item.has-artists .state-index-meta { color: var(--gold); }
+
+/* ============================================================
+   Interactive map page
+   ============================================================ */
+.map-shell { padding-top: 40px; }
+.map-step-label { font-family: var(--font-display); letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); font-size: 12px; margin: 0 0 18px; }
+.map-back {
+  display: inline-block; margin-bottom: 16px; padding: 8px 14px;
+  background: transparent; border: 1px solid var(--gold-line); border-radius: var(--radius);
+  color: var(--gold-bright); cursor: pointer; font-size: 13px; letter-spacing: 0.04em;
+}
+.map-back:hover { background: rgba(201,162,75,0.08); color: #fff; }
+
+.state-buttons { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
+.state-btn {
+  position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+  padding: 14px 8px; min-height: 74px; text-align: center;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--panel); color: var(--muted);
+  transition: transform .12s ease, border-color .2s ease, background .2s ease, box-shadow .2s ease;
+}
+.state-btn:hover { transform: translateY(-2px); border-color: var(--gold-line); color: var(--gold-bright); }
+.state-btn .state-abbr { font-family: var(--font-display); font-size: 1.1rem; letter-spacing: 0.06em; }
+.state-btn .state-full { font-size: 0.72rem; line-height: 1.1; }
+.state-btn.has-artists {
+  color: #fff; border-color: var(--gold-line);
+  background: linear-gradient(180deg, rgba(201,162,75,0.1), var(--panel));
+  box-shadow: inset 0 0 18px rgba(201,162,75,0.08);
+}
+.state-btn.has-artists .state-abbr { color: var(--gold-bright); }
+.state-btn .state-count {
+  position: absolute; top: 6px; right: 6px;
+  min-width: 18px; height: 18px; padding: 0 4px; border-radius: 999px;
+  font-size: 0.66rem; line-height: 18px; color: #0a0a0b; background: var(--gold-sheen);
+}
+
+.city-buttons { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.city-btn {
+  display: flex; flex-direction: column; gap: 3px; text-align: left;
+  padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--panel); color: var(--text); cursor: pointer;
+  transition: border-color .2s ease, background .2s ease;
+}
+.city-btn:hover { border-color: var(--gold-line); background: var(--panel-2); }
+.city-btn .city { color: #fff; font-weight: 500; }
+.city-btn .artist { color: var(--muted); font-size: 0.85rem; }
+
+.artist-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+.map-artist {
+  padding: 20px; border: 1px solid var(--line); border-radius: var(--radius);
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+}
+.map-artist-name { font-family: var(--font-display); font-size: 1.25rem; color: #fff; }
+.map-artist-name:hover { color: var(--gold-bright); }
+.map-artist-shop { color: var(--muted); font-size: 0.9rem; margin: 4px 0 0; }
+.map-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
+.map-tag {
+  font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 4px 10px; border: 1px solid var(--gold-line); border-radius: 999px; color: var(--gold-bright);
+}
+.map-tag:hover { background: rgba(201,162,75,0.12); color: #fff; }
+.map-artist-more { font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-bright); }
+.map-artist-more:hover { color: #fff; }
+
+/* Make the clickable style tags on review pages obviously tappable */
+.style-tags li a { color: var(--gold-bright); }
+.style-tags li:hover { border-color: var(--gold-bright); background: rgba(201,162,75,0.1); }
+
+@media (max-width: 860px) {
+  /* On touch, mega panels expand inline inside the open mobile menu */
+  .mega {
+    position: static; transform: none; width: 100%; opacity: 1; visibility: visible;
+    pointer-events: auto; padding: 0; display: none;
+  }
+  .nav-menu.is-open .has-mega .mega { display: block; }
+  .mega-inner { box-shadow: none; border-color: var(--line); margin: 4px 0 8px; }
+  .mega-grid { grid-template-columns: repeat(2, 1fr); max-height: 240px; }
+  .mega-styles .mega-grid { grid-template-columns: repeat(2, 1fr); }
+  .nav-caret { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

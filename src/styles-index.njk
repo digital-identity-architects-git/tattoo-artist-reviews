@@ -1,0 +1,44 @@
+---
+layout: layouts/base.njk
+title: Tattoo Styles — Find Your Artist by Style
+permalink: /style/
+description: Browse tattoo artists by style — traditional, blackwork, fine-line, realism, Japanese, psychedelic, patriotic and more. Pick a style and find the best artist for the work you actually want.
+---
+<header class="page-header">
+  <div class="page-header-inner">
+    <p class="page-kicker">Browse by Style</p>
+    <h1 class="page-title">Find your artist by <span style="color:var(--gold-bright)">style</span></h1>
+    <p class="page-subtitle">Pick the work you actually want — traditional, blackwork, fine-line, realism, psychedelic, patriotic and more.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="style-grid">
+    {%- for s in collections.styleHubs %}
+    <a class="style-card" href="/style/{{ s.slug }}/">
+      <span class="style-card-name">{{ s.name }}</span>
+      {%- if s.tagline %}<span class="style-card-tag">{{ s.tagline }}</span>{% endif %}
+      <span class="style-card-count">{{ s.reviews.length }} artist{{ "s" if s.reviews.length != 1 }}</span>
+    </a>
+    {%- endfor %}
+  </div>
+
+  <div class="prose hub-copy">
+    <h2>Why browse by style instead of by name</h2>
+    <p>
+      Most people don't actually know which artist they want — they know which <em>tattoo</em> they
+      want. They want fine-line botanicals, or a bold traditional eagle, or a black-and-grey
+      portrait, or something psychedelic that looks like a vision. Style is the honest starting
+      point, because the best artist for one style is rarely the best for all of them, and chasing a
+      big name instead of the right specialist is how people end up disappointed.
+    </p>
+    <p>
+      Every artist we feature is tagged by the styles they genuinely specialize in. Click a style
+      above to see the artists who own that lane, reviewed and ready to book, then cross it with your
+      city using the <a href="/map/">interactive U.S. map</a>. Styles with no artist yet are open
+      crowns — if that lane is your specialty, <a href="/get-reviewed/">claim it.</a>
+    </p>
+  </div>
+</section>
+
+{% include "partials/contact-band.njk" %}

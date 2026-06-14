@@ -17,11 +17,40 @@
       </button>
       <ul id="primary-menu" class="nav-menu">
         {%- for item in site.nav %}
-        <li>
+        <li class="{{ 'has-mega' if item.mega }}">
           <a href="{{ item.url }}"
-             class="nav-link {{ 'is-active' if page.url == item.url or (item.url != '/' and page.url.startsWith(item.url)) }}">
-            {{ item.label }}
+             class="nav-link {{ 'is-active' if page.url == item.url or (item.url != '/' and page.url.startsWith(item.url)) }}"
+             {% if item.mega %}aria-haspopup="true"{% endif %}>
+            {{ item.label }}{% if item.mega %} <span class="nav-caret" aria-hidden="true">▾</span>{% endif %}
           </a>
+
+          {%- if item.mega == "states" %}
+          <div class="mega mega-states" role="menu" aria-label="States">
+            <div class="mega-inner">
+              <a class="mega-feature" href="/map/" role="menuitem">🗺️ Open the interactive map →</a>
+              <div class="mega-grid">
+                {%- for st in collections.stateHubs %}
+                <a class="mega-link {{ 'has-artists' if st.reviewCount }}" href="/cities/{{ st.slug }}/" role="menuitem">
+                  {{ st.name }}{% if st.reviewCount %}<span class="mega-dot" title="{{ st.reviewCount }} reviewed"></span>{% endif %}
+                </a>
+                {%- endfor %}
+              </div>
+            </div>
+          </div>
+          {%- elif item.mega == "styles" %}
+          <div class="mega mega-styles" role="menu" aria-label="Styles">
+            <div class="mega-inner">
+              <a class="mega-feature" href="/style/" role="menuitem">All styles →</a>
+              <div class="mega-grid">
+                {%- for s in collections.styleHubs %}
+                <a class="mega-link {{ 'has-artists' if s.reviews.length }}" href="/style/{{ s.slug }}/" role="menuitem">
+                  {{ s.name }}{% if s.reviews.length %}<span class="mega-dot" title="{{ s.reviews.length }} artist(s)"></span>{% endif %}
+                </a>
+                {%- endfor %}
+              </div>
+            </div>
+          </div>
+          {%- endif %}
         </li>
         {%- endfor %}
       </ul>
