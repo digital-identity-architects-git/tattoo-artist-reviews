@@ -1,0 +1,17 @@
+{#- A vertical review card for the 2-up reviews grid: image on top, whole
+    card is one clickable link. `item` is an Eleventy collection item. -#}
+{%- set media = item.data.photo or item.data.heroImage or item.data.image or (item.data.gallery[0].src if item.data.gallery) -%}
+<a class="review-card" href="{{ item.url }}">
+  <span class="review-card-media"{% if media %} style="background-image:url('{{ media }}')"{% endif %} aria-hidden="true"></span>
+  <span class="review-card-body">
+    <span class="feed-type is-review">Review</span>
+    <span class="review-card-title">
+      {{ item.data.artist }} — {{ item.data.city }}{% if item.data.state %}, {{ item.data.state }}{% endif %}
+    </span>
+    <span class="review-card-meta">
+      <time datetime="{{ item.date | isoDate }}">{{ item.date | readableDate }}</time>
+      {%- if item.data.styles %} · {{ item.data.styles | join(", ") }}{% endif %}
+    </span>
+    {%- if item.data.excerpt %}<span class="review-card-excerpt">{{ item.data.excerpt }}</span>{% endif %}
+  </span>
+</a>
