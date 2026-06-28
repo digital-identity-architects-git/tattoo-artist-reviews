@@ -3,6 +3,7 @@ title: "The First Rap Song: How 'Rapper's Delight' Launched a Global Movement"
 date: 2026-06-11
 author: "Tattoo Artist Review"
 excerpt: "What was the first rap song? The answer is more interesting than you think. Here's the real story of recorded hip-hop's origin and the culture it set loose."
+image: "/assets/img/blog/first-rap-song.webp"
 ---
 
 Ask ten people to name the **first rap song** and you'll get a lively argument — which is exactly why the question is so fun. The truth is that the story of the first rap song is part history, part myth, and entirely fascinating. Most point to "Rapper's Delight" by The Sugarhill Gang as the record that introduced rap to the masses, but the full picture is richer than any single answer. In this guide we'll settle the debate as fairly as we can, trace where the first rap song really came from, and show how that origin moment set loose a culture that reshaped music, fashion, and even tattooing. At Tattoo Artist Review, we love origin stories — every great artist has one — so let's dig into hip-hop's.

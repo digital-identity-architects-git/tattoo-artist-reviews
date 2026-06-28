@@ -3,6 +3,7 @@ title: "Video of Rap: How the Rap Music Video Became an Art Form"
 date: 2026-06-11
 author: "Tattoo Artist Review"
 excerpt: "Every great video of rap does more than play a song — it builds a world. Here's how the rap music video evolved into one of culture's boldest visual art forms."
+image: "/assets/img/blog/video-of-rap.webp"
 ---
 
 A great **video of rap** does something a song alone can't: it builds a world. From the streets of the Bronx to multi-million-dollar productions, the video of rap has grown into one of the most influential visual art forms of our time — shaping fashion, slang, dance, and yes, even tattooing. If you've ever wondered how the rap music video evolved, what separates a classic from a throwaway, or where to start watching, this guide is for you. We'll trace how the video of rap became an art form, highlight the records that set the standard, and connect that bold visual storytelling to the kind of fearless artistry we celebrate at Tattoo Artist Review. Let's roll the tape.
