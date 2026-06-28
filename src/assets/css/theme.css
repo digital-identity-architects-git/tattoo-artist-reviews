@@ -199,13 +199,13 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 }
 .hero-banner {
   position: relative;
-  min-height: 460px;
+  min-height: 520px;
   display: flex; align-items: flex-end;
   background-color: #050505;
   background-image:
-    linear-gradient(180deg, rgba(5,5,6,0.15) 0%, rgba(5,5,6,0.55) 55%, rgba(5,5,6,0.96) 100%),
+    linear-gradient(180deg, rgba(5,5,6,0.05) 0%, rgba(5,5,6,0.35) 55%, rgba(5,5,6,0.85) 100%),
     url('/assets/img/header-image.webp');
-  background-size: cover; background-position: center;
+  background-size: cover; background-position: center 70%;
 }
 .hero-inner {
   position: relative; z-index: 2;
@@ -272,6 +272,33 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .feed-card-excerpt { color: var(--muted); margin: 0 0 18px; }
 .feed-card-more { margin-top: auto; align-self: flex-start; color: var(--gold-bright); font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; }
 .feed-card-more:hover { color: #fff; }
+
+/* ============================================================
+   Reviews index — 2-up grid, image on top, whole card clickable
+   ============================================================ */
+.review-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.review-card {
+  display: flex; flex-direction: column; color: inherit;
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+  transition: border-color .25s ease, transform .2s ease, box-shadow .25s ease;
+}
+.review-card:hover {
+  border-color: var(--gold-line);
+  box-shadow: 0 0 0 1px var(--gold-glow), 0 18px 40px rgba(0,0,0,0.45);
+  transform: translateY(-2px);
+}
+.review-card-media {
+  display: block; aspect-ratio: 16 / 10;
+  background: #0d0d0f center/cover no-repeat;
+  border-bottom: 1px solid var(--line);
+}
+.review-card-body { padding: 22px 24px; display: flex; flex-direction: column; }
+.review-card-title { display: block; font-size: 1.4rem; color: #fff; margin: 0 0 8px; }
+.review-card:hover .review-card-title { color: var(--gold-bright); }
+.review-card-meta { display: block; color: var(--text-dim); font-size: 0.86rem; letter-spacing: 0.04em; margin: 0 0 12px; }
+.review-card-excerpt { display: block; color: var(--muted); }
+@media (max-width: 680px) { .review-grid { grid-template-columns: 1fr; } }
 
 /* ============================================================
    Review page

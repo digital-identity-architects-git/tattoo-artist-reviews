@@ -14,9 +14,9 @@ description: Every tattoo artist review on Tattoo Artist Review — the best ink
 <section class="section">
   {%- set reviews = collections.reviews -%}
   {%- if reviews and reviews.length %}
-  <div class="feed">
+  <div class="review-grid">
     {%- for item in reviews %}
-      {% include "partials/feed-card.njk" %}
+      {% include "partials/review-card.njk" %}
     {%- endfor %}
   </div>
   {%- else %}
