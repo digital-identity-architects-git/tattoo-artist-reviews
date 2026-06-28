@@ -1,36 +1,48 @@
 ---
 layout: layouts/base.njk
-title: Cities
+title: Tattoo Artists by State & City
 permalink: /cities/
-description: Browse the best tattoo artists by state and city across the United States.
+description: Browse the best tattoo artists by state and city across all 50 states. Pick your state, drill down to your city, and find your artist by style.
 ---
 <header class="page-header">
   <div class="page-header-inner">
     <p class="page-kicker">Browse by Location</p>
-    <h1 class="page-title">Cities &amp; <span style="color:var(--gold-bright)">States</span></h1>
-    <p class="page-subtitle">Working our way across all 50 states — one city at a time. Texas first.</p>
+    <h1 class="page-title">Tattoo artists by <span style="color:var(--gold-bright)">state &amp; city</span></h1>
+    <p class="page-subtitle">All 50 states. Pick yours below, or use the <a href="/map/">interactive map</a> to drill straight down to cities and artists.</p>
   </div>
 </header>
 
 <section class="section">
-  {%- set states = collections.states -%}
-  {%- if states and states.length %}
-    {%- for state in states %}
-    <div class="state-block">
-      <h2 class="state-name" id="{{ state.slug }}">{{ state.name }}</h2>
-      <div class="city-grid">
-        {%- for r in state.reviews %}
-        <a class="city-card" href="{{ r.url }}">
-          <span class="city">{{ r.data.city }}</span><br>
-          <span class="artist">{{ r.data.artist }}</span>
-        </a>
-        {%- endfor %}
-      </div>
-    </div>
+  <div class="state-index">
+    {%- for st in collections.stateHubs %}
+    <a class="state-index-item {{ 'has-artists' if st.reviewCount else 'is-empty' }}" href="/cities/{{ st.slug }}/">
+      <span class="state-index-name">{{ st.name }}</span>
+      <span class="state-index-meta">
+        {%- if st.reviewCount -%}
+          {{ st.reviewCount }} artist{{ "s" if st.reviewCount != 1 }} · {{ st.cities.length }} {{ "cities" if st.cities.length != 1 else "city" }}
+        {%- else -%}
+          Coming soon
+        {%- endif -%}
+      </span>
+    </a>
     {%- endfor %}
-  {%- else %}
-  <p style="text-align:center; color: var(--muted);">The map is filling in fast. Texas is up first.</p>
-  {%- endif %}
+  </div>
+
+  <div class="prose hub-copy">
+    <h2>Find the best tattoo artist in your city</h2>
+    <p>
+      We're building the definitive directory of the single best tattoo artist in every city in
+      America — reviewed, not just listed, and tagged by the styles each artist actually
+      specializes in. Pick your state above to see the cities we cover there, then drill down to the
+      artists. Rather start from the work you want? Browse the <a href="/style/">style index</a> to
+      find your artist by style — blackwork, fine-line, realism, traditional, psychedelic, patriotic
+      and more.
+    </p>
+    <p>
+      States with reviewed artists are marked; the rest are filling in fast. If your city's crown is
+      still open and you know who deserves it, <a href="/get-reviewed/">put them on the map.</a>
+    </p>
+  </div>
 </section>
 
 {% include "partials/contact-band.njk" %}

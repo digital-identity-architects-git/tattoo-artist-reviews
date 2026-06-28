@@ -11,7 +11,7 @@ ogType: article
     <div class="review-hero-bg" style="background-image:url('{{ heroImage }}')"></div>
     {%- endif %}
     <div class="review-hero-inner">
-      <p class="review-kicker">Best Tattoo Artist · {{ city }}{% if state %}, {{ state }}{% endif %}</p>
+      <p class="review-kicker">Best Tattoo Artist · <a href="/cities/{{ state | stateSlug }}/{{ city | slug }}/">{{ city }}{% if state %}, {{ state }}{% endif %}</a></p>
       <div class="review-headline">
         {%- if photo %}
         <img class="artist-photo" src="{{ photo }}" alt="Portrait of {{ artist }}" loading="eager" width="160" height="160">
@@ -21,7 +21,7 @@ ogType: article
           {%- if shopName %}<p class="review-shop">{{ shopName }}{% if shopUrl %} · <a href="{{ shopUrl }}" target="_blank" rel="noopener">{{ shopUrl | replace("https://","") | replace("http://","") }}</a>{% endif %}</p>{% endif %}
           {%- if styles %}
           <ul class="style-tags">
-            {%- for s in styles %}<li>{{ s }}</li>{% endfor %}
+            {%- for s in styles %}<li><a href="/style/{{ s | slug }}/">{{ s }}</a></li>{% endfor %}
           </ul>
           {%- endif %}
         </div>

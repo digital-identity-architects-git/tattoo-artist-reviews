@@ -16,9 +16,15 @@ instagram: "their_handle"   # without the @
 website: ""                 # optional, full https:// link
 booking: ""                 # optional booking link (adds a "Book" button)
 
-styles:                     # 1–4 style tags shown under the name
-  - "Fine-line blackwork"
-  - "Neo-traditional"
+styles:                     # 1–4 style tags — each links to /style/<slug>/
+  # Prefer a CANONICAL style name (see src/_data/styleCatalog.js) so the artist
+  # pools onto the big style hub everyone searches: Traditional, Neo-Traditional,
+  # Blackwork, Fine-Line, Realism, Black & Grey, Japanese / Irezumi, Tribal,
+  # Geometric, Watercolor, Illustrative, Botanical, Lettering & Script, Surrealism,
+  # Anime & Manga, Psychedelic, Patriotic, Ignorant / Naïve. You can still add a
+  # custom tag — it spins up its own /style/ page automatically.
+  - "Fine-Line"
+  - "Neo-Traditional"
 
 excerpt: "One punchy sentence on why this artist takes the city. Shows on the homepage card."
 

@@ -1,0 +1,165 @@
+---
+layout: layouts/base.njk
+title: U.S. Tattoo Artist Map — Find the Best Artist in Your State
+permalink: /map/
+description: Press your state, pick your city, and find the best tattoo artists near you — tagged by style. An interactive map of the best ink in all 50 states.
+bodyClass: map-page
+---
+<header class="page-header">
+  <div class="page-header-inner">
+    <p class="page-kicker">The Map</p>
+    <h1 class="page-title">Find the best ink in <span style="color:var(--gold-bright)">your state</span></h1>
+    <p class="page-subtitle">Press a state. Pick your city. Meet the artists — tagged by style so you find your guy fast.</p>
+  </div>
+</header>
+
+<section class="section map-shell" data-map>
+  <div class="map-stage">
+    <!-- STEP 1: states -->
+    <div class="map-step is-active" data-step="states">
+      <p class="map-step-label">Step 1 — Press your state</p>
+      <div class="state-buttons" data-state-buttons>
+        {%- set md = collections.mapData[0] -%}
+        {%- for st in md.states %}
+        <a class="state-btn {{ 'has-artists' if st.count else 'is-empty' }}"
+           href="{{ st.url }}"
+           data-state="{{ st.slug }}"
+           aria-label="{{ st.name }}{% if st.count %} — {{ st.count }} reviewed{% else %} — coming soon{% endif %}">
+          <span class="state-abbr">{{ st.abbr }}</span>
+          <span class="state-full">{{ st.name }}</span>
+          {%- if st.count %}<span class="state-count">{{ st.count }}</span>{% endif %}
+        </a>
+        {%- endfor %}
+      </div>
+    </div>
+
+    <!-- STEP 2: cities -->
+    <div class="map-step" data-step="cities" hidden>
+      <button class="map-back" type="button" data-back="states">← All states</button>
+      <p class="map-step-label" data-cities-title>Step 2 — Pick your city</p>
+      <div class="city-buttons" data-city-buttons></div>
+    </div>
+
+    <!-- STEP 3: artists -->
+    <div class="map-step" data-step="artists" hidden>
+      <button class="map-back" type="button" data-back="cities">← Cities</button>
+      <p class="map-step-label" data-artists-title>Step 3 — Meet the artists</p>
+      <div class="artist-list" data-artist-list></div>
+    </div>
+  </div>
+
+  <div class="prose hub-copy">
+    <h2>How the map works</h2>
+    <p>
+      Tattoo artists don't advertise themselves by city and style in one place — so finding the
+      right one usually means hours of scrolling Instagram and hoping. This map fixes that. Press
+      any state to see every city we cover there. Pick your city to meet the artists who earned the
+      crown, each one tagged by the styles they actually specialize in. Click an artist to read the
+      full review and book.
+    </p>
+    <p>
+      States lit up in gold already have reviewed artists on the wall. The rest are open territory —
+      we're working across all 50, one city at a time. If your state is still dark and you know the
+      artist who deserves the spot, <a href="/get-reviewed/">tell us</a>. Prefer to start from the
+      work itself? Browse the <a href="/style/">full style index</a> and find your artist by style
+      first, then narrow by location.
+    </p>
+  </div>
+</section>
+
+<script type="application/json" data-map-json>{{ collections.mapData[0] | dump | safe }}</script>
+<script>
+(function () {
+  var root = document.querySelector("[data-map]");
+  var dataEl = document.querySelector("[data-map-json]");
+  if (!root || !dataEl) return;
+
+  var DATA;
+  try { DATA = JSON.parse(dataEl.textContent); } catch (e) { return; }
+  var bySlug = {};
+  DATA.states.forEach(function (s) { bySlug[s.slug] = s; });
+
+  var steps = {};
+  root.querySelectorAll("[data-step]").forEach(function (el) { steps[el.dataset.step] = el; });
+
+  function show(name) {
+    Object.keys(steps).forEach(function (k) {
+      var on = k === name;
+      steps[k].hidden = !on;
+      steps[k].classList.toggle("is-active", on);
+    });
+    var top = root.getBoundingClientRect().top + window.pageYOffset - 90;
+    if (window.pageYOffset > top) window.scrollTo({ top: top, behavior: "smooth" });
+  }
+
+  function esc(str) {
+    return String(str).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  var cityWrap = root.querySelector("[data-city-buttons]");
+  var citiesTitle = root.querySelector("[data-cities-title]");
+  var artistWrap = root.querySelector("[data-artist-list]");
+  var artistsTitle = root.querySelector("[data-artists-title]");
+
+  function openState(state) {
+    citiesTitle.textContent = "Step 2 — Pick your city in " + state.name;
+    if (!state.cities.length) {
+      cityWrap.innerHTML =
+        '<div class="empty-hub"><p>No artists on the wall in ' + esc(state.name) +
+        " <em>yet</em>. This state is wide open.</p>" +
+        '<p><a class="btn btn-gold" href="/get-reviewed/">Claim ' + esc(state.name) + "</a></p></div>";
+    } else {
+      cityWrap.innerHTML = state.cities.map(function (c) {
+        return '<button class="city-btn" type="button" data-city="' + esc(c.slug) + '">' +
+          '<span class="city">' + esc(c.name) + ", " + esc(state.abbr) + "</span>" +
+          '<span class="artist">' + c.artists.length + " artist" +
+          (c.artists.length === 1 ? "" : "s") + "</span></button>";
+      }).join("");
+    }
+    cityWrap.dataset.activeState = state.slug;
+    show("cities");
+  }
+
+  function openCity(state, city) {
+    artistsTitle.textContent = "Artists in " + city.name + ", " + state.abbr;
+    artistWrap.innerHTML = city.artists.map(function (a) {
+      var tags = a.styles.map(function (s) {
+        return '<a class="map-tag" href="/style/' + esc(s.slug) + '/">' + esc(s.name) + "</a>";
+      }).join("");
+      return '<article class="map-artist">' +
+        '<a class="map-artist-name" href="' + esc(a.url) + '">' + esc(a.name) + "</a>" +
+        (a.shop ? '<p class="map-artist-shop">' + esc(a.shop) + "</p>" : "") +
+        (tags ? '<div class="map-tags">' + tags + "</div>" : "") +
+        '<a class="map-artist-more" href="' + esc(a.url) + '">Read the review →</a>' +
+        "</article>";
+    }).join("");
+    show("artists");
+  }
+
+  // State buttons — intercept for in-page drilldown, keep href as fallback.
+  root.querySelectorAll(".state-btn").forEach(function (btn) {
+    btn.addEventListener("click", function (e) {
+      var state = bySlug[btn.dataset.state];
+      if (!state) return; // let the link navigate
+      e.preventDefault();
+      openState(state);
+    });
+  });
+
+  cityWrap.addEventListener("click", function (e) {
+    var btn = e.target.closest(".city-btn");
+    if (!btn) return;
+    var state = bySlug[cityWrap.dataset.activeState];
+    var city = state && state.cities.filter(function (c) { return c.slug === btn.dataset.city; })[0];
+    if (city) openCity(state, city);
+  });
+
+  root.querySelectorAll("[data-back]").forEach(function (b) {
+    b.addEventListener("click", function () { show(b.dataset.back); });
+  });
+})();
+</script>
+
+{% include "partials/contact-band.njk" %}

@@ -1,0 +1,61 @@
+---
+pagination:
+  data: collections.cityHubs
+  size: 1
+  alias: hub
+layout: layouts/base.njk
+permalink: "/cities/{{ hub.stateSlug }}/{{ hub.citySlug }}/"
+eleventyComputed:
+  title: "Best Tattoo Artists in {{ hub.city }}, {{ hub.stateAbbr }}"
+  description: "The best tattoo artists in {{ hub.city }}, {{ hub.stateName }} — reviewed, with their styles, shops and booking info. Find your artist by style and book your next piece."
+---
+<header class="page-header">
+  <div class="page-header-inner">
+    <p class="page-kicker"><a href="/map/" style="color:var(--gold)">U.S. Map</a> · <a href="/cities/{{ hub.stateSlug }}/" style="color:var(--gold)">{{ hub.stateName }}</a></p>
+    <h1 class="page-title">Best Tattoo Artists in <span style="color:var(--gold-bright)">{{ hub.city }}, {{ hub.stateAbbr }}</span></h1>
+    <p class="page-subtitle">{{ hub.reviews.length }} reviewed artist{{ "s" if hub.reviews.length != 1 }} in {{ hub.city }} — with the styles they're known for.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="feed">
+    {%- for item in hub.reviews %}
+      {% include "partials/feed-card.njk" %}
+    {%- endfor %}
+  </div>
+
+  <div class="prose hub-copy">
+    <h2>Finding the right tattoo artist in {{ hub.city }}</h2>
+    <p>
+      {{ hub.city }} has talent — the trick is matching the <em>right</em> artist to the piece
+      you actually want. A traditional specialist and a fine-line specialist are not
+      interchangeable, and the difference shows up not on day one but a few years down the line,
+      when one tattoo still reads crisp and the other has gone soft. The artist{{ "s" if hub.reviews.length != 1 }}
+      featured above {{ "have" if hub.reviews.length != 1 else "has" }} earned the spot in {{ hub.city }}
+      on exactly that test: work that holds up.
+    </p>
+    <p>
+      Every review tags the styles an artist specializes in, so you can match the work to what you
+      want before you ever send a message. After blackwork or fine-line? Chasing realism, a
+      traditional flash piece, or something more specific like psychedelic or patriotic work? Use
+      the style tags on each artist, or browse the full <a href="/style/">style index</a> to find
+      your match across the country. To see how {{ hub.city }} fits into the bigger picture, open the
+      <a href="/cities/{{ hub.stateSlug }}/">{{ hub.stateName }} page</a> or the
+      <a href="/map/">interactive U.S. map</a>.
+    </p>
+    <h3>Booking your tattoo in {{ hub.city }}</h3>
+    <p>
+      Each artist's review links straight to their Instagram, shop and booking info. Good artists
+      book out — sometimes months ahead — so once you've found your match, reach out early, come in
+      with a clear idea and some reference, and trust the specialist to make it theirs. That's how
+      you walk out with a piece you'll still love in ten years.
+    </p>
+    <h3>Are you the best in {{ hub.city }}?</h3>
+    <p>
+      If you think the crown for {{ hub.city }} belongs to you — or to an artist you'd vouch for —
+      we want to see the work. <a href="/get-reviewed/">Get reviewed and featured.</a>
+    </p>
+  </div>
+</section>
+
+{% include "partials/contact-band.njk" %}

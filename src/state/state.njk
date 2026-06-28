@@ -1,0 +1,79 @@
+---
+pagination:
+  data: collections.stateHubs
+  size: 1
+  alias: hub
+layout: layouts/base.njk
+permalink: "/cities/{{ hub.slug }}/"
+eleventyComputed:
+  title: "Best Tattoo Artists in {{ hub.name }} — by City & Style"
+  description: "Find the best tattoo artists in {{ hub.name }}. Browse top-reviewed shops and artists city by city — realism, traditional, blackwork, fine-line and more — and book the right one for your next piece."
+---
+<header class="page-header">
+  <div class="page-header-inner">
+    <p class="page-kicker"><a href="/map/" style="color:var(--gold)">U.S. Map</a> · {{ hub.name }}</p>
+    <h1 class="page-title">Best Tattoo Artists in <span style="color:var(--gold-bright)">{{ hub.name }}</span></h1>
+    <p class="page-subtitle">
+      {%- if hub.cities.length -%}
+        {{ hub.reviews.length }} reviewed artist{{ "s" if hub.reviews.length != 1 }} across {{ hub.cities.length }} {{ "cities" if hub.cities.length != 1 else "city" }} — pick your city below.
+      {%- else -%}
+        We're hunting down the single best tattoo artist in every {{ hub.name }} city. Want it to be you?
+      {%- endif -%}
+    </p>
+  </div>
+</header>
+
+<section class="section">
+  {%- if hub.cities.length %}
+  <div class="city-grid">
+    {%- for city in hub.cities %}
+    <a class="city-card" href="/cities/{{ hub.slug }}/{{ city.slug }}/">
+      <span class="city">{{ city.name }}, {{ hub.abbr }}</span><br>
+      <span class="artist">{{ city.reviews.length }} reviewed artist{{ "s" if city.reviews.length != 1 }}</span>
+    </a>
+    {%- endfor %}
+  </div>
+  {%- else %}
+  <div class="empty-hub">
+    <p>No {{ hub.name }} artists are on the wall <em>yet</em> — and that's exactly the opportunity. We feature one undeniable artist per city, and {{ hub.name }} is wide open.</p>
+    <p><a class="btn btn-gold" href="/get-reviewed/">Put your shop on the {{ hub.name }} map</a></p>
+  </div>
+  {%- endif %}
+
+  <div class="prose hub-copy">
+    <h2>The best ink in {{ hub.name }}, city by city</h2>
+    <p>
+      {{ hub.name }} has its own tattoo culture — its own legends, its own walk-in shops with
+      decades of history, and its own next generation of artists quietly doing some of the best
+      work in the country. The problem has always been the same: finding the <strong>right</strong>
+      artist for <em>your</em> piece, in <em>your</em> city, without rolling the dice on a portfolio
+      you can't fully read. That's the entire reason this page exists.
+    </p>
+    <p>
+      We don't list every shop in {{ hub.name }}. We hunt down the single artist who's genuinely
+      the best in each city we cover — the one whose linework holds up years later, whose healed
+      work looks like the day it was done, and whose range earns the crown. When you click into a
+      city above, you get a real review of that artist, the styles they specialize in, and exactly
+      where and how to book them.
+    </p>
+    <h3>How to use this page</h3>
+    <p>
+      Start with your city. If it's listed above, click through to read the review and see the
+      artist's specialties tagged by style — so if you're after blackwork, fine-line, traditional,
+      realism or something more specific like psychedelic or patriotic work, you can see at a glance
+      whether they're your match. Prefer to browse by what you want done rather than where you live?
+      Jump to the <a href="/style/">style index</a> and find your artist by the work itself. Want the
+      big picture? The <a href="/map/">interactive U.S. map</a> lets you press any state and drill
+      straight down to cities and artists.
+    </p>
+    <h3>Are you the best tattoo artist in your {{ hub.name }} city?</h3>
+    <p>
+      Every city in {{ hub.name }} has a crown that's either taken or wide open. If you — or an
+      artist you'd put your own skin in front of — deserve the spot, that's exactly who we want to
+      feature. We review the work, tell your story, and point new clients straight to your books.
+      <a href="/get-reviewed/">Reach out and get on the wall.</a>
+    </p>
+  </div>
+</section>
+
+{% include "partials/contact-band.njk" %}

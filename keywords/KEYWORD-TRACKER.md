@@ -1,0 +1,2230 @@
+# Keyword Tracker — Tattoo Artist Review
+
+> Source: `keywords/keywords.csv` · **2,130 unique keywords** · **13,042,010** total monthly volume (US seed set).
+> Check a box when the page/post that targets a keyword is **live**. Clusters map to the page types in `CONTENT-STRATEGY.md`.
+
+## Priority summary
+
+| # | Cluster | Keywords | Monthly volume | Maps to |
+|---|---------|---------:|---------------:|---------|
+| 1 | Local & "Near Me" — Map + State/City/Artist hubs | 66 | 2,117,990 | `/map/`, `/cities/…` |
+| 2 | Styles — /style/<slug>/ hubs | 26 | 462,540 | `/style/…` |
+| 3 | Body Placement — blog galleries | 95 | 1,336,170 | Blog |
+| 4 | Motifs, Subjects & Ideas — blog galleries | 1628 | 4,021,610 | Blog |
+| 5 | Audience — for men / women / couples — blog galleries | 65 | 1,505,290 | Blog |
+| 6 | Meaning & Symbolism — blog | 36 | 185,700 | Blog |
+| 7 | Aftercare, Healing & Pain — blog guides | 86 | 707,150 | Blog |
+| 8 | Pricing — blog guide | 12 | 43,980 | Blog |
+| 9 | Removal & Cover-up — blog guides | 18 | 180,410 | Blog |
+| 10 | Lettering & Fonts — blog + hub | 29 | 331,260 | Blog |
+| 11 | Core / Head Terms — homepage & core pages | 9 | 1,263,380 | Home/core |
+| 12 | ICEBOX — Supplies / DIY / Machines | 52 | 279,440 | — |
+| 13 | TOSS — Off-geo / Temporary / Irrelevant | 8 | 607,090 | — |
+
+## Local & "Near Me" — Map + State/City/Artist hubs
+
+_PRIMARY money intent. Powered by the new /map/, /cities/<state>/, /cities/<state>/<city>/ and the artist review pages._  
+_Cluster: 66 keywords · 2,117,990 monthly volume_
+
+- [ ] **tattoo shops near me** — 1,220,000/mo · Medium comp
+- [ ] **tattoo near me** — 246,000/mo · Medium comp
+- [ ] **tattoo artist near me** — 165,000/mo · Low comp
+- [ ] **tattoo places near me** — 49,500/mo · Medium comp
+- [ ] **tattoo and piercing shops near me** — 40,500/mo · Low comp
+- [ ] **tattoo removal near me** — 40,500/mo · Medium comp
+- [ ] **tattoo laser removal near me** — 40,500/mo · Medium comp
+- [ ] **tattoo piercing shops near me** — 40,500/mo · Low comp
+- [ ] **tattoo parlors near me** — 33,100/mo · Medium comp
+- [ ] **best tattoo shops near me** — 33,100/mo · Medium comp
+- [ ] **good tattoo shops near me** — 33,100/mo · Medium comp
+- [ ] **top rated tattoo shops near me** — 33,100/mo · Medium comp
+- [ ] **tattoo and piercing near me** — 22,200/mo · Low comp
+- [ ] **tattoo piercing near me** — 22,200/mo · Low comp
+- [ ] **tattoo supplies near me** — 14,800/mo · Medium comp
+- [ ] **tattoo studio near me** — 12,100/mo · Low comp
+- [ ] **tattoo parlors** — 12,100/mo · Low comp
+- [ ] **tattoo eyebrows near me** — 9,900/mo · High comp
+- [ ] **tattoo supply store near me** — 9,900/mo · Medium comp
+- [ ] **tattoo numbing cream near me** — 8,100/mo · High comp
+- [ ] **tattoo classes near me** — 4,400/mo · Low comp
+- [ ] **tattoo and piercing places near me** — 3,600/mo · Low comp
+- [ ] **tattoo apprenticeship near me** — 3,600/mo · Low comp
+- [ ] **tattoo ink near me** — 3,600/mo · High comp
+- [ ] **tattoo flash sale near me** — 2,400/mo · Low comp
+- [ ] **tattoo needles near me** — 1,600/mo · High comp
+- [ ] **tattoo equipment near me** — 1,300/mo · High comp
+- [ ] **tattoo gun near me** — 1,300/mo · High comp
+- [ ] **tattoo festival near me** — 1,000/mo · Low comp
+- [ ] **tattoo open near me** — 1,000/mo · Medium comp
+- [ ] **tattoo specials near me** — 1,000/mo · Medium comp
+- [ ] **tattoo transfer paper near me** — 1,000/mo · High comp
+- [ ] **tattoo eyeliner near me** — 880/mo · Medium comp
+- [ ] **tattoo expo near me** — 720/mo · Low comp
+- [ ] **tattoo events near me** — 480/mo · Low comp
+- [ ] **tattoo jobs near me** — 480/mo · Low comp
+- [ ] **tattoo salon near me** — 390/mo · Medium comp
+- [ ] **tattoo sales near me** — 390/mo · Medium comp
+- [ ] **tattoo ear piercing near me** — 320/mo · Medium comp
+- [ ] **tattoo kit near me** — 320/mo · High comp
+- [ ] **tattoo parlour near me** — 320/mo · Medium comp
+- [ ] **tattoo second skin near me** — 320/mo · High comp
+- [ ] **tattoo open late near me** — 170/mo · Medium comp
+- [ ] **tattoo training near me** — 170/mo · Low comp
+- [ ] **tattoo academy near me** — 110/mo · Medium comp
+- [ ] **tattoo expo 2026 near me** — 110/mo · Low comp
+- [ ] **tattoo shop singapore** — 90/mo · Medium comp
+- [ ] **tattoo studio singapore** — 90/mo · Medium comp
+- [ ] **tattoo parlour singapore** — 90/mo · Medium comp
+- [ ] **tattoo shops singapore** — 90/mo · Medium comp
+- [ ] **tattoo equipment shop near me** — 70/mo · High comp
+- [ ] **tattoo house near me** — 70/mo · Medium comp
+- [ ] **tattoo ointment near me** — 70/mo · High comp
+- [ ] **tattoo accessories near me** — 50/mo · High comp
+- [ ] **tattoo shop near me danish tattooz house** — 30/mo · Low comp
+- [ ] **tattoo maker near me** — 30/mo · Medium comp
+- [ ] **tattoo away near me** — 20/mo · Medium comp
+- [ ] **tattoo eraser near me** — 20/mo · High comp
+- [ ] **tattoo places singapore** — 20/mo · Low comp
+- [ ] **tattoo shop in jb** — 10/mo · Low comp
+- [ ] **tattoo shop lucky plaza** — 10/mo · Low comp
+- [ ] **tattoo shop in johor bahru** — 10/mo · Low comp
+- [ ] **tattoo shop in far east plaza** — 10/mo · Low comp
+- [ ] **tattoo centre near me** — 10/mo · High comp
+- [ ] **tattoo convention singapore 2026** — 10/mo · Low comp
+- [ ] **tattoo convention singapore** — 10/mo · Low comp
+
+## Styles — /style/<slug>/ hubs
+
+_Each maps to a style hub page already generated by the site._  
+_Cluster: 26 keywords · 462,540 monthly volume_
+
+- [ ] **american traditional tattoo** — 90,500/mo · Low comp
+- [ ] **tattoo american traditional** — 90,500/mo · Low comp
+- [ ] **fine line tattoo** — 49,500/mo · Low comp
+- [ ] **traditional tattoo** — 49,500/mo · Low comp
+- [ ] **tribal tattoo** — 40,500/mo · Low comp
+- [ ] **japanese tattoo** — 27,100/mo · Low comp
+- [ ] **neo traditional tattoo** — 27,100/mo · Low comp
+- [ ] **traditional japanese tattoo** — 22,200/mo · Low comp
+- [ ] **mandala tattoo** — 18,100/mo · Low comp
+- [ ] **watercolor tattoo** — 14,800/mo · Low comp
+- [ ] **tattoo blackwork** — 9,900/mo · Low comp
+- [ ] **tattoo geometric** — 9,900/mo · Low comp
+- [ ] **tattoo sketches** — 4,400/mo · Low comp
+- [ ] **tattoo japanese design** — 1,600/mo · Low comp
+- [ ] **tattoo japanese style** — 1,600/mo · Low comp
+- [ ] **tattoo irezumi** — 1,300/mo · Low comp
+- [ ] **tattoo fine line** — 880/mo · Low comp
+- [ ] **tattoo tribal** — 880/mo · Medium comp
+- [ ] **tattoo japanese maple** — 720/mo · Low comp
+- [ ] **tattoo in japanese** — 390/mo · Low comp
+- [ ] **tattoo japanese** — 390/mo · Low comp
+- [ ] **tattoo minimalist** — 320/mo · Medium comp
+- [ ] **tattoo sketch app** — 260/mo · Medium comp
+- [ ] **tattoo black and grey** — 170/mo · Low comp
+- [ ] **tattoo minimalist design** — 20/mo · Low comp
+- [ ] **tattoo cyber tribal** — 10/mo · Low comp
+
+## Body Placement — blog galleries
+
+_e.g. /blog/forearm-tattoos-for-men/ rounding up real featured artists who do that placement._  
+_Cluster: 95 keywords · 1,336,170 monthly volume_
+
+- [ ] **hand tattoo** — 110,000/mo · Low comp
+- [ ] **forearm tattoo** — 74,000/mo · Low comp
+- [ ] **neck tattoos** — 60,500/mo · Low comp
+- [ ] **hand skeleton tattoo** — 60,500/mo · Low comp
+- [ ] **tattoo neck** — 60,500/mo · Low comp
+- [ ] **tattoo on neck** — 60,500/mo · Low comp
+- [ ] **tattoo skeleton hand** — 60,500/mo · Low comp
+- [ ] **neck tattoos male** — 49,500/mo · Low comp
+- [ ] **spine tattoo** — 49,500/mo · Low comp
+- [ ] **tattoo neck men** — 49,500/mo · Low comp
+- [ ] **finger tattoos** — 40,500/mo · Medium comp
+- [ ] **arm tattoos** — 40,500/mo · Low comp
+- [ ] **back tattoo** — 40,500/mo · Low comp
+- [ ] **tattoo at the back** — 40,500/mo · Low comp
+- [ ] **tattoo for arm men** — 40,500/mo · Low comp
+- [ ] **sleeve tattoos** — 33,100/mo · Low comp
+- [ ] **thigh tattoos** — 33,100/mo · Low comp
+- [ ] **sternum tattoo** — 33,100/mo · Low comp
+- [ ] **tattoo on thigh** — 33,100/mo · Low comp
+- [ ] **chest tattoo** — 27,100/mo · Low comp
+- [ ] **back tattoo female** — 27,100/mo · Low comp
+- [ ] **tattoo back women** — 27,100/mo · Low comp
+- [ ] **tattoo chest** — 27,100/mo · Low comp
+- [ ] **wrist tattoos** — 22,200/mo · Low comp
+- [ ] **leg tattoos** — 22,200/mo · Low comp
+- [ ] **shoulder tattoo** — 22,200/mo · Low comp
+- [ ] **tattoo on wrist** — 22,200/mo · Low comp
+- [ ] **tattoo sleeve** — 18,100/mo · Medium comp
+- [ ] **tattoo apprenticeship** — 12,100/mo · Low comp
+- [ ] **tattoo at the lower back** — 9,900/mo · Low comp
+- [ ] **tattoo finger design** — 9,900/mo · High comp
+- [ ] **tattoo hip** — 9,900/mo · Low comp
+- [ ] **tattoo on ankle** — 9,900/mo · Low comp
+- [ ] **tattoo sleeve ideas** — 9,900/mo · Low comp
+- [ ] **tattoo knuckles** — 8,100/mo · Low comp
+- [ ] **tattoo small on hand** — 6,600/mo · Low comp
+- [ ] **tattoo ring finger** — 6,600/mo · Low comp
+- [ ] **tattoo bicep** — 5,400/mo · Low comp
+- [ ] **tattoo sleeves fake** — 5,400/mo · High comp
+- [ ] **tattoo full back** — 4,400/mo · Low comp
+- [ ] **tattoo arm** — 3,600/mo · Low comp
+- [ ] **tattoo on arm** — 3,600/mo · Low comp
+- [ ] **tattoo arm sleeve** — 2,900/mo · High comp
+- [ ] **tattoo dragon sleeve** — 2,900/mo · Low comp
+- [ ] **tattoo full sleeve design** — 2,900/mo · Low comp
+- [ ] **tattoo hand** — 2,900/mo · Low comp
+- [ ] **tattoo of a hand** — 2,900/mo · Low comp
+- [ ] **tattoo on hand** — 2,900/mo · Low comp
+- [ ] **tattoo forearm** — 2,400/mo · Low comp
+- [ ] **tattoo jesus hand** — 2,400/mo · Low comp
+- [ ] **tattoo on forearm** — 2,400/mo · Low comp
+- [ ] **tattoo sleeve filler ideas** — 2,400/mo · Low comp
+- [ ] **tattoo designs on hand** — 1,900/mo · Low comp
+- [ ] **tattoo hand designs** — 1,900/mo · Low comp
+- [ ] **tattoo half sleeve** — 1,900/mo · Low comp
+- [ ] **tattoo ribbon** — 1,900/mo · Low comp
+- [ ] **tattoo design legs** — 1,000/mo · Low comp
+- [ ] **tattoo legs design** — 1,000/mo · Low comp
+- [ ] **tattoo outer forearm** — 1,000/mo · Low comp
+- [ ] **tattoo sleeve cover** — 880/mo · High comp
+- [ ] **tattoo hand ideas** — 720/mo · Low comp
+- [ ] **tattoo back design** — 590/mo · Low comp
+- [ ] **tattoo finger** — 480/mo · Low comp
+- [ ] **tattoo full sleeve** — 480/mo · Low comp
+- [ ] **tattoo hand man** — 480/mo · Low comp
+- [ ] **tattoo hand men** — 480/mo · Low comp
+- [ ] **tattoo men hand** — 480/mo · Low comp
+- [ ] **tattoo down spine** — 390/mo · Low comp
+- [ ] **tattoo illegal** — 390/mo · Low comp
+- [ ] **tattoo image hand** — 390/mo · Low comp
+- [ ] **tattoo photo hand** — 390/mo · Low comp
+- [ ] **tattoo ribbon design** — 390/mo · Low comp
+- [ ] **tattoo arm band** — 320/mo · Medium comp
+- [ ] **tattoo placement arm** — 260/mo · Low comp
+- [ ] **tattoo khanda** — 170/mo · Low comp
+- [ ] **tattoo sleeve designer** — 170/mo · Low comp
+- [ ] **tattoo full arm** — 90/mo · Low comp
+- [ ] **tattoo illegal in korea** — 70/mo · Low comp
+- [ ] **tattoo karma** — 70/mo · Low comp
+- [ ] **tattoo rose hand** — 70/mo · Low comp
+- [ ] **tattoo png transparent background** — 50/mo · Low comp
+- [ ] **tattoo middle of chest** — 50/mo · Low comp
+- [ ] **tattoo full hand** — 30/mo · Low comp
+- [ ] **tattoo hq chesterfield** — 30/mo · Low comp
+- [ ] **tattoo cyber sigilism back** — 20/mo · Low comp
+- [ ] **tattoo cyber sigilism hand** — 20/mo · Low comp
+- [ ] **tattoo illegal in texas** — 20/mo · Low comp
+- [ ] **tattoo two bands around forearm** — 20/mo · Low comp
+- [ ] **tattoo name design in hand** — 10/mo · Medium comp
+- [ ] **tattoo aesthetic mehndi design back hand** — 10/mo · Low comp
+- [ ] **tattoo ak 47 hand** — 10/mo · Low comp
+- [ ] **tattoo apprenticeship singapore** — 10/mo · Low comp
+- [ ] **tattoo back design men** — 10/mo · Low comp
+- [ ] **tattoo bts army** — 10/mo · Low comp
+- [ ] **tattoo dog footprint** — 10/mo · Medium comp
+
+## Motifs, Subjects & Ideas — blog galleries
+
+_rose / snake / dragon / "small tattoo ideas". The biggest blog-content engine — one gallery post per motif._  
+_Cluster: 1628 keywords · 4,021,610 monthly volume_
+
+- [ ] **cross tattoos** — 74,000/mo · Low comp
+- [ ] **butterfly tattoo** — 60,500/mo · Medium comp
+- [ ] **rose tattoo** — 60,500/mo · Medium comp
+- [ ] **tattoo small ideas** — 60,500/mo · Medium comp
+- [ ] **tattoo ideas small** — 60,500/mo · Medium comp
+- [ ] **flower tattoos** — 49,500/mo · Medium comp
+- [ ] **phoenix tattoo** — 49,500/mo · Medium comp
+- [ ] **dragon tattoo** — 40,500/mo · Low comp
+- [ ] **eye tattoo** — 40,500/mo · Low comp
+- [ ] **medusa tattoo** — 40,500/mo · Low comp
+- [ ] **tramp stamp tattoo** — 40,500/mo · Low comp
+- [ ] **tattoo eye** — 40,500/mo · Low comp
+- [ ] **tattoo eyes** — 40,500/mo · Low comp
+- [ ] **tattoo eyeball** — 40,500/mo · Low comp
+- [ ] **tattoo of eyes** — 40,500/mo · Low comp
+- [ ] **small tattoos** — 33,100/mo · Medium comp
+- [ ] **lotus flower tattoo** — 33,100/mo · Medium comp
+- [ ] **friday the 13th tattoos** — 33,100/mo · Low comp
+- [ ] **gaara tattoo** — 33,100/mo · Low comp
+- [ ] **icarus tattoo** — 33,100/mo · Low comp
+- [ ] **st michael tattoo** — 33,100/mo · Low comp
+- [ ] **tattoo icarus** — 33,100/mo · Low comp
+- [ ] **cosmetic tattoo** — 27,100/mo · Medium comp
+- [ ] **face tattoos** — 27,100/mo · Medium comp
+- [ ] **flash tattoo** — 27,100/mo · Low comp
+- [ ] **star tattoo** — 27,100/mo · Medium comp
+- [ ] **skull tattoos** — 27,100/mo · Low comp
+- [ ] **snake tattoo** — 27,100/mo · Low comp
+- [ ] **hummingbird tattoo** — 27,100/mo · Medium comp
+- [ ] **koi fish tattoo** — 27,100/mo · Low comp
+- [ ] **best friend tattoos** — 27,100/mo · Low comp
+- [ ] **christian tattoos** — 27,100/mo · Low comp
+- [ ] **shark tattoo** — 27,100/mo · Low comp
+- [ ] **tattoo behind ear** — 27,100/mo · Low comp
+- [ ] **tattoo face** — 27,100/mo · Medium comp
+- [ ] **tattoo hummingbird** — 27,100/mo · Medium comp
+- [ ] **tattoo koi** — 27,100/mo · Low comp
+- [ ] **lion tattoo** — 22,200/mo · Medium comp
+- [ ] **wolf tattoo** — 22,200/mo · Low comp
+- [ ] **dragonfly tattoo** — 22,200/mo · Medium comp
+- [ ] **cool tattoos** — 22,200/mo · Low comp
+- [ ] **heart tattoo** — 22,200/mo · Medium comp
+- [ ] **anime tattoo** — 22,200/mo · Low comp
+- [ ] **sunflower tattoo** — 22,200/mo · Low comp
+- [ ] **yakuza tattoo** — 22,200/mo · Low comp
+- [ ] **angel tattoo** — 22,200/mo · Low comp
+- [ ] **spider tattoo** — 22,200/mo · Low comp
+- [ ] **cherry blossom tattoo** — 22,200/mo · Low comp
+- [ ] **mom and son tattoos** — 22,200/mo · Low comp
+- [ ] **mother and son tattoo** — 22,200/mo · Low comp
+- [ ] **mother son tattoo** — 22,200/mo · Low comp
+- [ ] **patchwork tattoo** — 22,200/mo · Low comp
+- [ ] **werewolf tattoo** — 22,200/mo · Low comp
+- [ ] **tattoo drawing** — 22,200/mo · Low comp
+- [ ] **tattoo sunflower** — 22,200/mo · Low comp
+- [ ] **tattoo wedding rings** — 18,100/mo · Low comp
+- [ ] **lip tattoo** — 18,100/mo · Low comp
+- [ ] **simple tattoos** — 18,100/mo · Medium comp
+- [ ] **joker tattoos** — 18,100/mo · Low comp
+- [ ] **tiger tattoo** — 18,100/mo · Low comp
+- [ ] **compass tattoo** — 18,100/mo · Medium comp
+- [ ] **moon tattoo** — 18,100/mo · Low comp
+- [ ] **angel wings tattoo** — 18,100/mo · Medium comp
+- [ ] **sailor jerry tattoos** — 18,100/mo · Low comp
+- [ ] **sun tattoo** — 18,100/mo · Low comp
+- [ ] **sister tattoos** — 18,100/mo · Low comp
+- [ ] **owl tattoo** — 18,100/mo · Low comp
+- [ ] **tree of life tattoo** — 18,100/mo · Medium comp
+- [ ] **scorpion tattoo** — 18,100/mo · Low comp
+- [ ] **lily tattoo** — 18,100/mo · Low comp
+- [ ] **raven tattoo** — 18,100/mo · Low comp
+- [ ] **minimal tattoo design** — 18,100/mo · Low comp
+- [ ] **jesus tattoo** — 18,100/mo · Low comp
+- [ ] **aztec tattoos** — 18,100/mo · Low comp
+- [ ] **3 cross tattoo** — 18,100/mo · Low comp
+- [ ] **berserk tattoo** — 18,100/mo · Low comp
+- [ ] **biblical tattoos** — 18,100/mo · Low comp
+- [ ] **steve o tattoo** — 18,100/mo · Low comp
+- [ ] **tattoo aztec** — 18,100/mo · Low comp
+- [ ] **tattoo lips** — 18,100/mo · Low comp
+- [ ] **tattoo moms** — 18,100/mo · Low comp
+- [ ] **tattoo of lips** — 18,100/mo · Low comp
+- [ ] **tattoo of sun** — 18,100/mo · Low comp
+- [ ] **tattoo owl** — 18,100/mo · Low comp
+- [ ] **tattoo sun** — 18,100/mo · Low comp
+- [ ] **eyebrow tattoo** — 14,800/mo · High comp
+- [ ] **viking tattoos** — 14,800/mo · Medium comp
+- [ ] **cat tattoo** — 14,800/mo · Low comp
+- [ ] **rose tattoo designs** — 14,800/mo · High comp
+- [ ] **tattoo bird** — 14,800/mo · Low comp
+- [ ] **tattoo cerca de mi** — 14,800/mo · Medium comp
+- [ ] **tattoo flu** — 14,800/mo · Low comp
+- [ ] **tattoo doves** — 14,800/mo · Low comp
+- [ ] **tattoo ear** — 14,800/mo · Low comp
+- [ ] **tattoo elephant** — 14,800/mo · Low comp
+- [ ] **tattoo eyebrow** — 14,800/mo · High comp
+- [ ] **tattoo generator** — 14,800/mo · Medium comp
+- [ ] **tattoo knee** — 14,800/mo · Low comp
+- [ ] **tattoo rose design** — 14,800/mo · High comp
+- [ ] **tattoo roman numerals** — 14,800/mo · Low comp
+- [ ] **tattoo supply** — 14,800/mo · High comp
+- [ ] **tattoo ai** — 12,100/mo · Medium comp
+- [ ] **tattoo apprentice** — 12,100/mo · Low comp
+- [ ] **tattoo birth flowers** — 12,100/mo · High comp
+- [ ] **tattoo butterfly design** — 12,100/mo · Medium comp
+- [ ] **tattoo scarring** — 12,100/mo · Low comp
+- [ ] **tattoo drawing ideas** — 12,100/mo · Low comp
+- [ ] **tattoo filler ideas** — 12,100/mo · Low comp
+- [ ] **tattoo ia** — 12,100/mo · Medium comp
+- [ ] **tattoo iowa** — 12,100/mo · Medium comp
+- [ ] **tattoo piercing shop** — 12,100/mo · Low comp
+- [ ] **tattoo sword** — 12,100/mo · Low comp
+- [ ] **tattoo turtle** — 12,100/mo · Low comp
+- [ ] **tattoo actor** — 9,900/mo · Low comp
+- [ ] **tattoo about family** — 9,900/mo · Low comp
+- [ ] **tattoo care** — 9,900/mo · High comp
+- [ ] **tattoo cross design** — 9,900/mo · Medium comp
+- [ ] **tattoo dog** — 9,900/mo · Low comp
+- [ ] **tattoo flash sheets** — 9,900/mo · Medium comp
+- [ ] **tattoo evil eye** — 9,900/mo · Low comp
+- [ ] **tattoo family** — 9,900/mo · Low comp
+- [ ] **tattoo funny** — 9,900/mo · Low comp
+- [ ] **tattoo gangster** — 9,900/mo · Low comp
+- [ ] **tattoo head** — 9,900/mo · Low comp
+- [ ] **tattoo inspo** — 9,900/mo · Low comp
+- [ ] **tattoo inspiration** — 9,900/mo · Low comp
+- [ ] **tattoo jellyfish** — 9,900/mo · Low comp
+- [ ] **tattoo name ideas** — 9,900/mo · Low comp
+- [ ] **tattoo ointment** — 9,900/mo · High comp
+- [ ] **tattoo olive branch** — 9,900/mo · Low comp
+- [ ] **tattoo samurai** — 9,900/mo · Low comp
+- [ ] **tattoo spider man** — 9,900/mo · Low comp
+- [ ] **tattoo swallow** — 9,900/mo · Low comp
+- [ ] **tattoo touch up** — 9,900/mo · Low comp
+- [ ] **tattoo maker** — 8,100/mo · Medium comp
+- [ ] **tattoo and piercing** — 8,100/mo · Low comp
+- [ ] **tattoo balm** — 8,100/mo · High comp
+- [ ] **tattoo customizer** — 8,100/mo · High comp
+- [ ] **tattoo designs name** — 8,100/mo · High comp
+- [ ] **tattoo flash** — 8,100/mo · Medium comp
+- [ ] **tattoo flower designs** — 8,100/mo · High comp
+- [ ] **tattoo drawing easy** — 8,100/mo · Medium comp
+- [ ] **tattoo embroidery** — 8,100/mo · Low comp
+- [ ] **tattoo equipment kit** — 8,100/mo · High comp
+- [ ] **tattoo fantasy island** — 8,100/mo · Low comp
+- [ ] **tattoo from fantasy island** — 8,100/mo · Low comp
+- [ ] **tattoo goo** — 8,100/mo · High comp
+- [ ] **tattoo image** — 8,100/mo · Medium comp
+- [ ] **tattoo man** — 8,100/mo · Low comp
+- [ ] **tattoo men** — 8,100/mo · Low comp
+- [ ] **tattoo name design** — 8,100/mo · High comp
+- [ ] **tattoo outline** — 8,100/mo · Low comp
+- [ ] **tattoo ozzy osbourne** — 8,100/mo · Low comp
+- [ ] **tattoo quotes** — 8,100/mo · Low comp
+- [ ] **tattoo about god** — 6,600/mo · Low comp
+- [ ] **tattoo cream** — 6,600/mo · High comp
+- [ ] **tattoo creator** — 6,600/mo · Medium comp
+- [ ] **tattoo sticker** — 6,600/mo · High comp
+- [ ] **tattoo egyptian** — 6,600/mo · Low comp
+- [ ] **tattoo god** — 6,600/mo · Low comp
+- [ ] **tattoo horse** — 6,600/mo · Low comp
+- [ ] **tattoo las vegas** — 6,600/mo · Medium comp
+- [ ] **tattoo lyrics** — 6,600/mo · Low comp
+- [ ] **tattoo numbers** — 6,600/mo · Low comp
+- [ ] **tattoo music notes** — 6,600/mo · Low comp
+- [ ] **tattoo placement** — 6,600/mo · Low comp
+- [ ] **tattoo positions** — 6,600/mo · Low comp
+- [ ] **tattoo supply store** — 6,600/mo · Medium comp
+- [ ] **tattoo tulips** — 6,600/mo · Low comp
+- [ ] **tattoo art** — 5,400/mo · High comp
+- [ ] **tattoo above knee** — 5,400/mo · Low comp
+- [ ] **tattoo alien** — 5,400/mo · Low comp
+- [ ] **tattoo bandage** — 5,400/mo · High comp
+- [ ] **tattoo dog paw** — 5,400/mo · Medium comp
+- [ ] **tattoo flower** — 5,400/mo · High comp
+- [ ] **tattoo dynamic ink** — 5,400/mo · High comp
+- [ ] **tattoo equipment for beginners** — 5,400/mo · High comp
+- [ ] **tattoo factory** — 5,400/mo · Low comp
+- [ ] **tattoo eyeliner** — 5,400/mo · High comp
+- [ ] **tattoo festival** — 5,400/mo · Low comp
+- [ ] **tattoo fest** — 5,400/mo · Low comp
+- [ ] **tattoo fillers** — 5,400/mo · Low comp
+- [ ] **tattoo irish** — 5,400/mo · Low comp
+- [ ] **tattoo jesus cross** — 5,400/mo · Low comp
+- [ ] **tattoo printer** — 5,400/mo · High comp
+- [ ] **tattoo mex** — 5,400/mo · Low comp
+- [ ] **tattoo mexican** — 5,400/mo · Low comp
+- [ ] **tattoo mexico** — 5,400/mo · Low comp
+- [ ] **tattoo mexicano** — 5,400/mo · Low comp
+- [ ] **tattoo ss** — 5,400/mo · Low comp
+- [ ] **tattoo hairline** — 4,400/mo · Low comp
+- [ ] **tattoo markers** — 4,400/mo · High comp
+- [ ] **tattoo song** — 4,400/mo · Low comp
+- [ ] **tattoo bills** — 4,400/mo · Low comp
+- [ ] **tattoo between breast** — 4,400/mo · Low comp
+- [ ] **tattoo chair** — 4,400/mo · High comp
+- [ ] **tattoo dog paw print** — 4,400/mo · Low comp
+- [ ] **tattoo dragon design** — 4,400/mo · High comp
+- [ ] **tattoo elbow ideas** — 4,400/mo · Low comp
+- [ ] **tattoo fake skin** — 4,400/mo · High comp
+- [ ] **tattoo hair** — 4,400/mo · Low comp
+- [ ] **tattoo jesus design** — 4,400/mo · Low comp
+- [ ] **tattoo knight** — 4,400/mo · Low comp
+- [ ] **tattoo nyc** — 4,400/mo · Medium comp
+- [ ] **tattoo ny** — 4,400/mo · Medium comp
+- [ ] **tattoo types** — 4,400/mo · Low comp
+- [ ] **tattoo types and styles** — 4,400/mo · Low comp
+- [ ] **tattoo aztec calendar** — 3,600/mo · Low comp
+- [ ] **tattoo cross** — 3,600/mo · Medium comp
+- [ ] **tattoo during pregnancy** — 3,600/mo · Low comp
+- [ ] **tattoo history** — 3,600/mo · Low comp
+- [ ] **tattoo keloid** — 3,600/mo · Low comp
+- [ ] **tattoo of a cross** — 3,600/mo · Medium comp
+- [ ] **tattoo origin** — 3,600/mo · Low comp
+- [ ] **tattoo puzzle piece** — 3,600/mo · Low comp
+- [ ] **tattoo ring ideas** — 3,600/mo · Low comp
+- [ ] **tattoo ring design** — 3,600/mo · Low comp
+- [ ] **tattoo artist salary** — 3,600/mo · Low comp
+- [ ] **tattoo second skin** — 3,600/mo · High comp
+- [ ] **tattoo size** — 3,600/mo · Low comp
+- [ ] **tattoo sz** — 3,600/mo · Low comp
+- [ ] **tattoo tmnt** — 3,600/mo · Low comp
+- [ ] **tattoo makeup** — 2,900/mo · High comp
+- [ ] **tattoo expo** — 2,900/mo · Low comp
+- [ ] **tattoo royale** — 2,900/mo · Low comp
+- [ ] **tattoo addiction** — 2,900/mo · Low comp
+- [ ] **tattoo atlanta** — 2,900/mo · Low comp
+- [ ] **tattoo black ink** — 2,900/mo · High comp
+- [ ] **tattoo breastfeeding** — 2,900/mo · Low comp
+- [ ] **tattoo beginner kit** — 2,900/mo · High comp
+- [ ] **tattoo cover** — 2,900/mo · High comp
+- [ ] **tattoo during breastfeeding** — 2,900/mo · Low comp
+- [ ] **tattoo easy** — 2,900/mo · Medium comp
+- [ ] **tattoo ring** — 2,900/mo · Medium comp
+- [ ] **tattoo eight ball** — 2,900/mo · Low comp
+- [ ] **tattoo emo** — 2,900/mo · Low comp
+- [ ] **tattoo equipment** — 2,900/mo · High comp
+- [ ] **tattoo eraser** — 2,900/mo · Low comp
+- [ ] **tattoo fading** — 2,900/mo · Low comp
+- [ ] **tattoo eye design** — 2,900/mo · Low comp
+- [ ] **tattoo gap fillers** — 2,900/mo · Low comp
+- [ ] **tattoo in islam** — 2,900/mo · Low comp
+- [ ] **tattoo on dark skin** — 2,900/mo · Low comp
+- [ ] **tattoo old english** — 2,900/mo · Low comp
+- [ ] **tattoo placement ideas** — 2,900/mo · Low comp
+- [ ] **tattoo puerto rico** — 2,900/mo · Low comp
+- [ ] **tattoo snake design** — 2,900/mo · Low comp
+- [ ] **tattoo therapy** — 2,900/mo · Low comp
+- [ ] **tattoo piercing** — 2,400/mo · Low comp
+- [ ] **tattoo models** — 2,400/mo · Low comp
+- [ ] **tattoo ai generator** — 2,400/mo · Medium comp
+- [ ] **tattoo asylum** — 2,400/mo · Low comp
+- [ ] **tattoo austin** — 2,400/mo · Medium comp
+- [ ] **tattoo birth month flowers** — 2,400/mo · High comp
+- [ ] **tattoo books** — 2,400/mo · High comp
+- [ ] **tattoo bumps** — 2,400/mo · Low comp
+- [ ] **tattoo bubbling** — 2,400/mo · Low comp
+- [ ] **tattoo bruising** — 2,400/mo · Low comp
+- [ ] **tattoo cafe** — 2,400/mo · Low comp
+- [ ] **tattoo choker** — 2,400/mo · High comp
+- [ ] **tattoo cm punk** — 2,400/mo · Low comp
+- [ ] **tattoo dog ears** — 2,400/mo · Medium comp
+- [ ] **tattoo small** — 2,400/mo · Medium comp
+- [ ] **tattoo easy design** — 2,400/mo · Medium comp
+- [ ] **tattoo festival baltimore** — 2,400/mo · Low comp
+- [ ] **tattoo heart** — 2,400/mo · Medium comp
+- [ ] **tattoo house** — 2,400/mo · Low comp
+- [ ] **tattoo ivy** — 2,400/mo · Low comp
+- [ ] **tattoo jesus christ** — 2,400/mo · Low comp
+- [ ] **tattoo key** — 2,400/mo · Low comp
+- [ ] **tattoo luna** — 2,400/mo · Low comp
+- [ ] **tattoo meme** — 2,400/mo · Low comp
+- [ ] **tattoo model** — 2,400/mo · Low comp
+- [ ] **tattoo mri** — 2,400/mo · Low comp
+- [ ] **tattoo name** — 2,400/mo · Low comp
+- [ ] **tattoo music design** — 2,400/mo · Low comp
+- [ ] **tattoo paper** — 2,400/mo · High comp
+- [ ] **tattoo psalm 23** — 2,400/mo · Low comp
+- [ ] **tattoo butter** — 1,900/mo · High comp
+- [ ] **tattoo allergy** — 1,900/mo · Low comp
+- [ ] **tattoo ashes** — 1,900/mo · Low comp
+- [ ] **tattoo soap** — 1,900/mo · High comp
+- [ ] **tattoo song lyrics** — 1,900/mo · Low comp
+- [ ] **tattoo app** — 1,900/mo · Medium comp
+- [ ] **tattoo bali** — 1,900/mo · Low comp
+- [ ] **tattoo butterfly** — 1,900/mo · High comp
+- [ ] **tattoo bobs** — 1,900/mo · Low comp
+- [ ] **tattoo body** — 1,900/mo · Low comp
+- [ ] **tattoo christianity** — 1,900/mo · Low comp
+- [ ] **tattoo clipart** — 1,900/mo · Low comp
+- [ ] **tattoo circle** — 1,900/mo · Low comp
+- [ ] **tattoo dc** — 1,900/mo · Low comp
+- [ ] **tattoo flu symptoms** — 1,900/mo · Low comp
+- [ ] **tattoo dye allergy** — 1,900/mo · Low comp
+- [ ] **tattoo en el brazo** — 1,900/mo · Low comp
+- [ ] **tattoo friendly onsen** — 1,900/mo · Low comp
+- [ ] **tattoo gallery** — 1,900/mo · Low comp
+- [ ] **tattoo gnr** — 1,900/mo · Low comp
+- [ ] **tattoo hindu** — 1,900/mo · Low comp
+- [ ] **tattoo png** — 1,900/mo · Low comp
+- [ ] **tattoo lip liner** — 1,900/mo · High comp
+- [ ] **tattoo of butterfly** — 1,900/mo · High comp
+- [ ] **tattoo over scar** — 1,900/mo · Low comp
+- [ ] **tattoo person can donate blood** — 1,900/mo · Low comp
+- [ ] **tattoo photo** — 1,900/mo · Medium comp
+- [ ] **tattoo pimples** — 1,900/mo · Low comp
+- [ ] **tattoo squirrel** — 1,900/mo · Low comp
+- [ ] **tattoo templates** — 1,900/mo · Low comp
+- [ ] **tattoo to cover scar** — 1,900/mo · Low comp
+- [ ] **tattoo writing** — 1,600/mo · Medium comp
+- [ ] **tattoo above eyebrow** — 1,600/mo · Low comp
+- [ ] **tattoo alchemy** — 1,600/mo · Low comp
+- [ ] **tattoo ambigram generator** — 1,600/mo · Low comp
+- [ ] **tattoo song jordin sparks** — 1,600/mo · Low comp
+- [ ] **tattoo bjj** — 1,600/mo · Low comp
+- [ ] **tattoo by marion** — 1,600/mo · Low comp
+- [ ] **tattoo clouds** — 1,600/mo · Low comp
+- [ ] **tattoo creator app** — 1,600/mo · Medium comp
+- [ ] **tattoo dnr** — 1,600/mo · Low comp
+- [ ] **tattoo dwayne johnson** — 1,600/mo · Low comp
+- [ ] **tattoo emoji** — 1,600/mo · Low comp
+- [ ] **tattoo en el cuello** — 1,600/mo · Low comp
+- [ ] **tattoo expression** — 1,600/mo · Low comp
+- [ ] **tattoo fails** — 1,600/mo · Low comp
+- [ ] **tattoo flash art** — 1,600/mo · High comp
+- [ ] **tattoo friendly onsen japan** — 1,600/mo · Low comp
+- [ ] **tattoo gift card** — 1,600/mo · High comp
+- [ ] **tattoo gift certificate** — 1,600/mo · High comp
+- [ ] **tattoo goo kit** — 1,600/mo · High comp
+- [ ] **tattoo jiu jitsu** — 1,600/mo · Low comp
+- [ ] **tattoo license** — 1,600/mo · Low comp
+- [ ] **tattoo loreen** — 1,600/mo · Low comp
+- [ ] **tattoo maker app** — 1,600/mo · Medium comp
+- [ ] **tattoo nails** — 1,600/mo · Low comp
+- [ ] **tattoo nightmares** — 1,600/mo · Low comp
+- [ ] **tattoo over stretch marks** — 1,600/mo · Low comp
+- [ ] **tattoo pinterest** — 1,600/mo · Low comp
+- [ ] **tattoo placement chart** — 1,600/mo · Low comp
+- [ ] **tattoo punks** — 1,600/mo · Low comp
+- [ ] **tattoo quote ideas** — 1,600/mo · Low comp
+- [ ] **tattoo rash** — 1,600/mo · Low comp
+- [ ] **tattoo rubber duck** — 1,600/mo · Low comp
+- [ ] **tattoo art styles** — 1,600/mo · Low comp
+- [ ] **tattoo simple** — 1,600/mo · Medium comp
+- [ ] **tattoo skin** — 1,600/mo · High comp
+- [ ] **tattoo spelling** — 1,600/mo · Low comp
+- [ ] **tattoo spots** — 1,600/mo · Low comp
+- [ ] **tattoo squid** — 1,600/mo · Low comp
+- [ ] **tattoo teenage** — 1,600/mo · Low comp
+- [ ] **tattoo tito double p lyrics** — 1,600/mo · Low comp
+- [ ] **tattoo twins** — 1,600/mo · Low comp
+- [ ] **tattoo 13** — 1,300/mo · Low comp
+- [ ] **tattoos and booze** — 1,300/mo · Low comp
+- [ ] **tattoo age** — 1,300/mo · Low comp
+- [ ] **tattoo shading** — 1,300/mo · Low comp
+- [ ] **tattoo allergic reaction** — 1,300/mo · Low comp
+- [ ] **tattoo and blood donation** — 1,300/mo · Low comp
+- [ ] **tattoo avenue** — 1,300/mo · Low comp
+- [ ] **tattoo band** — 1,300/mo · Low comp
+- [ ] **tattoo birthday date** — 1,300/mo · Low comp
+- [ ] **tattoo blood donation** — 1,300/mo · Low comp
+- [ ] **tattoo business cards** — 1,300/mo · High comp
+- [ ] **tattoo bed** — 1,300/mo · High comp
+- [ ] **tattoo classes** — 1,300/mo · Medium comp
+- [ ] **tattoo concealer** — 1,300/mo · High comp
+- [ ] **tattoo date of birth** — 1,300/mo · Low comp
+- [ ] **tattoo designs simple** — 1,300/mo · Medium comp
+- [ ] **tattoo donate blood** — 1,300/mo · Low comp
+- [ ] **tattoo dynasty** — 1,300/mo · Low comp
+- [ ] **tattoo eczema** — 1,300/mo · Low comp
+- [ ] **tattoo equipment for sale** — 1,300/mo · High comp
+- [ ] **tattoo fiesta** — 1,300/mo · Low comp
+- [ ] **tattoo gap filler ideas** — 1,300/mo · Low comp
+- [ ] **tattoo generator ai** — 1,300/mo · Medium comp
+- [ ] **tattoo golf** — 1,300/mo · High comp
+- [ ] **tattoo ideas pinterest** — 1,300/mo · Low comp
+- [ ] **tattoo igy6** — 1,300/mo · Low comp
+- [ ] **tattoo kcmo** — 1,300/mo · Low comp
+- [ ] **tattoo lady** — 1,300/mo · Low comp
+- [ ] **tattoo movie** — 1,300/mo · Low comp
+- [ ] **tattoo nj** — 1,300/mo · Low comp
+- [ ] **tattoo philippines** — 1,300/mo · Low comp
+- [ ] **tattoo portfolio** — 1,300/mo · Low comp
+- [ ] **tattoo risks** — 1,300/mo · Low comp
+- [ ] **tattoo running** — 1,300/mo · Low comp
+- [ ] **tattoo sayings** — 1,300/mo · Low comp
+- [ ] **tattoo simple design** — 1,300/mo · Medium comp
+- [ ] **tattoo skull** — 1,300/mo · Low comp
+- [ ] **tattoo tv shows** — 1,300/mo · Low comp
+- [ ] **tattoo tattoo** — 1,300/mo · Low comp
+- [ ] **tattoo table** — 1,300/mo · High comp
+- [ ] **tattoo king** — 1,000/mo · Low comp
+- [ ] **tattoo name style** — 1,000/mo · Low comp
+- [ ] **tattoo above elbow** — 1,000/mo · Low comp
+- [ ] **tattoo avenue tucson** — 1,000/mo · Low comp
+- [ ] **tattoo body template** — 1,000/mo · Low comp
+- [ ] **tattoo brow** — 1,000/mo · High comp
+- [ ] **tattoo cyber sigilism** — 1,000/mo · Low comp
+- [ ] **tattoo flaking** — 1,000/mo · Low comp
+- [ ] **tattoo dragon** — 1,000/mo · Low comp
+- [ ] **tattoo elements** — 1,000/mo · Low comp
+- [ ] **tattoo expo 2026** — 1,000/mo · Low comp
+- [ ] **tattoo eyebrow gel** — 1,000/mo · High comp
+- [ ] **tattoo fever** — 1,000/mo · Low comp
+- [ ] **tattoo festival 2026** — 1,000/mo · Low comp
+- [ ] **tattoo fest 2026** — 1,000/mo · Low comp
+- [ ] **tattoo friendly onsen tokyo** — 1,000/mo · Low comp
+- [ ] **tattoo granuloma** — 1,000/mo · Low comp
+- [ ] **tattoo houston** — 1,000/mo · Medium comp
+- [ ] **tattoo jordin sparks lyrics** — 1,000/mo · Low comp
+- [ ] **tattoo kings** — 1,000/mo · Low comp
+- [ ] **tattoo logo** — 1,000/mo · Low comp
+- [ ] **tattoo locations** — 1,000/mo · Low comp
+- [ ] **tattoo lyrics jordin sparks** — 1,000/mo · Low comp
+- [ ] **tattoo mummy** — 1,000/mo · Low comp
+- [ ] **tattoo okc** — 1,000/mo · Medium comp
+- [ ] **tattoo oklahoma** — 1,000/mo · Medium comp
+- [ ] **tattoo old** — 1,000/mo · Low comp
+- [ ] **tattoo outline ideas** — 1,000/mo · Low comp
+- [ ] **tattoo outline designs** — 1,000/mo · Medium comp
+- [ ] **tattoo outline drawing ideas** — 1,000/mo · Low comp
+- [ ] **tattoo pics** — 1,000/mo · Medium comp
+- [ ] **tattoo pictures** — 1,000/mo · Medium comp
+- [ ] **tattoo pic** — 1,000/mo · Medium comp
+- [ ] **tattoo placement names** — 1,000/mo · Low comp
+- [ ] **tattoo raised** — 1,000/mo · Low comp
+- [ ] **tattoo silver skin** — 1,000/mo · Low comp
+- [ ] **tattoo skin cover** — 1,000/mo · High comp
+- [ ] **tattoo swirls** — 1,000/mo · Low comp
+- [ ] **tattoo tape** — 1,000/mo · High comp
+- [ ] **tattoo thermal printer** — 1,000/mo · High comp
+- [ ] **tattoo trishul** — 1,000/mo · Low comp
+- [ ] **tattoo tucson** — 1,000/mo · Low comp
+- [ ] **tattoo bracelet** — 880/mo · Medium comp
+- [ ] **tattoo aa** — 880/mo · Low comp
+- [ ] **tattoo academy** — 880/mo · Low comp
+- [ ] **tattoo animal** — 880/mo · Low comp
+- [ ] **tattoo assassins** — 880/mo · Low comp
+- [ ] **tattoo appointment** — 880/mo · Medium comp
+- [ ] **tattoo axe** — 880/mo · Low comp
+- [ ] **tattoo axl rose** — 880/mo · Low comp
+- [ ] **tattoo bbc** — 880/mo · Low comp
+- [ ] **tattoo blue** — 880/mo · Low comp
+- [ ] **tattoo cellulitis** — 880/mo · Low comp
+- [ ] **tattoo clothing** — 880/mo · High comp
+- [ ] **tattoo cute** — 880/mo · Low comp
+- [ ] **tattoo film** — 880/mo · High comp
+- [ ] **tattoo gf** — 880/mo · Low comp
+- [ ] **tattoo guy** — 880/mo · Low comp
+- [ ] **tattoo goo balm** — 880/mo · High comp
+- [ ] **tattoo globe** — 880/mo · Low comp
+- [ ] **tattoo iceland** — 880/mo · Low comp
+- [ ] **tattoo illusions** — 880/mo · Low comp
+- [ ] **tattoo image generator** — 880/mo · Medium comp
+- [ ] **tattoo jacksonville fl** — 880/mo · Medium comp
+- [ ] **tattoo khmer** — 880/mo · Low comp
+- [ ] **tattoo kingdom** — 880/mo · Low comp
+- [ ] **tattoo light** — 880/mo · High comp
+- [ ] **tattoo lymphoma** — 880/mo · Low comp
+- [ ] **tattoo name generator** — 880/mo · Low comp
+- [ ] **tattoo nation** — 880/mo · Low comp
+- [ ] **tattoo myrtle beach** — 880/mo · Low comp
+- [ ] **tattoo myrtle beach sc** — 880/mo · Low comp
+- [ ] **tattoo nba** — 880/mo · Low comp
+- [ ] **tattoo nba player** — 880/mo · Low comp
+- [ ] **tattoo nh** — 880/mo · Low comp
+- [ ] **tattoo of piercing** — 880/mo · Low comp
+- [ ] **tattoo okinawa** — 880/mo · Low comp
+- [ ] **tattoo omaha** — 880/mo · Low comp
+- [ ] **tattoo omaha ne** — 880/mo · Low comp
+- [ ] **tattoo orlando** — 880/mo · Medium comp
+- [ ] **tattoo owl design** — 880/mo · Medium comp
+- [ ] **tattoo phoenix** — 880/mo · Low comp
+- [ ] **tattoo swollen** — 880/mo · Low comp
+- [ ] **tattoo synonym** — 880/mo · Low comp
+- [ ] **tattoo temple** — 880/mo · Low comp
+- [ ] **tattoo tech** — 880/mo · Low comp
+- [ ] **tattoo time** — 880/mo · Low comp
+- [ ] **tattoo tn** — 880/mo · Low comp
+- [ ] **tattoo transfer gel** — 880/mo · High comp
+- [ ] **tattoo shading styles** — 720/mo · Low comp
+- [ ] **tattoo ai design** — 720/mo · Medium comp
+- [ ] **tattoo alphabet** — 720/mo · Medium comp
+- [ ] **tattoo asl** — 720/mo · Low comp
+- [ ] **tattoo athens** — 720/mo · Low comp
+- [ ] **tattoo blisters** — 720/mo · Low comp
+- [ ] **tattoo cancer risk** — 720/mo · Low comp
+- [ ] **tattoo certificate** — 720/mo · Low comp
+- [ ] **tattoo ct** — 720/mo · Low comp
+- [ ] **tattoo cutting** — 720/mo · Low comp
+- [ ] **tattoo doodles** — 720/mo · Low comp
+- [ ] **tattoo smart** — 720/mo · Low comp
+- [ ] **tattoo ear piercing** — 720/mo · Low comp
+- [ ] **tattoo eiffel tower** — 720/mo · Low comp
+- [ ] **tattoo envy** — 720/mo · Low comp
+- [ ] **tattoo epilepsy** — 720/mo · Low comp
+- [ ] **tattoo etching** — 720/mo · Low comp
+- [ ] **tattoo fort wayne** — 720/mo · Low comp
+- [ ] **tattoo fort collins** — 720/mo · Medium comp
+- [ ] **tattoo fort worth** — 720/mo · Medium comp
+- [ ] **tattoo game** — 720/mo · Low comp
+- [ ] **tattoo gloves** — 720/mo · High comp
+- [ ] **tattoo ice cream** — 720/mo · Low comp
+- [ ] **tattoo jesus** — 720/mo · Low comp
+- [ ] **tattoo jobs** — 720/mo · Low comp
+- [ ] **tattoo knife** — 720/mo · Low comp
+- [ ] **tattoo knoxville tn** — 720/mo · Low comp
+- [ ] **tattoo knoxville** — 720/mo · Low comp
+- [ ] **tattoo knot** — 720/mo · Low comp
+- [ ] **tattoo liner** — 720/mo · High comp
+- [ ] **tattoo line** — 720/mo · Low comp
+- [ ] **tattoo process** — 720/mo · Low comp
+- [ ] **tattoo loreen lyrics** — 720/mo · Low comp
+- [ ] **tattoo locations on body** — 720/mo · Low comp
+- [ ] **tattoo lymph node** — 720/mo · Low comp
+- [ ] **tattoo nl** — 720/mo · Low comp
+- [ ] **tattoo of jesus** — 720/mo · Low comp
+- [ ] **tattoo open now** — 720/mo · Medium comp
+- [ ] **tattoo portraits** — 720/mo · Low comp
+- [ ] **tattoo psoriasis** — 720/mo · Low comp
+- [ ] **tattoo psalm** — 720/mo · Low comp
+- [ ] **tattoo rome** — 720/mo · Low comp
+- [ ] **tattoo artist job** — 720/mo · Low comp
+- [ ] **tattoo snake** — 720/mo · Low comp
+- [ ] **tattoo spots on body** — 720/mo · Low comp
+- [ ] **tattoo tray** — 720/mo · High comp
+- [ ] **tattoo trends** — 720/mo · Low comp
+- [ ] **tattoo training** — 720/mo · Low comp
+- [ ] **tattoo tv show competition** — 720/mo · Low comp
+- [ ] **tattoo tulsa** — 720/mo · Low comp
+- [ ] **tattoo redo** — 590/mo · Low comp
+- [ ] **tattoo joker** — 590/mo · Low comp
+- [ ] **tattoo in chinese** — 590/mo · Low comp
+- [ ] **tattoo aesthetic** — 590/mo · Low comp
+- [ ] **tattoo and immune system** — 590/mo · Low comp
+- [ ] **tattoo az** — 590/mo · Low comp
+- [ ] **tattoo bf** — 590/mo · Low comp
+- [ ] **tattoo bf name** — 590/mo · Low comp
+- [ ] **tattoo blastover** — 590/mo · Low comp
+- [ ] **tattoo behind ear male** — 590/mo · Low comp
+- [ ] **tattoo cause cancer** — 590/mo · Low comp
+- [ ] **tattoo care first week** — 590/mo · Medium comp
+- [ ] **tattoo chinese** — 590/mo · Low comp
+- [ ] **tattoo dfw** — 590/mo · Low comp
+- [ ] **tattoo drawing app** — 590/mo · Medium comp
+- [ ] **tattoo drawings on paper** — 590/mo · Low comp
+- [ ] **tattoo durham** — 590/mo · Medium comp
+- [ ] **tattoo edges** — 590/mo · Medium comp
+- [ ] **tattoo emporium** — 590/mo · Low comp
+- [ ] **tattoo empire** — 590/mo · Low comp
+- [ ] **tattoo english** — 590/mo · Low comp
+- [ ] **tattoo excision** — 590/mo · Low comp
+- [ ] **tattoo eugene** — 590/mo · Medium comp
+- [ ] **tattoo eugene oregon** — 590/mo · Medium comp
+- [ ] **tattoo ez** — 590/mo · Medium comp
+- [ ] **tattoo friendly onsen kyoto** — 590/mo · Low comp
+- [ ] **tattoo gel** — 590/mo · High comp
+- [ ] **tattoo generator free online** — 590/mo · Medium comp
+- [ ] **tattoo gif** — 590/mo · Low comp
+- [ ] **tattoo goo reviews** — 590/mo · Medium comp
+- [ ] **tattoo green soap** — 590/mo · High comp
+- [ ] **tattoo glide** — 590/mo · High comp
+- [ ] **tattoo ig** — 590/mo · Low comp
+- [ ] **tattoo immune system** — 590/mo · Low comp
+- [ ] **tattoo jewelry** — 590/mo · Low comp
+- [ ] **tattoo jewel** — 590/mo · Low comp
+- [ ] **tattoo jg** — 590/mo · Low comp
+- [ ] **tattoo jungle** — 590/mo · Low comp
+- [ ] **tattoo knife designs** — 590/mo · Low comp
+- [ ] **tattoo krishna** — 590/mo · Low comp
+- [ ] **tattoo lubbock** — 590/mo · Low comp
+- [ ] **tattoo lion** — 590/mo · Medium comp
+- [ ] **tattoo protection film** — 590/mo · High comp
+- [ ] **tattoo lubbock tx** — 590/mo · Low comp
+- [ ] **tattoo museum** — 590/mo · Low comp
+- [ ] **tattoo nike** — 590/mo · Low comp
+- [ ] **tattoo oahu** — 590/mo · Medium comp
+- [ ] **tattoo oakland** — 590/mo · Low comp
+- [ ] **tattoo of lion** — 590/mo · Medium comp
+- [ ] **tattoo outline drawing** — 590/mo · Low comp
+- [ ] **tattoo over blackout** — 590/mo · Low comp
+- [ ] **tattoo planner** — 590/mo · Low comp
+- [ ] **tattoo puns** — 590/mo · Low comp
+- [ ] **tattoo ptsd** — 590/mo · Low comp
+- [ ] **tattoo rugs** — 590/mo · High comp
+- [ ] **tattoo rva** — 590/mo · Low comp
+- [ ] **tattoo sarcoidosis** — 590/mo · Low comp
+- [ ] **tattoo side effects** — 590/mo · Low comp
+- [ ] **tattoo skin wrap** — 590/mo · High comp
+- [ ] **tattoo smile** — 590/mo · Low comp
+- [ ] **tattoo spray** — 590/mo · High comp
+- [ ] **tattoo ryan** — 590/mo · Low comp
+- [ ] **tattoo swimming** — 590/mo · Low comp
+- [ ] **tattoo text generator** — 590/mo · Low comp
+- [ ] **tattoo the plane the plane** — 590/mo · Low comp
+- [ ] **tattoo tito double p** — 590/mo · Low comp
+- [ ] **tattoo fixers** — 480/mo · Low comp
+- [ ] **tattoo ai app** — 480/mo · Medium comp
+- [ ] **tattoo amsterdam** — 480/mo · Low comp
+- [ ] **tattoo areas** — 480/mo · Low comp
+- [ ] **tattoo at home** — 480/mo · Low comp
+- [ ] **tattoo band designs** — 480/mo · Low comp
+- [ ] **tattoo bk** — 480/mo · Medium comp
+- [ ] **tattoo cancer** — 480/mo · Low comp
+- [ ] **tattoo cbd melbourne** — 480/mo · Low comp
+- [ ] **tattoo chair for artist** — 480/mo · High comp
+- [ ] **tattoo cleaning** — 480/mo · High comp
+- [ ] **tattoo city** — 480/mo · Low comp
+- [ ] **tattoo culture dc** — 480/mo · Low comp
+- [ ] **tattoo day** — 480/mo · Low comp
+- [ ] **tattoo dj** — 480/mo · Low comp
+- [ ] **tattoo smoke** — 480/mo · Low comp
+- [ ] **tattoo dumond** — 480/mo · Low comp
+- [ ] **tattoo editor** — 480/mo · Medium comp
+- [ ] **tattoo edinburgh** — 480/mo · Low comp
+- [ ] **tattoo edit** — 480/mo · Medium comp
+- [ ] **tattoo eiza gonzález** — 480/mo · Low comp
+- [ ] **tattoo ft myers** — 480/mo · Medium comp
+- [ ] **tattoo fort myers** — 480/mo · Medium comp
+- [ ] **tattoo friendly onsen hakone** — 480/mo · Low comp
+- [ ] **tattoo furniture** — 480/mo · High comp
+- [ ] **tattoo galaxy** — 480/mo · Low comp
+- [ ] **tattoo gizmo** — 480/mo · Low comp
+- [ ] **tattoo gum** — 480/mo · Low comp
+- [ ] **tattoo hindi** — 480/mo · Low comp
+- [ ] **tattoo irritation** — 480/mo · Low comp
+- [ ] **tattoo johnny** — 480/mo · Low comp
+- [ ] **tattoo lipstick** — 480/mo · High comp
+- [ ] **tattoo lds** — 480/mo · Low comp
+- [ ] **tattoos lds church** — 480/mo · Low comp
+- [ ] **tattoo lyrics loreen** — 480/mo · Low comp
+- [ ] **tattoo lyrics tito double p** — 480/mo · Low comp
+- [ ] **tattoo melbourne** — 480/mo · Low comp
+- [ ] **tattoo mountain** — 480/mo · Low comp
+- [ ] **tattoo mtv show** — 480/mo · Low comp
+- [ ] **tattoo number design** — 480/mo · Low comp
+- [ ] **tattoo nfl** — 480/mo · Low comp
+- [ ] **tattoo new design** — 480/mo · Low comp
+- [ ] **tattoo music** — 480/mo · Low comp
+- [ ] **tattoo norfolk va** — 480/mo · Low comp
+- [ ] **tattoo om design** — 480/mo · Low comp
+- [ ] **tattoo poe** — 480/mo · Low comp
+- [ ] **tattoo rhode island** — 480/mo · Low comp
+- [ ] **tattoo socks** — 480/mo · High comp
+- [ ] **tattoo themes** — 480/mo · Low comp
+- [ ] **tattoo tights** — 480/mo · High comp
+- [ ] **tattoo tokyo** — 480/mo · Low comp
+- [ ] **tattoo tools** — 480/mo · High comp
+- [ ] **tattoo addiction madison wi** — 390/mo · Low comp
+- [ ] **tattoo addiction madison** — 390/mo · Low comp
+- [ ] **tattoo age limit** — 390/mo · Low comp
+- [ ] **tattoo age in florida** — 390/mo · Low comp
+- [ ] **tattoo ai free** — 390/mo · Medium comp
+- [ ] **tattoo alcohol** — 390/mo · Low comp
+- [ ] **tattoo asylum edison** — 390/mo · Low comp
+- [ ] **tattoo bangkok** — 390/mo · Medium comp
+- [ ] **tattoo bkk** — 390/mo · Medium comp
+- [ ] **tattoo body parts** — 390/mo · Low comp
+- [ ] **tattoo by loreen** — 390/mo · Low comp
+- [ ] **tattoo clothing brands** — 390/mo · High comp
+- [ ] **tattoo cover sticker** — 390/mo · High comp
+- [ ] **tattoo dog collar** — 390/mo · High comp
+- [ ] **tattoo easy drawing** — 390/mo · Low comp
+- [ ] **tattoo egg** — 390/mo · Low comp
+- [ ] **tattoo feather** — 390/mo · Medium comp
+- [ ] **tattoo fort lauderdale** — 390/mo · Medium comp
+- [ ] **tattoo generator app** — 390/mo · Medium comp
+- [ ] **tattoo gone wrong** — 390/mo · Low comp
+- [ ] **tattoo goo walmart** — 390/mo · High comp
+- [ ] **tattoo hq hawaii** — 390/mo · Low comp
+- [ ] **tattoo hoodie** — 390/mo · High comp
+- [ ] **tattoo icon** — 390/mo · Low comp
+- [ ] **tattoo japan** — 390/mo · Low comp
+- [ ] **tattoo jp** — 390/mo · Low comp
+- [ ] **tattoo jokes** — 390/mo · Low comp
+- [ ] **tattoo key west** — 390/mo · Low comp
+- [ ] **tattoo lp** — 390/mo · Low comp
+- [ ] **tattoo lubricant** — 390/mo · Low comp
+- [ ] **tattoo mma** — 390/mo · Low comp
+- [ ] **tattoo oceanside** — 390/mo · Medium comp
+- [ ] **tattoo on private part** — 390/mo · Low comp
+- [ ] **tattoo oil** — 390/mo · High comp
+- [ ] **tattoo over heart** — 390/mo · Low comp
+- [ ] **tattoo portfolio examples** — 390/mo · Low comp
+- [ ] **tattoo pyramid with eye** — 390/mo · Low comp
+- [ ] **tattoo rauw alejandro lyrics** — 390/mo · Low comp
+- [ ] **tattoo salon** — 390/mo · Low comp
+- [ ] **tattoo semicolon** — 390/mo · Low comp
+- [ ] **tattoo spider** — 390/mo · Low comp
+- [ ] **tattoo square** — 390/mo · Low comp
+- [ ] **tattoo text** — 390/mo · Low comp
+- [ ] **tattoo tap out session** — 390/mo · Low comp
+- [ ] **tattoo thailand** — 390/mo · Low comp
+- [ ] **tattoo tiger** — 390/mo · Low comp
+- [ ] **tattoo tour** — 390/mo · Low comp
+- [ ] **tattoo tool box** — 390/mo · High comp
+- [ ] **tattoo set** — 320/mo · High comp
+- [ ] **tattoo singapore** — 320/mo · Low comp
+- [ ] **tattoo accessories** — 320/mo · High comp
+- [ ] **tattoo ads** — 320/mo · Low comp
+- [ ] **tattoo age by state** — 320/mo · Low comp
+- [ ] **tattoo age in texas** — 320/mo · Low comp
+- [ ] **tattoo aspen** — 320/mo · Low comp
+- [ ] **tattoo autoclave** — 320/mo · High comp
+- [ ] **tattoo azteca** — 320/mo · Low comp
+- [ ] **tattoo brand** — 320/mo · Low comp
+- [ ] **tattoo chords** — 320/mo · Low comp
+- [ ] **tattoo cincinnati** — 320/mo · Low comp
+- [ ] **tattoo cyst** — 320/mo · Low comp
+- [ ] **tattoo czech republic** — 320/mo · Low comp
+- [ ] **tattoo czech** — 320/mo · Low comp
+- [ ] **tattoo dad** — 320/mo · Low comp
+- [ ] **tattoo daddy** — 320/mo · Low comp
+- [ ] **tattoo scorpion** — 320/mo · Low comp
+- [ ] **tattoo downtown** — 320/mo · Low comp
+- [ ] **tattoo small design** — 320/mo · High comp
+- [ ] **tattoo erie pa** — 320/mo · Low comp
+- [ ] **tattoo espalda mujer** — 320/mo · Low comp
+- [ ] **tattoo gold coast** — 320/mo · Low comp
+- [ ] **tattoo gta sa** — 320/mo · Low comp
+- [ ] **tattoo glasses** — 320/mo · High comp
+- [ ] **tattoo hives** — 320/mo · Low comp
+- [ ] **tattoo hk** — 320/mo · Low comp
+- [ ] **tattoo hong kong** — 320/mo · Low comp
+- [ ] **tattoo in singapore** — 320/mo · Low comp
+- [ ] **tattoo jb** — 320/mo · Low comp
+- [ ] **tattoo kaiju** — 320/mo · Low comp
+- [ ] **tattoo minimal** — 320/mo · Medium comp
+- [ ] **tattoo mrsa** — 320/mo · Low comp
+- [ ] **tattoo mexico city** — 320/mo · Low comp
+- [ ] **tattoo myself** — 320/mo · Low comp
+- [ ] **tattoo nyc walk in** — 320/mo · High comp
+- [ ] **tattoo october birth flower** — 320/mo · High comp
+- [ ] **tattoo obscura** — 320/mo · Low comp
+- [ ] **tattoo ointment walmart** — 320/mo · High comp
+- [ ] **tattoo pb** — 320/mo · Low comp
+- [ ] **tattoo pus** — 320/mo · Low comp
+- [ ] **tattoo punjabi** — 320/mo · Low comp
+- [ ] **tattoo room** — 320/mo · Low comp
+- [ ] **tattoo second skin how long** — 320/mo · Low comp
+- [ ] **tattoo sg** — 320/mo · Low comp
+- [ ] **tattoo specials** — 320/mo · Low comp
+- [ ] **tattoo squeeze bottle** — 320/mo · High comp
+- [ ] **tattoo tickets** — 320/mo · Medium comp
+- [ ] **tattoo tyler tx** — 320/mo · Low comp
+- [ ] **tattoo advice reddit** — 260/mo · Low comp
+- [ ] **tattoo age california** — 260/mo · Low comp
+- [ ] **tattoo all the things she said** — 260/mo · Low comp
+- [ ] **tattoo america** — 260/mo · Low comp
+- [ ] **tattoo artist course** — 260/mo · Low comp
+- [ ] **tattoo at 16** — 260/mo · Low comp
+- [ ] **tattoo athens ga** — 260/mo · Low comp
+- [ ] **tattoo birthday** — 260/mo · High comp
+- [ ] **tattoo birmingham** — 260/mo · Low comp
+- [ ] **tattoo belt** — 260/mo · Low comp
+- [ ] **tattoo by me** — 260/mo · Low comp
+- [ ] **tattoo cleaning soap** — 260/mo · High comp
+- [ ] **tattoo culture** — 260/mo · Low comp
+- [ ] **tattoo dates** — 260/mo · Low comp
+- [ ] **tattoo designs photos** — 260/mo · High comp
+- [ ] **tattoo eagle** — 260/mo · Medium comp
+- [ ] **tattoo edmonton** — 260/mo · Low comp
+- [ ] **tattoo engagement ring** — 260/mo · Low comp
+- [ ] **tattoo equipment shop** — 260/mo · High comp
+- [ ] **tattoo estimate** — 260/mo · Low comp
+- [ ] **tattoo etymology** — 260/mo · Low comp
+- [ ] **tattoo events** — 260/mo · Low comp
+- [ ] **tattoo feels raised** — 260/mo · Low comp
+- [ ] **tattoo friendly onsen osaka** — 260/mo · Low comp
+- [ ] **tattoo history books** — 260/mo · High comp
+- [ ] **tattoo hpv** — 260/mo · Low comp
+- [ ] **tattoo hydraulic chair** — 260/mo · High comp
+- [ ] **tattoo jd** — 260/mo · Low comp
+- [ ] **tattoo png transparent** — 260/mo · Low comp
+- [ ] **tattoo pronunciation** — 260/mo · Low comp
+- [ ] **tattoo london** — 260/mo · Low comp
+- [ ] **tattoo mexican style** — 260/mo · Low comp
+- [ ] **tattoo oaxaca** — 260/mo · Low comp
+- [ ] **tattoo ocean city md** — 260/mo · Low comp
+- [ ] **tattoo on** — 260/mo · Low comp
+- [ ] **tattoo odyssey** — 260/mo · Low comp
+- [ ] **tattoo of a rose** — 260/mo · High comp
+- [ ] **tattoo ogden** — 260/mo · Low comp
+- [ ] **tattoo ogden utah** — 260/mo · Low comp
+- [ ] **tattoo osaka** — 260/mo · Low comp
+- [ ] **tattoo omega** — 260/mo · Low comp
+- [ ] **tattoo olympia** — 260/mo · Low comp
+- [ ] **tattoo over scar tissue** — 260/mo · Low comp
+- [ ] **tattoo polynesian** — 260/mo · Low comp
+- [ ] **tattoo poisoning** — 260/mo · Low comp
+- [ ] **tattoo qr code** — 260/mo · Low comp
+- [ ] **tattoo qr** — 260/mo · Low comp
+- [ ] **tattoo rose** — 260/mo · High comp
+- [ ] **tattoo rules** — 260/mo · Low comp
+- [ ] **tattoo rules for military** — 260/mo · Low comp
+- [ ] **tattoo session** — 260/mo · Low comp
+- [ ] **tattoo society** — 260/mo · Low comp
+- [ ] **tattoo tycoon** — 260/mo · Low comp
+- [ ] **tattoo fashion** — 210/mo · Low comp
+- [ ] **tattoo accountants** — 210/mo · Low comp
+- [ ] **tattoo akron ohio** — 210/mo · Low comp
+- [ ] **tattoo associated uveitis** — 210/mo · Low comp
+- [ ] **tattoo as** — 210/mo · Low comp
+- [ ] **tattoo asylum edison reviews** — 210/mo · Low comp
+- [ ] **tattoo bbq** — 210/mo · Low comp
+- [ ] **tattoo box** — 210/mo · Medium comp
+- [ ] **tattoo bmx** — 210/mo · Low comp
+- [ ] **tattoo bristol** — 210/mo · Low comp
+- [ ] **tattoo by loreen lyrics** — 210/mo · Low comp
+- [ ] **tattoo certification online** — 210/mo · Medium comp
+- [ ] **tattoo chinatown** — 210/mo · Low comp
+- [ ] **tattoo cnc** — 210/mo · High comp
+- [ ] **tattoo dna helix** — 210/mo · Low comp
+- [ ] **tattoo smudge** — 210/mo · Low comp
+- [ ] **tattoo el paso** — 210/mo · Medium comp
+- [ ] **tattoo essence** — 210/mo · Low comp
+- [ ] **tattoo everything** — 210/mo · Low comp
+- [ ] **tattoo expo slc** — 210/mo · Low comp
+- [ ] **tattoo fading over time** — 210/mo · Low comp
+- [ ] **tattoo eyeshadow** — 210/mo · High comp
+- [ ] **tattoo fort smith ar** — 210/mo · Low comp
+- [ ] **tattoo garden** — 210/mo · Low comp
+- [ ] **tattoo gardan** — 210/mo · Low comp
+- [ ] **tattoo gpt** — 210/mo · Low comp
+- [ ] **tattoo god is greater than** — 210/mo · Medium comp
+- [ ] **tattoo gta 5** — 210/mo · Low comp
+- [ ] **tattoo hut** — 210/mo · Low comp
+- [ ] **tattoo ice** — 210/mo · Low comp
+- [ ] **tattoo iran** — 210/mo · Low comp
+- [ ] **tattoo iowa city** — 210/mo · Low comp
+- [ ] **tattoo ivy leaves** — 210/mo · Low comp
+- [ ] **tattoo kingston** — 210/mo · Low comp
+- [ ] **tattoo kyle tx** — 210/mo · Low comp
+- [ ] **tattoo liner maybelline** — 210/mo · High comp
+- [ ] **tattoo maori** — 210/mo · Low comp
+- [ ] **tattoo mckinney** — 210/mo · Low comp
+- [ ] **tattoo mckinney tx** — 210/mo · Low comp
+- [ ] **tattoo monkey** — 210/mo · Low comp
+- [ ] **tattoo nv** — 210/mo · Low comp
+- [ ] **tattoo ocala** — 210/mo · Low comp
+- [ ] **tattoo ocala fl** — 210/mo · Low comp
+- [ ] **tattoo odessa tx** — 210/mo · Low comp
+- [ ] **tattoo oozing** — 210/mo · Low comp
+- [ ] **tattoo open** — 210/mo · Low comp
+- [ ] **tattoo over burn scar** — 210/mo · Low comp
+- [ ] **tattoo over tummy tuck scar** — 210/mo · Low comp
+- [ ] **tattoo skin practice** — 210/mo · High comp
+- [ ] **tattoo society magazine** — 210/mo · Low comp
+- [ ] **tattoo sweaters** — 210/mo · High comp
+- [ ] **tattoo tape cover** — 210/mo · High comp
+- [ ] **tattoo top** — 210/mo · High comp
+- [ ] **tattoo typography** — 210/mo · Low comp
+- [ ] **tattoo advice** — 170/mo · Low comp
+- [ ] **tattoo addiction reviews** — 170/mo · Low comp
+- [ ] **tattoo amazon** — 170/mo · High comp
+- [ ] **tattoo avondale** — 170/mo · Low comp
+- [ ] **tattoo ave fenix** — 170/mo · Low comp
+- [ ] **tattoo away** — 170/mo · Low comp
+- [ ] **tattoo aztec ii** — 170/mo · Low comp
+- [ ] **tattoo brighton** — 170/mo · Low comp
+- [ ] **tattoo benefits** — 170/mo · Low comp
+- [ ] **tattoo cc** — 170/mo · Low comp
+- [ ] **tattoo dog design** — 170/mo · Medium comp
+- [ ] **tattoo documentary** — 170/mo · Low comp
+- [ ] **tattoo editor app** — 170/mo · Medium comp
+- [ ] **tattoo editing app** — 170/mo · Medium comp
+- [ ] **tattoo eureka springs** — 170/mo · Low comp
+- [ ] **tattoo eureka springs ar** — 170/mo · Low comp
+- [ ] **tattoo festival ohio** — 170/mo · Low comp
+- [ ] **tattoo full body** — 170/mo · Low comp
+- [ ] **tattoo generator from photo** — 170/mo · Medium comp
+- [ ] **tattoo ghost** — 170/mo · Low comp
+- [ ] **tattoo graffiti** — 170/mo · Low comp
+- [ ] **tattoo hd** — 170/mo · Low comp
+- [ ] **tattoo hp** — 170/mo · Low comp
+- [ ] **tattoo hypertrophic scar** — 170/mo · Low comp
+- [ ] **tattoo hot to touch** — 170/mo · Low comp
+- [ ] **tattoo illness** — 170/mo · Low comp
+- [ ] **tattoo jigsaw puzzle** — 170/mo · Low comp
+- [ ] **tattoo jpg** — 170/mo · Low comp
+- [ ] **tattoo kyoto** — 170/mo · Low comp
+- [ ] **tattoo kyoto japan** — 170/mo · Low comp
+- [ ] **tattoo koi fish** — 170/mo · Low comp
+- [ ] **tattoo malaysia** — 170/mo · Low comp
+- [ ] **tattoo mcallen tx** — 170/mo · Low comp
+- [ ] **tattoo mcallen** — 170/mo · Low comp
+- [ ] **tattoo maker ai** — 170/mo · Medium comp
+- [ ] **tattoo military** — 170/mo · Low comp
+- [ ] **tattoo mahadev** — 170/mo · Low comp
+- [ ] **tattoo mri safety** — 170/mo · Low comp
+- [ ] **tattoo mri burn** — 170/mo · Low comp
+- [ ] **tattoo mtl** — 170/mo · Low comp
+- [ ] **tattoo nightmares cast** — 170/mo · Low comp
+- [ ] **tattoo octopus** — 170/mo · Low comp
+- [ ] **tattoo om** — 170/mo · Low comp
+- [ ] **tattoo open late** — 170/mo · Medium comp
+- [ ] **tattoo ornaments** — 170/mo · Low comp
+- [ ] **tattoo over birthmark** — 170/mo · Low comp
+- [ ] **tattoo oxnard** — 170/mo · Low comp
+- [ ] **tattoo quiz** — 170/mo · Low comp
+- [ ] **tattoo queen** — 170/mo · Low comp
+- [ ] **tattoo raised after years** — 170/mo · Low comp
+- [ ] **tattoo rammstein lyrics** — 170/mo · Low comp
+- [ ] **tattoo rash bumps** — 170/mo · Low comp
+- [ ] **tattoo round** — 170/mo · Low comp
+- [ ] **tattoo rum** — 170/mo · Medium comp
+- [ ] **tattoo skill cheat sims 4** — 170/mo · Low comp
+- [ ] **tattoo svg** — 170/mo · Medium comp
+- [ ] **tattoo sydney** — 170/mo · Low comp
+- [ ] **tattoo theory** — 170/mo · Low comp
+- [ ] **tattoo tutorial** — 170/mo · Low comp
+- [ ] **tattoo tubes** — 170/mo · High comp
+- [ ] **tattoo rosa** — 140/mo · Medium comp
+- [ ] **tattoo alternatives** — 140/mo · Low comp
+- [ ] **tattoo and mri scan** — 140/mo · Low comp
+- [ ] **tattoo bd** — 140/mo · Low comp
+- [ ] **tattoo bg** — 140/mo · Low comp
+- [ ] **tattoo brow maybelline** — 140/mo · High comp
+- [ ] **tattoo by** — 140/mo · Low comp
+- [ ] **tattoo cc sims 4** — 140/mo · Low comp
+- [ ] **tattoo chiang mai** — 140/mo · Low comp
+- [ ] **tattoo dad designs** — 140/mo · Low comp
+- [ ] **tattoo dressing** — 140/mo · High comp
+- [ ] **tattoo egipcio** — 140/mo · Low comp
+- [ ] **tattoo effect on immune system** — 140/mo · Low comp
+- [ ] **tattoo elgin** — 140/mo · Low comp
+- [ ] **tattoo epidural** — 140/mo · Low comp
+- [ ] **tattoo etiquette** — 140/mo · Low comp
+- [ ] **tattoo fixers cast** — 140/mo · Low comp
+- [ ] **tattoo haram** — 140/mo · Low comp
+- [ ] **tattoo hbk** — 140/mo · Low comp
+- [ ] **tattoo glue** — 140/mo · Low comp
+- [ ] **tattoo illustration** — 140/mo · Low comp
+- [ ] **tattoo iphone wallpaper** — 140/mo · Low comp
+- [ ] **tattoo jeans** — 140/mo · High comp
+- [ ] **tattoo junkies** — 140/mo · Low comp
+- [ ] **tattoo korean** — 140/mo · Low comp
+- [ ] **tattoo mini** — 140/mo · Medium comp
+- [ ] **tattoo mri scan** — 140/mo · Low comp
+- [ ] **tattoo mt pleasant mi** — 140/mo · Low comp
+- [ ] **tattoo mtv** — 140/mo · Low comp
+- [ ] **tattoo my name** — 140/mo · Low comp
+- [ ] **tattoo nd** — 140/mo · Low comp
+- [ ] **tattoo northampton** — 140/mo · Low comp
+- [ ] **tattoo orchids** — 140/mo · Low comp
+- [ ] **tattoo orange** — 140/mo · Low comp
+- [ ] **tattoo rate** — 140/mo · Low comp
+- [ ] **tattoo southampton** — 140/mo · Low comp
+- [ ] **tattoo sri lanka** — 140/mo · Low comp
+- [ ] **tattoo twin falls** — 140/mo · Low comp
+- [ ] **tattoo tx** — 140/mo · Low comp
+- [ ] **tattoo abbreviation** — 110/mo · Low comp
+- [ ] **tattoo ai creator** — 110/mo · Medium comp
+- [ ] **tattoo aquarius zodiac sign** — 110/mo · Medium comp
+- [ ] **tattoo apocalypse anime** — 110/mo · Low comp
+- [ ] **tattoo birthday cake** — 110/mo · Low comp
+- [ ] **tattoo bubble gum** — 110/mo · Low comp
+- [ ] **tattoo cda idaho** — 110/mo · Low comp
+- [ ] **tattoo city lockport** — 110/mo · Low comp
+- [ ] **tattoo cyprus** — 110/mo · Low comp
+- [ ] **tattoo day 4** — 110/mo · Low comp
+- [ ] **tattoo dnd 5e** — 110/mo · Low comp
+- [ ] **tattoo dx** — 110/mo · Low comp
+- [ ] **tattoo edinburgh 2026** — 110/mo · Low comp
+- [ ] **tattoo egypt** — 110/mo · Low comp
+- [ ] **tattoo elbow** — 110/mo · Low comp
+- [ ] **tattoo enhancer** — 110/mo · High comp
+- [ ] **tattoo essentials** — 110/mo · High comp
+- [ ] **tattoo establishment license florida** — 110/mo · Low comp
+- [ ] **tattoo family design** — 110/mo · Medium comp
+- [ ] **tattoo green** — 110/mo · Low comp
+- [ ] **tattoo gym** — 110/mo · Low comp
+- [ ] **tattoo glasgow** — 110/mo · Low comp
+- [ ] **tattoo glitter** — 110/mo · High comp
+- [ ] **tattoo hider** — 110/mo · High comp
+- [ ] **tattoo hyperpigmentation** — 110/mo · Low comp
+- [ ] **tattoo ho chi minh** — 110/mo · Low comp
+- [ ] **tattoo iban** — 110/mo · Low comp
+- [ ] **tattoo irritation bumps** — 110/mo · Low comp
+- [ ] **tattoo ipad app** — 110/mo · Low comp
+- [ ] **tattoo jungle calera** — 110/mo · Low comp
+- [ ] **tattoo lucky** — 110/mo · Low comp
+- [ ] **tattoo lotus** — 110/mo · Medium comp
+- [ ] **tattoo making** — 110/mo · Low comp
+- [ ] **tattoo mbk** — 110/mo · Low comp
+- [ ] **tattoo montreal** — 110/mo · Low comp
+- [ ] **tattoo mexicali** — 110/mo · Low comp
+- [ ] **tattoo my photo** — 110/mo · Low comp
+- [ ] **tattoo nz** — 110/mo · Low comp
+- [ ] **tattoo ocean** — 110/mo · Low comp
+- [ ] **tattoo of us** — 110/mo · Low comp
+- [ ] **tattoo ojo de horus** — 110/mo · Low comp
+- [ ] **tattoo options** — 110/mo · Low comp
+- [ ] **tattoo open sunday** — 110/mo · Low comp
+- [ ] **tattoo oxford ms** — 110/mo · Low comp
+- [ ] **tattoo owensboro ky** — 110/mo · Low comp
+- [ ] **tattoo pdf** — 110/mo · Low comp
+- [ ] **tattoo poster** — 110/mo · Medium comp
+- [ ] **tattoo semi permanent** — 110/mo · High comp
+- [ ] **tattoo sf** — 110/mo · Medium comp
+- [ ] **tattoo snap** — 110/mo · Low comp
+- [ ] **tattoo tcb elvis** — 110/mo · Low comp
+- [ ] **tattoo trends 2026** — 110/mo · Low comp
+- [ ] **tattoo ak 47 drawing** — 90/mo · Low comp
+- [ ] **tattoo ai master** — 90/mo · Low comp
+- [ ] **tattoo artist singapore** — 90/mo · Medium comp
+- [ ] **tattoo birthday card** — 90/mo · High comp
+- [ ] **tattoo cyber** — 90/mo · Low comp
+- [ ] **tattoo cyberpunk** — 90/mo · Low comp
+- [ ] **tattoo darwin** — 90/mo · Low comp
+- [ ] **tattoo dnd** — 90/mo · Low comp
+- [ ] **tattoo embroidery designs** — 90/mo · Medium comp
+- [ ] **tattoo eurovision** — 90/mo · Low comp
+- [ ] **tattoo eureka ca** — 90/mo · Low comp
+- [ ] **tattoo fbi** — 90/mo · Low comp
+- [ ] **tattoo fx** — 90/mo · High comp
+- [ ] **tattoo group** — 90/mo · Low comp
+- [ ] **tattoo hyannis** — 90/mo · Low comp
+- [ ] **tattoo kc** — 90/mo · Low comp
+- [ ] **tattoo ls** — 90/mo · Low comp
+- [ ] **tattoo no braço** — 90/mo · Low comp
+- [ ] **tattoo ocean shores** — 90/mo · Low comp
+- [ ] **tattoo ointment walgreens** — 90/mo · High comp
+- [ ] **tattoo ointment cvs** — 90/mo · High comp
+- [ ] **tattoo owasso** — 90/mo · Low comp
+- [ ] **tattoo russian band** — 90/mo · Low comp
+- [ ] **tattoo rv** — 90/mo · Low comp
+- [ ] **tattoo sizes in cm** — 90/mo · Low comp
+- [ ] **tattoo snacks** — 90/mo · Low comp
+- [ ] **tattoo squad board game** — 90/mo · Low comp
+- [ ] **tattoo tab** — 90/mo · High comp
+- [ ] **tattoo tm** — 90/mo · Low comp
+- [ ] **tattoo toronto** — 90/mo · Medium comp
+- [ ] **tattoo tt** — 90/mo · Low comp
+- [ ] **tattoo turning white** — 90/mo · Low comp
+- [ ] **tattoo turning green** — 90/mo · Low comp
+- [ ] **tattoo two words in one** — 90/mo · Low comp
+- [ ] **tattoo dragon ball** — 70/mo · Low comp
+- [ ] **tattoo aberdeen** — 70/mo · Low comp
+- [ ] **tattoo above navel** — 70/mo · Low comp
+- [ ] **tattoo ak47** — 70/mo · Low comp
+- [ ] **tattoo aquarius** — 70/mo · Low comp
+- [ ] **tattoo song loreen** — 70/mo · Low comp
+- [ ] **tattoo avenue reviews** — 70/mo · Low comp
+- [ ] **tattoo avon** — 70/mo · Low comp
+- [ ] **tattoo auckland** — 70/mo · Medium comp
+- [ ] **tattoo australia** — 70/mo · Low comp
+- [ ] **tattoo by jordin sparks** — 70/mo · Low comp
+- [ ] **tattoo club amsterdam** — 70/mo · Low comp
+- [ ] **tattoo circle design** — 70/mo · Low comp
+- [ ] **tattoo cigarette flashes fisher** — 70/mo · Low comp
+- [ ] **tattoo cigarettes** — 70/mo · Low comp
+- [ ] **tattoo colour** — 70/mo · Low comp
+- [ ] **tattoo cm** — 70/mo · Low comp
+- [ ] **tattoo cyberpunk 2077** — 70/mo · Low comp
+- [ ] **tattoo disadvantages** — 70/mo · Low comp
+- [ ] **tattoo do** — 70/mo · Low comp
+- [ ] **tattoo dvd** — 70/mo · Low comp
+- [ ] **tattoo effect on blood** — 70/mo · Low comp
+- [ ] **tattoo elite** — 70/mo · Low comp
+- [ ] **tattoo emoji iphone** — 70/mo · Low comp
+- [ ] **tattoo enhancing cream** — 70/mo · High comp
+- [ ] **tattoo equipment list** — 70/mo · High comp
+- [ ] **tattoo essex** — 70/mo · Low comp
+- [ ] **tattoo establishment license** — 70/mo · Low comp
+- [ ] **tattoo escondido** — 70/mo · Medium comp
+- [ ] **tattoo events this weekend** — 70/mo · Low comp
+- [ ] **tattoo evolution** — 70/mo · Low comp
+- [ ] **tattoo ibiza** — 70/mo · Low comp
+- [ ] **tattoo ibuprofen** — 70/mo · Low comp
+- [ ] **tattoo irvine** — 70/mo · Medium comp
+- [ ] **tattoo iron on patches** — 70/mo · High comp
+- [ ] **tattoo iphone** — 70/mo · Low comp
+- [ ] **tattoo jordin sparks** — 70/mo · Low comp
+- [ ] **tattoo jungle perfume** — 70/mo · High comp
+- [ ] **tattoo klamath falls** — 70/mo · Low comp
+- [ ] **tattoo kw** — 70/mo · Low comp
+- [ ] **tattoo leaves design** — 70/mo · Low comp
+- [ ] **tattoo lv** — 70/mo · Low comp
+- [ ] **tattoo mcdonough ga** — 70/mo · Medium comp
+- [ ] **tattoo mcr** — 70/mo · Low comp
+- [ ] **tattoo mcminnville oregon** — 70/mo · Medium comp
+- [ ] **tattoo mn** — 70/mo · Low comp
+- [ ] **tattoo mvp** — 70/mo · Low comp
+- [ ] **tattoo normal** — 70/mo · Low comp
+- [ ] **tattoo not permanent** — 70/mo · High comp
+- [ ] **tattoo ns** — 70/mo · Low comp
+- [ ] **tattoo nz auckland** — 70/mo · Medium comp
+- [ ] **tattoo ocean springs** — 70/mo · Low comp
+- [ ] **tattoo ogre** — 70/mo · Low comp
+- [ ] **tattoo open today** — 70/mo · Low comp
+- [ ] **tattoo organizer** — 70/mo · High comp
+- [ ] **tattoo oshkosh** — 70/mo · Low comp
+- [ ] **tattoo outline generator** — 70/mo · Low comp
+- [ ] **tattoo ottawa** — 70/mo · Low comp
+- [ ] **tattoo rca cord** — 70/mo · High comp
+- [ ] **tattoo rfid** — 70/mo · Low comp
+- [ ] **tattoo rhymes** — 70/mo · Low comp
+- [ ] **tattoo tv series** — 70/mo · Low comp
+- [ ] **tattoo tktx** — 70/mo · High comp
+- [ ] **tattoo tv programme** — 70/mo · Low comp
+- [ ] **tattoo new** — 50/mo · Low comp
+- [ ] **tattoo ace** — 50/mo · Low comp
+- [ ] **tattoo adhesive film** — 50/mo · High comp
+- [ ] **tattoo awards** — 50/mo · Low comp
+- [ ] **tattoo aztec ideas** — 50/mo · Low comp
+- [ ] **tattoo birthday party** — 50/mo · High comp
+- [ ] **tattoo bjorn** — 50/mo · Low comp
+- [ ] **tattoo brisbane** — 50/mo · Low comp
+- [ ] **tattoo captions for instagram** — 50/mo · Low comp
+- [ ] **tattoo central coast** — 50/mo · Low comp
+- [ ] **tattoo cebu** — 50/mo · Low comp
+- [ ] **tattoo bts** — 50/mo · Low comp
+- [ ] **tattoo city walk** — 50/mo · Low comp
+- [ ] **tattoo db** — 50/mo · Low comp
+- [ ] **tattoo dad and daughter** — 50/mo · Low comp
+- [ ] **tattoo dot work** — 50/mo · Low comp
+- [ ] **tattoo dunedin** — 50/mo · Medium comp
+- [ ] **tattoo dysmorphia** — 50/mo · Low comp
+- [ ] **tattoo dye** — 50/mo · Low comp
+- [ ] **tattoo eagle design** — 50/mo · High comp
+- [ ] **tattoo effects** — 50/mo · Low comp
+- [ ] **tattoo estes park** — 50/mo · Low comp
+- [ ] **tattoo fbi show** — 50/mo · Low comp
+- [ ] **tattoo friendly onsen sapporo** — 50/mo · Low comp
+- [ ] **tattoo gta** — 50/mo · Low comp
+- [ ] **tattoo haram in islam** — 50/mo · Low comp
+- [ ] **tattoo gloucester** — 50/mo · Low comp
+- [ ] **tattoo hide cream** — 50/mo · High comp
+- [ ] **tattoo hm** — 50/mo · Low comp
+- [ ] **tattoo hunter** — 50/mo · Low comp
+- [ ] **tattoo hygiene** — 50/mo · Low comp
+- [ ] **tattoo icd 10** — 50/mo · Low comp
+- [ ] **tattoo iris** — 50/mo · Low comp
+- [ ] **tattoo ipad** — 50/mo · Low comp
+- [ ] **tattoo james bond** — 50/mo · Low comp
+- [ ] **tattoo jl** — 50/mo · Low comp
+- [ ] **tattoo john wick** — 50/mo · Low comp
+- [ ] **tattoo justin bieber** — 50/mo · Low comp
+- [ ] **tattoo kpop demon hunters** — 50/mo · Medium comp
+- [ ] **tattoo ktm** — 50/mo · Low comp
+- [ ] **tattoo kuala lumpur** — 50/mo · Low comp
+- [ ] **tattoo ks** — 50/mo · Low comp
+- [ ] **tattoo lzzy hale** — 50/mo · Low comp
+- [ ] **tattoo lyrics english** — 50/mo · Low comp
+- [ ] **tattoo mcwilliams** — 50/mo · Low comp
+- [ ] **tattoo md** — 50/mo · Low comp
+- [ ] **tattoo mt vernon** — 50/mo · Low comp
+- [ ] **tattoo myths** — 50/mo · Low comp
+- [ ] **tattoo nc** — 50/mo · Low comp
+- [ ] **tattoo no pescoço** — 50/mo · Low comp
+- [ ] **tattoo nx3** — 50/mo · High comp
+- [ ] **tattoo oasis** — 50/mo · Low comp
+- [ ] **tattoo oak park** — 50/mo · Medium comp
+- [ ] **tattoo obx** — 50/mo · Low comp
+- [ ] **tattoo ole** — 50/mo · Low comp
+- [ ] **tattoo old town** — 50/mo · Medium comp
+- [ ] **tattoo or tatoo** — 50/mo · Low comp
+- [ ] **tattoo owala** — 50/mo · High comp
+- [ ] **tattoo pf2e** — 50/mo · Low comp
+- [ ] **tattoo pfp** — 50/mo · Low comp
+- [ ] **tattoo pflugerville** — 50/mo · Medium comp
+- [ ] **tattoo pt** — 50/mo · Low comp
+- [ ] **tattoo pyramid** — 50/mo · Low comp
+- [ ] **tattoo qatar** — 50/mo · Low comp
+- [ ] **tattoo rye** — 50/mo · Low comp
+- [ ] **tattoo tv** — 50/mo · Low comp
+- [ ] **tattoo thai** — 50/mo · Low comp
+- [ ] **tattoo ubud** — 50/mo · Low comp
+- [ ] **tattoo aesthetic men** — 40/mo · Low comp
+- [ ] **tattoo age uk** — 40/mo · Low comp
+- [ ] **tattoo avenue chicago** — 40/mo · Low comp
+- [ ] **tattoo avatar** — 40/mo · Low comp
+- [ ] **tattoo bjd** — 40/mo · Low comp
+- [ ] **tattoo cda** — 40/mo · Low comp
+- [ ] **tattoo city lansing** — 40/mo · Low comp
+- [ ] **tattoo dave** — 40/mo · Low comp
+- [ ] **tattoo dog memorial** — 40/mo · Medium comp
+- [ ] **tattoo ebay** — 40/mo · High comp
+- [ ] **tattoo electric** — 40/mo · Low comp
+- [ ] **tattoo everything supplies** — 40/mo · High comp
+- [ ] **tattoo friendly onsen hokkaido** — 40/mo · Low comp
+- [ ] **tattoo hydration** — 40/mo · High comp
+- [ ] **tattoo hyde park** — 40/mo · Low comp
+- [ ] **tattoo if not now then when** — 40/mo · Medium comp
+- [ ] **tattoo io** — 40/mo · Low comp
+- [ ] **tattoo ivy vine** — 40/mo · Low comp
+- [ ] **tattoo jjba** — 40/mo · Low comp
+- [ ] **tattoo jersey** — 40/mo · Low comp
+- [ ] **tattoo jw** — 40/mo · Low comp
+- [ ] **tattoo jungle reviews** — 40/mo · Low comp
+- [ ] **tattoo kmart** — 40/mo · Low comp
+- [ ] **tattoo krakow** — 40/mo · Low comp
+- [ ] **tattoo llc** — 40/mo · Low comp
+- [ ] **tattoo nx3 52 300** — 40/mo · High comp
+- [ ] **tattoo nx3 softballs** — 40/mo · High comp
+- [ ] **tattoo okinawa japan** — 40/mo · Low comp
+- [ ] **tattoo oslo** — 40/mo · Low comp
+- [ ] **tattoo oxford** — 40/mo · Low comp
+- [ ] **tattoo psychology** — 40/mo · Low comp
+- [ ] **tattoo queenstown** — 40/mo · Low comp
+- [ ] **tattoo rules in japan** — 40/mo · Low comp
+- [ ] **tattoo tv character** — 40/mo · Low comp
+- [ ] **tattoo tea party** — 40/mo · Low comp
+- [ ] **tattoo tulum** — 40/mo · Low comp
+- [ ] **tattoo adelaide** — 30/mo · Low comp
+- [ ] **tattoo abu dhabi** — 30/mo · Low comp
+- [ ] **tattoo ajax** — 30/mo · Low comp
+- [ ] **tattoo ai design free** — 30/mo · Medium comp
+- [ ] **tattoo amsterdam walk in** — 30/mo · Low comp
+- [ ] **tattoo bbb** — 30/mo · Low comp
+- [ ] **tattoo birthday ideas** — 30/mo · High comp
+- [ ] **tattoo birthday numbers** — 30/mo · Medium comp
+- [ ] **tattoo bff** — 30/mo · Low comp
+- [ ] **tattoo cdmx** — 30/mo · Low comp
+- [ ] **tattoo ct scan** — 30/mo · Low comp
+- [ ] **tattoo dog ideas** — 30/mo · Low comp
+- [ ] **tattoo dna** — 30/mo · Low comp
+- [ ] **tattoo dundalk** — 30/mo · Low comp
+- [ ] **tattoo dyersburg tn** — 30/mo · Low comp
+- [ ] **tattoo ecuador** — 30/mo · Low comp
+- [ ] **tattoo eclipse** — 30/mo · Low comp
+- [ ] **tattoo effect photoshop** — 30/mo · Low comp
+- [ ] **tattoo effects on skin** — 30/mo · Low comp
+- [ ] **tattoo emoji copy and paste** — 30/mo · Low comp
+- [ ] **tattoo entfernung** — 30/mo · Low comp
+- [ ] **tattoo equipment storage** — 30/mo · High comp
+- [ ] **tattoo essay** — 30/mo · Low comp
+- [ ] **tattoo eureka** — 30/mo · Low comp
+- [ ] **tattoo fb** — 30/mo · Low comp
+- [ ] **tattoo ffxiv** — 30/mo · Low comp
+- [ ] **tattoo gpt free** — 30/mo · Medium comp
+- [ ] **tattoo gk** — 30/mo · Low comp
+- [ ] **tattoo gnome** — 30/mo · Low comp
+- [ ] **tattoo gypsy** — 30/mo · Low comp
+- [ ] **tattoo hanoi** — 30/mo · High comp
+- [ ] **tattoo hd images** — 30/mo · Low comp
+- [ ] **tattoo hd photo** — 30/mo · Low comp
+- [ ] **tattoo hq** — 30/mo · Low comp
+- [ ] **tattoo hub** — 30/mo · Low comp
+- [ ] **tattoo hysteria amsterdam** — 30/mo · Low comp
+- [ ] **tattoo hobart** — 30/mo · Low comp
+- [ ] **tattoo ignorant style** — 30/mo · Low comp
+- [ ] **tattoo iron man** — 30/mo · Low comp
+- [ ] **tattoo iphone case** — 30/mo · High comp
+- [ ] **tattoo is good or bad** — 30/mo · Low comp
+- [ ] **tattoo jjk** — 30/mo · Low comp
+- [ ] **tattoo png images** — 30/mo · Low comp
+- [ ] **tattoo jk rowling** — 30/mo · Low comp
+- [ ] **tattoo jungkook** — 30/mo · Low comp
+- [ ] **tattoo kjv** — 30/mo · Low comp
+- [ ] **tattoo kpop** — 30/mo · Low comp
+- [ ] **tattoo koh samui** — 30/mo · Medium comp
+- [ ] **tattoo lh** — 30/mo · Low comp
+- [ ] **tattoo luffy** — 30/mo · Low comp
+- [ ] **tattoo loreen chords** — 30/mo · Low comp
+- [ ] **tattoo loreen original song** — 30/mo · Low comp
+- [ ] **tattoo mgk** — 30/mo · Low comp
+- [ ] **tattoo ml** — 30/mo · Low comp
+- [ ] **tattoo mom dad** — 30/mo · Low comp
+- [ ] **tattoo mma fighter** — 30/mo · Low comp
+- [ ] **tattoo ms** — 30/mo · Low comp
+- [ ] **tattoo norwich** — 30/mo · Low comp
+- [ ] **tattoo obsession** — 30/mo · Low comp
+- [ ] **tattoo objects** — 30/mo · Low comp
+- [ ] **tattoo oozing ink** — 30/mo · Low comp
+- [ ] **tattoo oozing yellow** — 30/mo · Low comp
+- [ ] **tattoo oriental** — 30/mo · Low comp
+- [ ] **tattoo origin word** — 30/mo · Low comp
+- [ ] **tattoo ottawa il** — 30/mo · Low comp
+- [ ] **tattoo ozzy** — 30/mo · Low comp
+- [ ] **tattoo pcb** — 30/mo · Low comp
+- [ ] **tattoo punks the fest** — 30/mo · Low comp
+- [ ] **tattoo rd** — 30/mo · Low comp
+- [ ] **tattoo rl** — 30/mo · Low comp
+- [ ] **tattoo rosies** — 30/mo · Low comp
+- [ ] **tattoo rx** — 30/mo · Medium comp
+- [ ] **tattoo second skin bubble** — 30/mo · Low comp
+- [ ] **tattoo ryan ashley** — 30/mo · Low comp
+- [ ] **tattoo svg free** — 30/mo · Low comp
+- [ ] **tattoo tmnt figure** — 30/mo · High comp
+- [ ] **tattoo twitter** — 30/mo · Low comp
+- [ ] **tattoo tyger claws dermal imprint** — 30/mo · Low comp
+- [ ] **tattoo aarhus** — 20/mo · Low comp
+- [ ] **tattoo ak** — 20/mo · Low comp
+- [ ] **tattoo alert manhwa** — 20/mo · Low comp
+- [ ] **tattoo all** — 20/mo · Low comp
+- [ ] **tattoo aquarela** — 20/mo · Low comp
+- [ ] **tattoo avant bras homme** — 20/mo · High comp
+- [ ] **tattoo awakening** — 20/mo · Low comp
+- [ ] **tattoo axolotl** — 20/mo · Low comp
+- [ ] **tattoo aztec ii reviews** — 20/mo · Low comp
+- [ ] **tattoo aztec kinston nc** — 20/mo · Low comp
+- [ ] **tattoo birthday design** — 20/mo · Medium comp
+- [ ] **tattoo belfast** — 20/mo · Low comp
+- [ ] **tattoo central** — 20/mo · Low comp
+- [ ] **tattoo cfh** — 20/mo · Low comp
+- [ ] **tattoo colour songs** — 20/mo · Low comp
+- [ ] **tattoo cv** — 20/mo · Low comp
+- [ ] **tattoo daruma** — 20/mo · Low comp
+- [ ] **tattoo dbz** — 20/mo · Low comp
+- [ ] **tattoo dad and son** — 20/mo · Low comp
+- [ ] **tattoo dad jokes** — 20/mo · Low comp
+- [ ] **tattoo dog harness** — 20/mo · High comp
+- [ ] **tattoo dmv** — 20/mo · Medium comp
+- [ ] **tattoo dundee** — 20/mo · Low comp
+- [ ] **tattoo dybala** — 20/mo · Low comp
+- [ ] **tattoo echo park** — 20/mo · Medium comp
+- [ ] **tattoo ebooks** — 20/mo · Low comp
+- [ ] **tattoo effects on the body** — 20/mo · Low comp
+- [ ] **tattoo effingham il** — 20/mo · Low comp
+- [ ] **tattoo ellie** — 20/mo · Low comp
+- [ ] **tattoo eraser cream** — 20/mo · High comp
+- [ ] **tattoo etching style** — 20/mo · Low comp
+- [ ] **tattoo eternity** — 20/mo · Low comp
+- [ ] **tattoo events 2026** — 20/mo · Low comp
+- [ ] **tattoo euphoria** — 20/mo · Low comp
+- [ ] **tattoo fma** — 20/mo · Low comp
+- [ ] **tattoo ft fabo** — 20/mo · Low comp
+- [ ] **tattoo friendly onsen fukuoka** — 20/mo · Low comp
+- [ ] **tattoo full** — 20/mo · Low comp
+- [ ] **tattoo fx owensboro** — 20/mo · Low comp
+- [ ] **tattoo fnaf** — 20/mo · Low comp
+- [ ] **tattoo gym guy** — 20/mo · Low comp
+- [ ] **tattoo hc** — 20/mo · Low comp
+- [ ] **tattoo hull** — 20/mo · Low comp
+- [ ] **tattoo hyderabad** — 20/mo · Low comp
+- [ ] **tattoo hxh** — 20/mo · Low comp
+- [ ] **tattoo illustration style** — 20/mo · Medium comp
+- [ ] **tattoo imagine** — 20/mo · Low comp
+- [ ] **tattoo jakarta** — 20/mo · Low comp
+- [ ] **tattoo jinx** — 20/mo · Low comp
+- [ ] **tattoo kelowna** — 20/mo · Low comp
+- [ ] **tattoo kettering** — 20/mo · Low comp
+- [ ] **tattoo junction** — 20/mo · Low comp
+- [ ] **tattoo jujutsu kaisen** — 20/mo · Low comp
+- [ ] **tattoo kuwait** — 20/mo · Low comp
+- [ ] **tattoo lgbt** — 20/mo · Low comp
+- [ ] **tattoo luxembourg** — 20/mo · Low comp
+- [ ] **tattoo ltd** — 20/mo · Low comp
+- [ ] **tattoo mchenry** — 20/mo · Low comp
+- [ ] **tattoo mfg** — 20/mo · Low comp
+- [ ] **tattoo memento vivere** — 20/mo · Low comp
+- [ ] **tattoo md chicago** — 20/mo · Low comp
+- [ ] **tattoo mk** — 20/mo · Low comp
+- [ ] **tattoo minimal design** — 20/mo · Low comp
+- [ ] **tattoo mehndi** — 20/mo · Medium comp
+- [ ] **tattoo mrt** — 20/mo · Low comp
+- [ ] **tattoo mr roarke** — 20/mo · Low comp
+- [ ] **tattoo mxka** — 20/mo · Low comp
+- [ ] **tattoo mumbai** — 20/mo · Low comp
+- [ ] **tattoo odyssey photos** — 20/mo · Low comp
+- [ ] **tattoo ointment cream** — 20/mo · High comp
+- [ ] **tattoo ojos** — 20/mo · Low comp
+- [ ] **tattoo ojo turco** — 20/mo · Low comp
+- [ ] **tattoo ombre brows** — 20/mo · High comp
+- [ ] **tattoo otf** — 20/mo · Low comp
+- [ ] **tattoo oxford ohio** — 20/mo · Low comp
+- [ ] **tattoo pdx** — 20/mo · Medium comp
+- [ ] **tattoo phuket** — 20/mo · Medium comp
+- [ ] **tattoo punjabi style** — 20/mo · Low comp
+- [ ] **tattoo qos** — 20/mo · Low comp
+- [ ] **tattoo quito** — 20/mo · Low comp
+- [ ] **tattoo riga** — 20/mo · Low comp
+- [ ] **tattoo seminyak** — 20/mo · Medium comp
+- [ ] **tattoo sd** — 20/mo · Medium comp
+- [ ] **tattoo squad** — 20/mo · Low comp
+- [ ] **tattoo swansea** — 20/mo · Low comp
+- [ ] **tattoo sv** — 20/mo · Low comp
+- [ ] **tattoo svg designs** — 20/mo · High comp
+- [ ] **tattoo tv show character** — 20/mo · Low comp
+- [ ] **tattoo expo 2022** — 10/mo · Low comp
+- [ ] **tattoo 2022** — 10/mo · Low comp
+- [ ] **tattoo johor bahru** — 10/mo · Low comp
+- [ ] **tattoo aai baba** — 10/mo · Low comp
+- [ ] **tattoo aai** — 10/mo · Low comp
+- [ ] **tattoo aachen** — 10/mo · Low comp
+- [ ] **tattoo aalborg** — 10/mo · Medium comp
+- [ ] **tattoo aarti** — 10/mo · Low comp
+- [ ] **tattoo aalst** — 10/mo · Low comp
+- [ ] **tattoo according to zodiac sign** — 10/mo · Low comp
+- [ ] **tattoo aesthetic mehndi design** — 10/mo · Low comp
+- [ ] **tattoo aesthetic design** — 10/mo · Low comp
+- [ ] **tattoo aesthetic bow mehndi design** — 10/mo · Low comp
+- [ ] **tattoo aesthetic mehndi design pinterest** — 10/mo · Low comp
+- [ ] **tattoo adda** — 10/mo · Low comp
+- [ ] **tattoo age limit singapore** — 10/mo · Low comp
+- [ ] **tattoo age singapore** — 10/mo · Low comp
+- [ ] **tattoo abbotsford** — 10/mo · Low comp
+- [ ] **tattoo aj** — 10/mo · Low comp
+- [ ] **tattoo ajay** — 10/mo · Low comp
+- [ ] **tattoo ajito** — 10/mo · Low comp
+- [ ] **tattoo aj styles** — 10/mo · Low comp
+- [ ] **tattoo ajolote azteca** — 10/mo · Low comp
+- [ ] **tattoo akka** — 10/mo · Low comp
+- [ ] **tattoo akureyri** — 10/mo · Low comp
+- [ ] **tattoo akola** — 10/mo · Low comp
+- [ ] **tattoo akash** — 10/mo · Low comp
+- [ ] **tattoo airlie beach** — 10/mo · Low comp
+- [ ] **tattoo airdrie** — 10/mo · Low comp
+- [ ] **tattoo amma** — 10/mo · Low comp
+- [ ] **tattoo amma designs** — 10/mo · Low comp
+- [ ] **tattoo am pm** — 10/mo · Low comp
+- [ ] **tattoo amritsar** — 10/mo · Low comp
+- [ ] **tattoo aquaman** — 10/mo · Low comp
+- [ ] **tattoo aquarelle** — 10/mo · Low comp
+- [ ] **tattoo artist johor bahru** — 10/mo · Low comp
+- [ ] **tattoo ashram** — 10/mo · Low comp
+- [ ] **tattoo ao nang** — 10/mo · Medium comp
+- [ ] **tattoo aot** — 10/mo · Low comp
+- [ ] **tattoo aosta** — 10/mo · Low comp
+- [ ] **tattoo apprentice singapore** — 10/mo · Low comp
+- [ ] **tattoo apocalypse manhwa** — 10/mo · Low comp
+- [ ] **tattoo apocalypse manga** — 10/mo · Low comp
+- [ ] **tattoo athlone** — 10/mo · Low comp
+- [ ] **tattoo auto detailing** — 10/mo · Low comp
+- [ ] **tattoo auto detailing sdn bhd** — 10/mo · Low comp
+- [ ] **tattoo auto detailing pelangi** — 10/mo · Low comp
+- [ ] **tattoo ausbildung** — 10/mo · Low comp
+- [ ] **tattoo awakening anime** — 10/mo · Low comp
+- [ ] **tattoo awakening manga** — 10/mo · Low comp
+- [ ] **tattoo awakening novel** — 10/mo · Low comp
+- [ ] **tattoo awards 2025** — 10/mo · Low comp
+- [ ] **tattoo awards uk** — 10/mo · Low comp
+- [ ] **tattoo awkarin** — 10/mo · Low comp
+- [ ] **tattoo batam** — 10/mo · Low comp
+- [ ] **tattoo axel** — 10/mo · Low comp
+- [ ] **tattoo ax** — 10/mo · Low comp
+- [ ] **tattoo axl** — 10/mo · Low comp
+- [ ] **tattoo azamgarh** — 10/mo · Low comp
+- [ ] **tattoo aylesbury** — 10/mo · Low comp
+- [ ] **tattoo ayr** — 10/mo · Low comp
+- [ ] **tattoo ayia napa** — 10/mo · Low comp
+- [ ] **tattoo ayrshire** — 10/mo · Low comp
+- [ ] **tattoo ayah boss** — 10/mo · Low comp
+- [ ] **tattoo ayam** — 10/mo · Low comp
+- [ ] **tattoo ayyappa** — 10/mo · Low comp
+- [ ] **tattoo bb** — 10/mo · Low comp
+- [ ] **tattoo bbsr** — 10/mo · Low comp
+- [ ] **tattoo bbl** — 10/mo · Low comp
+- [ ] **tattoo bbp course** — 10/mo · High comp
+- [ ] **tattoo birthday roman numerals** — 10/mo · Low comp
+- [ ] **tattoo bf homes** — 10/mo · Low comp
+- [ ] **tattoo bff ideas** — 10/mo · Low comp
+- [ ] **tattoo bf gf** — 10/mo · Low comp
+- [ ] **tattoo bgc** — 10/mo · Low comp
+- [ ] **tattoo bg3** — 10/mo · Low comp
+- [ ] **tattoo bg3 mod** — 10/mo · Low comp
+- [ ] **tattoo bgmi** — 10/mo · Low comp
+- [ ] **tattoo bgt** — 10/mo · Low comp
+- [ ] **tattoo bholenath** — 10/mo · Low comp
+- [ ] **tattoo bhopal** — 10/mo · Low comp
+- [ ] **tattoo bhubaneswar** — 10/mo · Low comp
+- [ ] **tattoo bhai** — 10/mo · Low comp
+- [ ] **tattoo bhediya** — 10/mo · Low comp
+- [ ] **tattoo bhagwan** — 10/mo · Low comp
+- [ ] **tattoo bjork** — 10/mo · Low comp
+- [ ] **tattoo bjorn ironside** — 10/mo · Low comp
+- [ ] **tattoo bn** — 10/mo · Low comp
+- [ ] **tattoo bpm** — 10/mo · Low comp
+- [ ] **tattoo bp** — 10/mo · Low comp
+- [ ] **tattoo bpd** — 10/mo · Low comp
+- [ ] **tattoo bp softballs** — 10/mo · High comp
+- [ ] **tattoo bp balls** — 10/mo · High comp
+- [ ] **tattoo loreen bpm** — 10/mo · Low comp
+- [ ] **tattoo bmw** — 10/mo · Low comp
+- [ ] **tattoo bm** — 10/mo · Low comp
+- [ ] **tattoo bmth** — 10/mo · Low comp
+- [ ] **tattoo bmo** — 10/mo · Low comp
+- [ ] **tattoo bmw logo** — 10/mo · Low comp
+- [ ] **tattoo bmw e30** — 10/mo · Low comp
+- [ ] **tattoo bmg** — 10/mo · Low comp
+- [ ] **tattoo bv** — 10/mo · Low comp
+- [ ] **tattoo bvb** — 10/mo · Low comp
+- [ ] **tattoo bepanthen** — 10/mo · Low comp
+- [ ] **tattoo bw** — 10/mo · Low comp
+- [ ] **tattoo bxl** — 10/mo · Low comp
+- [ ] **tattoo bz** — 10/mo · Low comp
+- [ ] **tattoo by victor ruz** — 10/mo · Low comp
+- [ ] **tattoo by victor ruz lyrics** — 10/mo · Low comp
+- [ ] **tattoo by king v** — 10/mo · Low comp
+- [ ] **tattoo byron bay** — 10/mo · Low comp
+- [ ] **tattoo cannot donate blood** — 10/mo · Low comp
+- [ ] **tattoo cc sims 4 patreon** — 10/mo · Low comp
+- [ ] **tattoo cc folder sims 4** — 10/mo · Low comp
+- [ ] **tattoo cccp** — 10/mo · Low comp
+- [ ] **tattoo cctv** — 10/mo · Low comp
+- [ ] **tattoo centre** — 10/mo · Medium comp
+- [ ] **tattoo central benidorm** — 10/mo · Low comp
+- [ ] **tattoo cdo** — 10/mo · Low comp
+- [ ] **tattoo cd juarez** — 10/mo · Low comp
+- [ ] **tattoo cdc** — 10/mo · Low comp
+- [ ] **tattoo cd** — 10/mo · Low comp
+- [ ] **tattoo cbum** — 10/mo · Low comp
+- [ ] **tattoo cb** — 10/mo · Low comp
+- [ ] **tattoo cbd cream** — 10/mo · High comp
+- [ ] **tattoo cf** — 10/mo · Low comp
+- [ ] **tattoo bts ideas** — 10/mo · Low comp
+- [ ] **tattoo bts 7** — 10/mo · Low comp
+- [ ] **tattoo bts jungkook** — 10/mo · Low comp
+- [ ] **tattoo cj** — 10/mo · Low comp
+- [ ] **tattoo cj gta** — 10/mo · Low comp
+- [ ] **tattoo cjng** — 10/mo · Low comp
+- [ ] **tattoo cg** — 10/mo · Low comp
+- [ ] **tattoo ck** — 10/mo · Low comp
+- [ ] **tattoo cn** — 10/mo · Low comp
+- [ ] **tattoo cnblue lyrics** — 10/mo · Low comp
+- [ ] **tattoo cnn** — 10/mo · Low comp
+- [ ] **tattoo cm size** — 10/mo · Low comp
+- [ ] **tattoo cm size guide** — 10/mo · Low comp
+- [ ] **tattoo cmyk** — 10/mo · Low comp
+- [ ] **tattoo cmc** — 10/mo · Low comp
+- [ ] **tattoo cream bali** — 10/mo · Low comp
+- [ ] **tattoo cream watsons** — 10/mo · Low comp
+- [ ] **tattoo cute design** — 10/mo · Low comp
+- [ ] **tattoo czcionki** — 10/mo · Low comp
+- [ ] **tattoo dalam islam** — 10/mo · Low comp
+- [ ] **tattoo dbd** — 10/mo · Low comp
+- [ ] **tattoo dbs petition** — 10/mo · Low comp
+- [ ] **tattoo dad mom** — 10/mo · Low comp
+- [ ] **tattoo daddy photos** — 10/mo · Low comp
+- [ ] **tattoo dada perempuan** — 10/mo · Low comp
+- [ ] **tattoo dc academy** — 10/mo · Low comp
+- [ ] **tattoo detailing** — 10/mo · Low comp
+- [ ] **tattoo dj name** — 10/mo · Low comp
+- [ ] **tattoo dj panda** — 10/mo · Low comp
+- [ ] **tattoo djerba** — 10/mo · Low comp
+- [ ] **tattoo dj tambe** — 10/mo · Low comp
+- [ ] **tattoo dj song** — 10/mo · Low comp
+- [ ] **tattoo dk** — 10/mo · Low comp
+- [ ] **tattoo dnd 2024** — 10/mo · Low comp
+- [ ] **tattoo dna tree** — 10/mo · Low comp
+- [ ] **tattoo dn** — 10/mo · Low comp
+- [ ] **tattoo dp pic** — 10/mo · Low comp
+- [ ] **tattoo dpr ian** — 10/mo · Low comp
+- [ ] **tattoo dm** — 10/mo · Low comp
+- [ ] **tattoo sticker singapore** — 10/mo · Low comp
+- [ ] **tattoo dwarka** — 10/mo · Low comp
+- [ ] **tattoo dwarkadhish** — 10/mo · Low comp
+- [ ] **tattoo dwayne johnson design** — 10/mo · Low comp
+- [ ] **tattoo dubai** — 10/mo · Low comp
+- [ ] **tattoo dubbo** — 10/mo · Low comp
+- [ ] **tattoo dynasty $20 tuesday** — 10/mo · Low comp
+- [ ] **tattoo dysphoria** — 10/mo · Low comp
+- [ ] **tattoo eastbourne** — 10/mo · Low comp
+- [ ] **tattoo easy mehndi design** — 10/mo · Low comp
+- [ ] **tattoo echuca** — 10/mo · Low comp
+- [ ] **tattoo ecriture** — 10/mo · Medium comp
+- [ ] **tattoo eclairs** — 10/mo · Low comp
+- [ ] **tattoo ecg design** — 10/mo · Low comp
+- [ ] **tattoo edinburgh restaurant** — 10/mo · Low comp
+- [ ] **tattoo eden park** — 10/mo · Low comp
+- [ ] **tattoo dz** — 10/mo · Low comp
+- [ ] **tattoo dz mafia** — 10/mo · Low comp
+- [ ] **tattoo dzorga** — 10/mo · Low comp
+- [ ] **tattoo egg hunt** — 10/mo · Low comp
+- [ ] **tattoo egham** — 10/mo · Low comp
+- [ ] **tattoo egyptian gods** — 10/mo · Low comp
+- [ ] **tattoo eht** — 10/mo · Low comp
+- [ ] **tattoo ehlers danlos** — 10/mo · Low comp
+- [ ] **tattoo ehfar** — 10/mo · Low comp
+- [ ] **tattoo ehering** — 10/mo · Low comp
+- [ ] **tattoo ehingen** — 10/mo · Low comp
+- [ ] **tattoo ebel cobra** — 10/mo · Low comp
+- [ ] **tattoo ebel** — 10/mo · Low comp
+- [ ] **tattoo ebooks free** — 10/mo · Low comp
+- [ ] **tattoo eb** — 10/mo · Low comp
+- [ ] **tattoo effect tights** — 10/mo · Low comp
+- [ ] **tattoo eindhoven** — 10/mo · Low comp
+- [ ] **tattoo einverständniserklärung** — 10/mo · Low comp
+- [ ] **tattoo eincremen** — 10/mo · Low comp
+- [ ] **tattoo eight** — 10/mo · Low comp
+- [ ] **tattoo eincremen wie lange** — 10/mo · Low comp
+- [ ] **tattoo eid** — 10/mo · Low comp
+- [ ] **tattoo emporium sevenoaks** — 10/mo · Low comp
+- [ ] **tattoo emerald** — 10/mo · Low comp
+- [ ] **tattoo ek onkar** — 10/mo · Low comp
+- [ ] **tattoo eksjö** — 10/mo · Low comp
+- [ ] **tattoo ekg line** — 10/mo · Low comp
+- [ ] **tattoo ekv** — 10/mo · Low comp
+- [ ] **tattoo ekg** — 10/mo · Medium comp
+- [ ] **tattoo eklavya logo** — 10/mo · Low comp
+- [ ] **tattoo ekg heart** — 10/mo · Low comp
+- [ ] **tattoo ennis** — 10/mo · Low comp
+- [ ] **tattoo entfernen kosten** — 10/mo · Medium comp
+- [ ] **tattoo equipment uk** — 10/mo · Low comp
+- [ ] **tattoo epsom** — 10/mo · Low comp
+- [ ] **tattoo ephemere** — 10/mo · High comp
+- [ ] **tattoo epping** — 10/mo · Low comp
+- [ ] **tattoo epidermis** — 10/mo · Low comp
+- [ ] **tattoo ephrata pa** — 10/mo · Low comp
+- [ ] **tattoo epaule femme** — 10/mo · Low comp
+- [ ] **tattoo epic fail** — 10/mo · Low comp
+- [ ] **tattoo epaule homme** — 10/mo · Low comp
+- [ ] **tattoo eo** — 10/mo · Low comp
+- [ ] **tattoo ejercito** — 10/mo · Low comp
+- [ ] **tattoo era** — 10/mo · Low comp
+- [ ] **tattoo erode** — 10/mo · Low comp
+- [ ] **tattoo erina** — 10/mo · Low comp
+- [ ] **tattoo ernakulam** — 10/mo · Low comp
+- [ ] **tattoo ethiopia** — 10/mo · Low comp
+- [ ] **tattoo etiquette in japan** — 10/mo · Low comp
+- [ ] **tattoo etobicoke** — 10/mo · Low comp
+- [ ] **tattoo etched mirror** — 10/mo · Medium comp
+- [ ] **tattoo event auckland** — 10/mo · Low comp
+- [ ] **tattoo ewing nj** — 10/mo · Low comp
+- [ ] **tattoo ewige verbundenheit** — 10/mo · Low comp
+- [ ] **tattoo ewige liebe** — 10/mo · Low comp
+- [ ] **tattoo expo melbourne** — 10/mo · Low comp
+- [ ] **tattoo expo melbourne 2026** — 10/mo · Low comp
+- [ ] **tattoo expo saskatoon** — 10/mo · Low comp
+- [ ] **tattoo eurovision song** — 10/mo · Low comp
+- [ ] **tattoo eurovision 2023** — 10/mo · Low comp
+- [ ] **tattoo far east plaza** — 10/mo · Low comp
+- [ ] **tattoo fb cover** — 10/mo · Low comp
+- [ ] **tattoo fda** — 10/mo · Low comp
+- [ ] **tattoo fc barcelona** — 10/mo · Low comp
+- [ ] **tattoo fc 26** — 10/mo · Low comp
+- [ ] **tattoo fcb** — 10/mo · Low comp
+- [ ] **tattoo fc 25** — 10/mo · Low comp
+- [ ] **tattoo fc** — 10/mo · Low comp
+- [ ] **tattoo ff7** — 10/mo · Low comp
+- [ ] **tattoo ffxiv mod** — 10/mo · Low comp
+- [ ] **tattoo ff** — 10/mo · Low comp
+- [ ] **tattoo ffx** — 10/mo · Low comp
+- [ ] **tattoo fff** — 10/mo · Low comp
+- [ ] **tattoo fg** — 10/mo · Low comp
+- [ ] **tattoo fjernelse** — 10/mo · Low comp
+
+## Audience — for men / women / couples — blog galleries
+
+_"tattoos for men", "matching couple tattoos", etc._  
+_Cluster: 65 keywords · 1,505,290 monthly volume_
+
+- [ ] **tattoo designs for men** — 90,500/mo · Low comp
+- [ ] **tattoo ideas for men** — 90,500/mo · Low comp
+- [ ] **forearm tattoos for men** — 60,500/mo · Low comp
+- [ ] **tattoos for men** — 49,500/mo · Low comp
+- [ ] **tattoos for guys** — 49,500/mo · Low comp
+- [ ] **hand tattoos for men** — 49,500/mo · Low comp
+- [ ] **neck tattoos for men** — 49,500/mo · Low comp
+- [ ] **tattoo designs for men arm** — 40,500/mo · Low comp
+- [ ] **mother daughter tattoos** — 40,500/mo · Medium comp
+- [ ] **arm tattoos for men** — 40,500/mo · Low comp
+- [ ] **couple tattoos** — 40,500/mo · Low comp
+- [ ] **matching tattoos for couples** — 40,500/mo · Low comp
+- [ ] **mom and daughter tattoos** — 40,500/mo · Medium comp
+- [ ] **mom daughter tattoos** — 40,500/mo · Medium comp
+- [ ] **arm tattoos for guys** — 40,500/mo · Low comp
+- [ ] **tattoo ideas for women** — 40,500/mo · Medium comp
+- [ ] **sleeve tattoos for men** — 33,100/mo · Medium comp
+- [ ] **small tattoos for men** — 33,100/mo · Low comp
+- [ ] **small tattoo designs for men** — 33,100/mo · Low comp
+- [ ] **tattoo small for men** — 33,100/mo · Low comp
+- [ ] **tattoo ideas for men small** — 33,100/mo · Low comp
+- [ ] **tattoo small design for men** — 33,100/mo · Low comp
+- [ ] **friendship tattoos** — 27,100/mo · Low comp
+- [ ] **matching tattoos** — 27,100/mo · Low comp
+- [ ] **back tattoos for women** — 27,100/mo · Low comp
+- [ ] **thigh tattoos for women** — 27,100/mo · Low comp
+- [ ] **cross tattoos for men** — 27,100/mo · Low comp
+- [ ] **chest tattoos for men** — 27,100/mo · Low comp
+- [ ] **thigh tattoos for females** — 27,100/mo · Low comp
+- [ ] **tattoos for women** — 22,200/mo · High comp
+- [ ] **hand tattoos for women** — 22,200/mo · Medium comp
+- [ ] **back tattoos for men** — 22,200/mo · Low comp
+- [ ] **chest tattoos for women** — 22,200/mo · Low comp
+- [ ] **spine tattoos for women** — 22,200/mo · Low comp
+- [ ] **tattoo for women** — 22,200/mo · High comp
+- [ ] **arm tattoos for women** — 18,100/mo · Low comp
+- [ ] **leg tattoos for women** — 18,100/mo · Low comp
+- [ ] **leg tattoos for men** — 18,100/mo · Low comp
+- [ ] **shoulder tattoos for men** — 18,100/mo · Low comp
+- [ ] **neck tattoos for women** — 18,100/mo · Low comp
+- [ ] **neck tattoos for females** — 18,100/mo · Low comp
+- [ ] **tattoo on arm for women** — 18,100/mo · Low comp
+- [ ] **tattoo for men** — 8,100/mo · Low comp
+- [ ] **tattoo sleeve ideas for men** — 8,100/mo · Low comp
+- [ ] **tattoo designs for men hand** — 5,400/mo · Medium comp
+- [ ] **tattoo hand designs for men** — 5,400/mo · Medium comp
+- [ ] **tattoo sleeves for men** — 5,400/mo · High comp
+- [ ] **tattoo quotes for men** — 3,600/mo · Low comp
+- [ ] **tattoo designs for women** — 2,900/mo · High comp
+- [ ] **tattoo sleeves for women** — 2,900/mo · High comp
+- [ ] **tattoo images for men** — 1,600/mo · Medium comp
+- [ ] **tattoo pictures for men** — 1,600/mo · Medium comp
+- [ ] **tattoo quotes for females** — 1,600/mo · Low comp
+- [ ] **tattoo filler ideas for men** — 1,300/mo · Low comp
+- [ ] **tattoo outlines for men** — 1,300/mo · Low comp
+- [ ] **tattoo quotes for women** — 1,300/mo · Low comp
+- [ ] **tattoo sleeve ideas for women** — 1,000/mo · Low comp
+- [ ] **tattoo for men hand** — 480/mo · Low comp
+- [ ] **tattoo images for women** — 320/mo · High comp
+- [ ] **tattoo rings for men** — 260/mo · Low comp
+- [ ] **tattoo spots for women** — 260/mo · Low comp
+- [ ] **tattoo outlines for women** — 170/mo · Low comp
+- [ ] **tattoo types for men** — 70/mo · Low comp
+- [ ] **tattoo options for men** — 20/mo · Medium comp
+- [ ] **tattoo at the back for women** — 10/mo · Low comp
+
+## Meaning & Symbolism — blog
+
+_"X tattoo meaning". Informational, strong internal-link bait into motif galleries._  
+_Cluster: 36 keywords · 185,700 monthly volume_
+
+- [ ] **tattoo butterfly meaning** — 22,200/mo · Low comp
+- [ ] **tattoos in the bible** — 18,100/mo · Low comp
+- [ ] **tattoo bible** — 18,100/mo · Low comp
+- [ ] **tattoo in the bible** — 18,100/mo · Low comp
+- [ ] **tattoo symbols and meanings** — 18,100/mo · Low comp
+- [ ] **tattoo meaning** — 14,800/mo · Low comp
+- [ ] **tattoo snake meaning** — 9,900/mo · Low comp
+- [ ] **tattoo eternity symbol** — 8,100/mo · High comp
+- [ ] **tattoo symbols** — 6,600/mo · Low comp
+- [ ] **tattoo elephant meaning** — 6,600/mo · Low comp
+- [ ] **tattoo ideas with meaning** — 5,400/mo · Low comp
+- [ ] **tattoo owl meaning** — 5,400/mo · Low comp
+- [ ] **tattoo ideas for men with meaning** — 4,400/mo · Low comp
+- [ ] **tattoo meanings for men** — 4,400/mo · Low comp
+- [ ] **tattoo that represents strength** — 4,400/mo · Low comp
+- [ ] **tattoo symbols for strength** — 3,600/mo · Low comp
+- [ ] **tattoo ideas for women with meaning** — 2,900/mo · Low comp
+- [ ] **tattoo meanings for women** — 2,900/mo · Low comp
+- [ ] **tattoo flower meanings** — 2,400/mo · Low comp
+- [ ] **tattoo symbol for family** — 2,400/mo · Low comp
+- [ ] **tattoo symbol for love** — 1,600/mo · Medium comp
+- [ ] **tattoo pyramid eye meaning** — 1,000/mo · Low comp
+- [ ] **tattoo aquarius symbol** — 880/mo · Medium comp
+- [ ] **tattoo music symbol** — 880/mo · Low comp
+- [ ] **tattoo egyptian symbols** — 590/mo · Low comp
+- [ ] **tattoo placement meaning** — 590/mo · Low comp
+- [ ] **tattoo symbols for men** — 480/mo · Low comp
+- [ ] **tattoo military meaning** — 320/mo · Low comp
+- [ ] **tattoo bible quotes** — 210/mo · Low comp
+- [ ] **tattoo symbols and their meanings** — 110/mo · Low comp
+- [ ] **tattoo medusa meaning** — 70/mo · Low comp
+- [ ] **tattoo symbols and meanings for females** — 50/mo · Low comp
+- [ ] **tattoo according to bible** — 40/mo · Low comp
+- [ ] **tattoo lyrics english meaning** — 30/mo · Low comp
+- [ ] **tattoo lyrics meaning** — 30/mo · Low comp
+- [ ] **tattoo czech symbols and meanings** — 20/mo · Low comp
+
+## Aftercare, Healing & Pain — blog guides
+
+_Trust/authority content that links down into local + artist pages._  
+_Cluster: 86 keywords · 707,150 monthly volume_
+
+- [ ] **tattoo pain chart** — 49,500/mo · Low comp
+- [ ] **tattoo aftercare** — 49,500/mo · Medium comp
+- [ ] **tattoo hurt chart** — 49,500/mo · Low comp
+- [ ] **tattoo numbing cream** — 49,500/mo · High comp
+- [ ] **tattoo pain scale** — 49,500/mo · Low comp
+- [ ] **tattoo pain level** — 49,500/mo · Low comp
+- [ ] **tattoo post care** — 49,500/mo · Medium comp
+- [ ] **tattoo aftercare products** — 40,500/mo · Low comp
+- [ ] **tattoo sunscreen** — 33,100/mo · Medium comp
+- [ ] **tattoo lotion** — 18,100/mo · High comp
+- [ ] **aquaphor for tattoos** — 14,800/mo · Medium comp
+- [ ] **tattoo aftercare cream** — 14,800/mo · High comp
+- [ ] **tattoo aftercare instructions** — 14,800/mo · Medium comp
+- [ ] **tattoo aquaphor** — 14,800/mo · Medium comp
+- [ ] **tattoo cream aftercare** — 14,800/mo · High comp
+- [ ] **tattoo healing process** — 14,800/mo · Low comp
+- [ ] **tattoo healing stages** — 14,800/mo · Low comp
+- [ ] **tattoo blowout** — 12,100/mo · Low comp
+- [ ] **tattoo saniderm** — 12,100/mo · Medium comp
+- [ ] **tattoo is peeling** — 9,900/mo · Low comp
+- [ ] **tattoo pain chart female** — 9,900/mo · Low comp
+- [ ] **tattoo peeling** — 9,900/mo · Low comp
+- [ ] **tattoo healing** — 6,600/mo · Low comp
+- [ ] **tattoo infection** — 6,600/mo · Low comp
+- [ ] **tattoo most painful areas** — 6,600/mo · Low comp
+- [ ] **tattoo cream healing** — 5,400/mo · High comp
+- [ ] **tattoo healing cream** — 5,400/mo · High comp
+- [ ] **tattoo hurts** — 5,400/mo · Low comp
+- [ ] **tattoo ointment for healing** — 5,400/mo · High comp
+- [ ] **tattoo aftercare second skin** — 4,400/mo · High comp
+- [ ] **tattoo healing time** — 4,400/mo · Low comp
+- [ ] **tattoo healing timeline** — 4,400/mo · Low comp
+- [ ] **tattoo itching** — 4,400/mo · Low comp
+- [ ] **tattoo itchy** — 4,400/mo · Low comp
+- [ ] **tattoo itch** — 4,400/mo · Low comp
+- [ ] **tattoo is itchy** — 4,400/mo · Low comp
+- [ ] **tattoo hustle butter** — 3,600/mo · High comp
+- [ ] **tattoo moisturizer** — 3,600/mo · High comp
+- [ ] **tattoo numbing spray** — 3,600/mo · High comp
+- [ ] **tattoo pain chart men** — 3,600/mo · Low comp
+- [ ] **tattoo peeling stages** — 2,900/mo · Low comp
+- [ ] **tattoo dry healing** — 2,400/mo · Low comp
+- [ ] **tattoo pain** — 2,400/mo · Low comp
+- [ ] **tattoo numbing cream co** — 1,900/mo · High comp
+- [ ] **tattoo grey wash** — 1,300/mo · Medium comp
+- [ ] **tattoo soap aftercare** — 1,300/mo · High comp
+- [ ] **tattoo body pain chart** — 1,000/mo · Low comp
+- [ ] **tattoo raised and itchy** — 1,000/mo · Low comp
+- [ ] **tattoo bleeding** — 880/mo · Low comp
+- [ ] **tattoo itchy and bumpy** — 880/mo · Low comp
+- [ ] **tattoo aftercare guide** — 880/mo · Low comp
+- [ ] **tattoo swelling** — 880/mo · Low comp
+- [ ] **tattoo health risks** — 720/mo · Low comp
+- [ ] **tattoo placement pain chart** — 720/mo · Low comp
+- [ ] **tattoo skin peeling** — 590/mo · Low comp
+- [ ] **tattoo aftercare moisturizer** — 480/mo · High comp
+- [ ] **tattoo before and after healing** — 480/mo · Low comp
+- [ ] **tattoo that represents pain** — 480/mo · Low comp
+- [ ] **tattoo stitch** — 390/mo · Low comp
+- [ ] **tattoo aftercare reddit** — 390/mo · Low comp
+- [ ] **tattoo itch relief** — 390/mo · High comp
+- [ ] **tattoo blowout example** — 320/mo · Low comp
+- [ ] **tattoo ointment aftercare** — 320/mo · High comp
+- [ ] **tattoo peeling after 3 days** — 260/mo · Low comp
+- [ ] **tattoo itchy under saniderm** — 210/mo · Low comp
+- [ ] **tattoo petpet paint brush** — 210/mo · Low comp
+- [ ] **tattoo itching after years** — 170/mo · Low comp
+- [ ] **tattoo itching like crazy** — 140/mo · Low comp
+- [ ] **tattoo itchy under second skin** — 140/mo · Low comp
+- [ ] **tattoo not healing properly** — 110/mo · Low comp
+- [ ] **tattoo not peeling** — 110/mo · Low comp
+- [ ] **tattoo scabbing stage** — 90/mo · Low comp
+- [ ] **tattoo aquaphor how long** — 70/mo · Low comp
+- [ ] **tattoo itchy after 3 days** — 70/mo · Low comp
+- [ ] **tattoo itchy after months** — 50/mo · Low comp
+- [ ] **tattoo oozing plasma** — 50/mo · Low comp
+- [ ] **tattoo effect on health** — 30/mo · Low comp
+- [ ] **tattoo least painful areas** — 30/mo · Low comp
+- [ ] **tattoo swelling after years** — 30/mo · Low comp
+- [ ] **tattoo numbing cream uk** — 20/mo · High comp
+- [ ] **tattoo aftercare cream watson** — 10/mo · Low comp
+- [ ] **tattoo aftercare uk** — 10/mo · Low comp
+- [ ] **tattoo age in spain** — 10/mo · Low comp
+- [ ] **tattoo car wash** — 10/mo · Low comp
+- [ ] **tattoo car wash johor bahru** — 10/mo · Low comp
+- [ ] **tattoo car wash price** — 10/mo · Low comp
+
+## Pricing — blog guide
+
+_"how much do tattoos cost", tipping, deposits._  
+_Cluster: 12 keywords · 43,980 monthly volume_
+
+- [ ] **tattoo prices** — 12,100/mo · Low comp
+- [ ] **tattoo cost** — 12,100/mo · Low comp
+- [ ] **tattoo price** — 12,100/mo · Low comp
+- [ ] **tattoo average cost** — 2,400/mo · Low comp
+- [ ] **tattoo tipping** — 2,400/mo · Low comp
+- [ ] **tattoo eyebrows cost** — 1,600/mo · Medium comp
+- [ ] **tattoo tip calculator** — 590/mo · Low comp
+- [ ] **tattoo tips for beginners** — 320/mo · Medium comp
+- [ ] **tattoo tip amount** — 210/mo · Low comp
+- [ ] **tattoo quote price** — 140/mo · Low comp
+- [ ] **tattoo cost in singapore** — 10/mo · Low comp
+- [ ] **tattoo eraser price** — 10/mo · High comp
+
+## Removal & Cover-up — blog guides
+
+_High commercial value; cover-up content routes back to featured artists._  
+_Cluster: 18 keywords · 180,410 monthly volume_
+
+- [ ] **tattoo removal** — 74,000/mo · High comp
+- [ ] **tattoo cover up** — 33,100/mo · Medium comp
+- [ ] **tattoo removal cost** — 18,100/mo · Medium comp
+- [ ] **tattoo laser removal cost** — 18,100/mo · Medium comp
+- [ ] **tattoo laser removal before and after** — 14,800/mo · Low comp
+- [ ] **tattoo cover up makeup** — 8,100/mo · High comp
+- [ ] **tattoo laser removal** — 5,400/mo · High comp
+- [ ] **tattoo laser scar** — 3,600/mo · Low comp
+- [ ] **tattoo removal price** — 2,400/mo · Medium comp
+- [ ] **tattoo makeup cover up** — 1,000/mo · High comp
+- [ ] **tattoo removal before after** — 590/mo · Low comp
+- [ ] **tattoo scar cover up** — 590/mo · Low comp
+- [ ] **tattoo laser** — 480/mo · High comp
+- [ ] **tattoo second skin removal** — 110/mo · Low comp
+- [ ] **tattoo removal singapore** — 10/mo · Medium comp
+- [ ] **tattoo removal johor bahru** — 10/mo · Low comp
+- [ ] **tattoo removal singapore price** — 10/mo · Low comp
+- [ ] **tattoo removal singapore reddit** — 10/mo · Low comp
+
+## Lettering & Fonts — blog + hub
+
+_"tattoo fonts", "script tattoo". Consider a fonts resource page._  
+_Cluster: 29 keywords · 331,260 monthly volume_
+
+- [ ] **tattoo fonts** — 74,000/mo · Low comp
+- [ ] **tattoo font style** — 74,000/mo · Low comp
+- [ ] **tattoo font generator** — 22,200/mo · Low comp
+- [ ] **tattoo generator font** — 22,200/mo · Low comp
+- [ ] **tattoo letters** — 18,100/mo · High comp
+- [ ] **tattoo lettering** — 18,100/mo · High comp
+- [ ] **tattoo lettering fonts** — 14,800/mo · Medium comp
+- [ ] **tattoo fonts for numbers** — 12,100/mo · Low comp
+- [ ] **tattoo number fonts** — 12,100/mo · Low comp
+- [ ] **tattoo cursive fonts** — 8,100/mo · Medium comp
+- [ ] **tattoo fonts cursive** — 8,100/mo · Medium comp
+- [ ] **tattoo script font** — 6,600/mo · Medium comp
+- [ ] **tattoo fonts for names** — 6,600/mo · Medium comp
+- [ ] **tattoo name fonts** — 6,600/mo · Medium comp
+- [ ] **tattoo old english font** — 3,600/mo · Medium comp
+- [ ] **tattoo fonts for men** — 2,900/mo · Low comp
+- [ ] **tattoo lettering styles** — 2,900/mo · High comp
+- [ ] **tattoo cursive letters** — 2,400/mo · Medium comp
+- [ ] **tattoo script** — 2,400/mo · Medium comp
+- [ ] **tattoo lettering design** — 2,400/mo · High comp
+- [ ] **tattoo scripture** — 2,400/mo · Medium comp
+- [ ] **tattoo cursive font generator** — 1,900/mo · Low comp
+- [ ] **tattoo font generator free** — 1,900/mo · Low comp
+- [ ] **tattoo cursive** — 1,000/mo · Low comp
+- [ ] **tattoo fonts for women** — 1,000/mo · High comp
+- [ ] **tattoo script generator** — 1,000/mo · Low comp
+- [ ] **tattoo lettering generator** — 880/mo · Low comp
+- [ ] **tattoo typewriter font** — 590/mo · Low comp
+- [ ] **tattoo text fonts** — 390/mo · Low comp
+
+## Core / Head Terms — homepage & core pages
+
+_"tattoo", "tattoo artist", "tattoo shop", "tattoo ideas" — won by total site authority, not a single page._  
+_Cluster: 9 keywords · 1,263,380 monthly volume_
+
+- [ ] **tattoo** — 550,000/mo · Low comp
+- [ ] **tattoo shop** — 301,000/mo · Low comp
+- [ ] **tattoo ideas** — 246,000/mo · Low comp
+- [ ] **tattoo artist** — 60,500/mo · Low comp
+- [ ] **tattoo designs** — 33,100/mo · Medium comp
+- [ ] **tattoo style** — 27,100/mo · Low comp
+- [ ] **tattoo styles** — 27,100/mo · Low comp
+- [ ] **tattoo studio** — 18,100/mo · Low comp
+- [ ] **tattoo parlour** — 480/mo · Low comp
+
+## ICEBOX — Supplies / DIY / Machines
+
+_Low fit for a review + podcast brand. Do NOT chase now; revisit only if monetized via affiliate._  
+_Cluster: 52 keywords · 279,440 monthly volume_
+
+- [ ] **tattoo stencils** — 40,500/mo · Medium comp
+- [ ] **tattoo stencil** — 40,500/mo · Medium comp
+- [ ] **tattoo gun** — 33,100/mo · High comp
+- [ ] **tattoo machine** — 27,100/mo · High comp
+- [ ] **tattoo ink** — 18,100/mo · High comp
+- [ ] **tattoo needle** — 14,800/mo · High comp
+- [ ] **tattoo pen** — 12,100/mo · Medium comp
+- [ ] **tattoo transfer paper** — 9,900/mo · High comp
+- [ ] **tattoo stencil paper** — 8,100/mo · High comp
+- [ ] **tattoo stencil printer** — 8,100/mo · High comp
+- [ ] **tattoo gun kit** — 8,100/mo · High comp
+- [ ] **tattoo kit** — 8,100/mo · High comp
+- [ ] **tattoo rotary machine** — 6,600/mo · High comp
+- [ ] **tattoo machine kit** — 3,600/mo · High comp
+- [ ] **tattoo practice skin** — 2,900/mo · High comp
+- [ ] **tattoo kit for beginners** — 2,900/mo · High comp
+- [ ] **tattoo laser removal machine** — 2,900/mo · High comp
+- [ ] **tattoo needle cartridges** — 2,900/mo · High comp
+- [ ] **tattoo needle sizes** — 2,400/mo · High comp
+- [ ] **tattoo outline stencils** — 2,400/mo · Low comp
+- [ ] **tattoo gun amazon** — 1,900/mo · High comp
+- [ ] **tattoo kit amazon** — 1,900/mo · High comp
+- [ ] **tattoo ink allergy** — 1,900/mo · Low comp
+- [ ] **tattoo pen machine** — 1,900/mo · High comp
+- [ ] **tattoo guns for sale** — 1,600/mo · High comp
+- [ ] **tattoo gun needles** — 1,600/mo · High comp
+- [ ] **tattoo printer machine** — 1,300/mo · High comp
+- [ ] **tattoo stencil pro** — 1,000/mo · Low comp
+- [ ] **tattoo kit professional** — 1,000/mo · High comp
+- [ ] **tattoo ink sets** — 1,000/mo · High comp
+- [ ] **tattoo power supply** — 1,000/mo · High comp
+- [ ] **tattoo machine price** — 880/mo · High comp
+- [ ] **tattoo gun for beginners** — 880/mo · High comp
+- [ ] **tattoo gun price** — 880/mo · High comp
+- [ ] **tattoo kits for sale** — 720/mo · High comp
+- [ ] **tattoo ink and cancer** — 720/mo · Low comp
+- [ ] **tattoo needle types** — 590/mo · High comp
+- [ ] **tattoo grip tape** — 480/mo · High comp
+- [ ] **tattoo ink ingredients** — 480/mo · Low comp
+- [ ] **tattoo ink sack** — 480/mo · Low comp
+- [ ] **tattoo pen drawing** — 480/mo · Medium comp
+- [ ] **tattoo needle sizes and uses** — 390/mo · Medium comp
+- [ ] **tattoo brushes procreate** — 320/mo · High comp
+- [ ] **tattoo ink and cancer risk** — 260/mo · Low comp
+- [ ] **tattoo rl needles** — 260/mo · High comp
+- [ ] **tattoo grip** — 210/mo · High comp
+- [ ] **tattoo ink made of** — 110/mo · Low comp
+- [ ] **tattoo ink immune system** — 40/mo · Low comp
+- [ ] **tattoo kit price** — 20/mo · High comp
+- [ ] **tattoo supplies uk** — 20/mo · High comp
+- [ ] **tattoo cnc machine** — 10/mo · High comp
+- [ ] **tattoo eraser machine** — 10/mo · High comp
+
+## TOSS — Off-geo / Temporary / Irrelevant
+
+_Removed from the plan. NOTE: no true competitor-brand terms existed in this set to strip — the off-geo "Ireland" rows are dataset noise for a US brand._  
+_Cluster: 8 keywords · 607,090 monthly volume_
+
+- [ ] **tattoo ie** — 246,000/mo · Low comp
+- [ ] **tattoo ireland** — 246,000/mo · Low comp
+- [ ] **henna tattoo** — 90,500/mo · Medium comp
+- [ ] **henna tattoo near me** — 14,800/mo · Low comp
+- [ ] **tattoo henna design** — 8,100/mo · Medium comp
+- [ ] **tattoo temporary** — 1,000/mo · High comp
+- [ ] **tattoo dublin** — 480/mo · Low comp
+- [ ] **tattoo galway** — 210/mo · Low comp

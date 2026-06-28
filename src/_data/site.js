@@ -19,11 +19,15 @@ module.exports = {
     instagramUrl: "https://instagram.com/onthelistseries",
   },
 
-  // Primary navigation (rendered in the site-wide header menu).
+  // Primary navigation (rendered in the site-wide header menu). Items with a
+  // `mega` key render a dropdown panel built in partials/header.njk:
+  //   mega: "states" -> all 50 states   ·   mega: "styles" -> the style tags
   nav: [
     { label: "Home", url: "/" },
+    { label: "Map", url: "/map/" },
+    { label: "States", url: "/cities/", mega: "states" },
+    { label: "Styles", url: "/style/", mega: "styles" },
     { label: "Reviews", url: "/reviews/" },
-    { label: "Cities", url: "/cities/" },
     { label: "Blog", url: "/blog/" },
     { label: "Get Reviewed", url: "/get-reviewed/" },
   ],
