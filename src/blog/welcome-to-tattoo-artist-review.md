@@ -3,6 +3,7 @@ title: "Welcome to Tattoo Artist Review"
 date: 2026-06-11
 author: "Tattoo Artist Review"
 excerpt: "We're on a mission to find and feature the single baddest tattoo artist in every city in America. Here's the plan."
+image: "/assets/img/blog/welcome-to-tattoo-artist-review.webp"
 ---
 
 > **Note:** Sample blog post — replace or delete once real posts roll in.
