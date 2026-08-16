@@ -16,6 +16,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
   eleventyConfig.addPassthroughCopy({ "src/favicon.ico": "favicon.ico" });
 
+  // Standalone, password-gated visual cluster sitemap. Copied verbatim so its
+  // embedded JS/CSS is never run through the Nunjucks engine, and so it stays
+  // out of collections / the public sitemap.xml. Lives at /mold-sitemap/.
+  // `ignores` keeps Eleventy from also processing it as a template (which would
+  // double-write to the same path and risk mangling the inline JS).
+  eleventyConfig.ignores.add("src/mold-sitemap.html");
+  eleventyConfig.addPassthroughCopy({
+    "src/mold-sitemap.html": "mold-sitemap/index.html",
+  });
+
   // Rebuild when CSS/JS change during local dev.
   eleventyConfig.addWatchTarget("src/assets/");
 

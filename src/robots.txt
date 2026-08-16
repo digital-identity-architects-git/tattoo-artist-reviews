@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /mold-sitemap/
 
 Sitemap: https://tattoo-artist-review.com/sitemap.xml
